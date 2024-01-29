@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface_rb10_apple/srv/RobotConnectControl.srv
+// generated code does not contain a copyright notice
+
+
+module interface_rb10_apple {
+  module srv {
+    @verbatim (language="comment", text=
+      "서비스 요청 부분")
+    struct RobotConnectControl_Request {
+      boolean connect;
+    };
+    @verbatim (language="comment", text=
+      "서비스 응답 부분")
+    struct RobotConnectControl_Response {
+      boolean is_power_on;
+    };
+  };
+};

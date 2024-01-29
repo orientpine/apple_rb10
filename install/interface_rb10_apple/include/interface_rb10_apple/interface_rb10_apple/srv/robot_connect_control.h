@@ -1,0 +1,1 @@
+/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/srv/robot_connect_control.h

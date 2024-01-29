@@ -1,0 +1,4 @@
+source;share/interface_rb10_apple/environment/ament_prefix_path.sh
+source;share/interface_rb10_apple/environment/library_path.sh
+source;share/interface_rb10_apple/environment/path.sh
+source;share/interface_rb10_apple/environment/pythonpath.sh

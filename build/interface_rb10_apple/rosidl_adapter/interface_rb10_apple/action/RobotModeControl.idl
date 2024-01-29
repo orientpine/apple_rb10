@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interface_rb10_apple/action/RobotModeControl.action
+// generated code does not contain a copyright notice
+
+
+module interface_rb10_apple {
+  module action {
+    @verbatim (language="comment", text=
+      "요청 메시지" "\n"
+      "모드를 설정할 값")
+    struct RobotModeControl_Goal {
+      int32 mode;
+    };
+    @verbatim (language="comment", text=
+      "결과 메시지" "\n"
+      "작업 완료 여부")
+    struct RobotModeControl_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "피드백 메시지" "\n"
+      "현재 진행 상황")
+    struct RobotModeControl_Feedback {
+      string feedback;
+    };
+  };
+};

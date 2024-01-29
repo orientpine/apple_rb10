@@ -1,0 +1,1 @@
+/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

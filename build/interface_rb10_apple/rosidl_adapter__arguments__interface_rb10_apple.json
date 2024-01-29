@@ -1,0 +1,9 @@
+{
+  "package_name": "interface_rb10_apple",
+  "non_idl_tuples": [
+    "/home/orientpine/robot_ws/src/interface_rb10_apple:msg/RobotJointPosition.msg",
+    "/home/orientpine/robot_ws/src/interface_rb10_apple:msg/RobotTcpPose.msg",
+    "/home/orientpine/robot_ws/src/interface_rb10_apple:srv/RobotConnectControl.srv",
+    "/home/orientpine/robot_ws/src/interface_rb10_apple:action/RobotModeControl.action"
+  ]
+}

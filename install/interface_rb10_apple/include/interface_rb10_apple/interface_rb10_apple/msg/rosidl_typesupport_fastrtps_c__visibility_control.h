@@ -1,0 +1,1 @@
+/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
