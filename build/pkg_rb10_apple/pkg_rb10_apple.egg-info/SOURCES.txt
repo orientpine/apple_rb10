@@ -15,4 +15,5 @@ pkg_rb10_apple/robot_control/robot_connect_control_server.py
 pkg_rb10_apple/robot_control/robot_info_publisher.py
 pkg_rb10_apple/robot_control/robot_mode_control_client.py
 pkg_rb10_apple/robot_control/robot_mode_control_server.py
+pkg_rb10_apple/robot_control/robot_tcp_control_server.py
 resource/pkg_rb10_apple

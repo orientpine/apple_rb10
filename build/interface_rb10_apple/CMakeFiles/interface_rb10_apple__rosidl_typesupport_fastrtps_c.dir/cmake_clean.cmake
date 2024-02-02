@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_mode_control__type_support_c.cpp.o"
   "CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_mode_control__type_support_c.cpp.o.d"
+  "CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support_c.cpp.o"
+  "CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support_c.cpp.o.d"
   "CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/detail/robot_joint_position__type_support_c.cpp.o"
   "CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/detail/robot_joint_position__type_support_c.cpp.o.d"
   "CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support_c.cpp.o"
@@ -11,6 +13,8 @@ file(REMOVE_RECURSE
   "libinterface_rb10_apple__rosidl_typesupport_fastrtps_c.so"
   "rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_mode_control__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/detail/robot_joint_position__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_fastrtps_c.h"

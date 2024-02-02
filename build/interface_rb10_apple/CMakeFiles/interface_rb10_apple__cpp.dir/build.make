@@ -82,6 +82,10 @@ CMakeFiles/interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/
 CMakeFiles/interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__builder.hpp
 CMakeFiles/interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__struct.hpp
 CMakeFiles/interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__traits.hpp
+CMakeFiles/interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/robot_tcp_control.hpp
+CMakeFiles/interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__builder.hpp
+CMakeFiles/interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__struct.hpp
+CMakeFiles/interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__traits.hpp
 
 rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -102,6 +106,7 @@ rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: rosidl_a
 rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: rosidl_adapter/interface_rb10_apple/msg/RobotTcpPose.idl
 rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: rosidl_adapter/interface_rb10_apple/srv/RobotConnectControl.idl
 rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: rosidl_adapter/interface_rb10_apple/action/RobotModeControl.idl
+rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: rosidl_adapter/interface_rb10_apple/action/RobotTcpControl.idl
 rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
@@ -157,11 +162,27 @@ rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__stru
 rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__traits.hpp: rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__traits.hpp
 
+rosidl_generator_cpp/interface_rb10_apple/action/robot_tcp_control.hpp: rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface_rb10_apple/action/robot_tcp_control.hpp
+
+rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__builder.hpp: rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__builder.hpp
+
+rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__struct.hpp: rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__struct.hpp
+
+rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__traits.hpp: rosidl_generator_cpp/interface_rb10_apple/msg/robot_joint_position.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__traits.hpp
+
 interface_rb10_apple__cpp: CMakeFiles/interface_rb10_apple__cpp
 interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__builder.hpp
 interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__struct.hpp
 interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_mode_control__traits.hpp
+interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__builder.hpp
+interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__struct.hpp
+interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/detail/robot_tcp_control__traits.hpp
 interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/robot_mode_control.hpp
+interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/action/robot_tcp_control.hpp
 interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/msg/detail/robot_joint_position__builder.hpp
 interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/msg/detail/robot_joint_position__struct.hpp
 interface_rb10_apple__cpp: rosidl_generator_cpp/interface_rb10_apple/msg/detail/robot_joint_position__traits.hpp

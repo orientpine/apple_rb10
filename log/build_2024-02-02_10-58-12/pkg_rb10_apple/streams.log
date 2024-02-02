@@ -1,0 +1,21 @@
+[1.047s] Invoking command in '/home/orientpine/robot_ws/build/pkg_rb10_apple': PYTHONPATH=/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/build/pkg_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/pkg_rb10_apple/build --no-deps install_data
+[1.388s] running develop
+[1.577s] running egg_info
+[1.578s] writing pkg_rb10_apple.egg-info/PKG-INFO
+[1.578s] writing dependency_links to pkg_rb10_apple.egg-info/dependency_links.txt
+[1.578s] writing entry points to pkg_rb10_apple.egg-info/entry_points.txt
+[1.578s] writing requirements to pkg_rb10_apple.egg-info/requires.txt
+[1.578s] writing top-level names to pkg_rb10_apple.egg-info/top_level.txt
+[1.580s] reading manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'
+[1.580s] writing manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'
+[1.582s] running build_ext
+[1.582s] Creating /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg-rb10-apple.egg-link (link to .)
+[1.583s] Installing robot_connect_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[1.583s] Installing robot_info_publisher script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[1.583s] Installing robot_mode_control_client script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[1.583s] Installing robot_mode_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[1.583s] Installing robot_tcp_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[1.583s] 
+[1.583s] Installed /home/orientpine/robot_ws/build/pkg_rb10_apple
+[1.583s] running install_data
+[1.608s] Invoked command in '/home/orientpine/robot_ws/build/pkg_rb10_apple' returned '0': PYTHONPATH=/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/build/pkg_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/pkg_rb10_apple/build --no-deps install_data

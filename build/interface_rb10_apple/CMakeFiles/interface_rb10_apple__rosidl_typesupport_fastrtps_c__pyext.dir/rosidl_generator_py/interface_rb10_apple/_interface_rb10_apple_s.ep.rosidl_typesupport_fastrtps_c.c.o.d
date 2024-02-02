@@ -237,4 +237,7 @@ CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.h \
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support.h \
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h \
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.h

@@ -86,6 +86,7 @@ rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: rosidl_adapt
 rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: rosidl_adapter/interface_rb10_apple/msg/RobotTcpPose.idl
 rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: rosidl_adapter/interface_rb10_apple/srv/RobotConnectControl.idl
 rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: rosidl_adapter/interface_rb10_apple/action/RobotModeControl.idl
+rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: rosidl_adapter/interface_rb10_apple/action/RobotTcpControl.idl
 rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
@@ -141,6 +142,18 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct
 rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h
 
+rosidl_generator_c/interface_rb10_apple/action/robot_tcp_control.h: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/action/robot_tcp_control.h
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.h: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.h
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support.h: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support.h
+
 rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.c: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.c
 
@@ -152,6 +165,9 @@ rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functi
 
 rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.c.o: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/flags.make
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.c.o: rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.c
@@ -209,12 +225,27 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/inter
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c -o CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c.s
 
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/flags.make
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o: rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o -MF CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o.d -o CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o -c /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c
+
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c > CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.i
+
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c -o CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.s
+
 # Object files for target interface_rb10_apple__rosidl_generator_c
 interface_rb10_apple__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.c.o" \
 "CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.c.o" \
 "CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functions.c.o" \
-"CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c.o"
+"CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c.o" \
+"CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o"
 
 # External object files for target interface_rb10_apple__rosidl_generator_c
 interface_rb10_apple__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -223,6 +254,7 @@ libinterface_rb10_apple__rosidl_generator_c.so: CMakeFiles/interface_rb10_apple_
 libinterface_rb10_apple__rosidl_generator_c.so: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.c.o
 libinterface_rb10_apple__rosidl_generator_c.so: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functions.c.o
 libinterface_rb10_apple__rosidl_generator_c.so: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c.o
+libinterface_rb10_apple__rosidl_generator_c.so: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o
 libinterface_rb10_apple__rosidl_generator_c.so: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/build.make
 libinterface_rb10_apple__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 libinterface_rb10_apple__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
@@ -230,7 +262,7 @@ libinterface_rb10_apple__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_i
 libinterface_rb10_apple__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libinterface_rb10_apple__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libinterface_rb10_apple__rosidl_generator_c.so: CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libinterface_rb10_apple__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libinterface_rb10_apple__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -245,7 +277,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.h
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.h
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support.h
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/robot_mode_control.h
+CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/action/robot_tcp_control.h
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.c
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.h
 CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__struct.h

@@ -1,5 +1,7 @@
 action/RobotModeControl.action
 action/RobotModeControl.idl
+action/RobotTcpControl.action
+action/RobotTcpControl.idl
 msg/RobotJointPosition.idl
 msg/RobotJointPosition.msg
 msg/RobotTcpPose.idl

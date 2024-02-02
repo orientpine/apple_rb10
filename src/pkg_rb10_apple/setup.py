@@ -21,6 +21,7 @@ setup(
         "console_scripts": [
             "robot_mode_control_client = pkg_rb10_apple.robot_control.robot_mode_control_client:main",
             "robot_mode_control_server= pkg_rb10_apple.robot_control.robot_mode_control_server:main",
+            "robot_tcp_control_server= pkg_rb10_apple.robot_control.robot_tcp_control_server:main",
             "robot_connect_control_server= pkg_rb10_apple.robot_control.robot_connect_control_server:main",
             "robot_info_publisher= pkg_rb10_apple.robot_control.robot_info_publisher:main",
         ],

@@ -26,6 +26,7 @@ set(srv_files
 
 set(action_files
   "action/RobotModeControl.action"
+  "action/RobotTcpControl.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

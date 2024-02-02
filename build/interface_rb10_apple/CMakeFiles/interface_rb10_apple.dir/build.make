@@ -72,6 +72,7 @@ CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_ap
 CMakeFiles/interface_rb10_apple: rosidl_cmake/srv/RobotConnectControl_Request.msg
 CMakeFiles/interface_rb10_apple: rosidl_cmake/srv/RobotConnectControl_Response.msg
 CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotModeControl.action
+CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotTcpControl.action
 CMakeFiles/interface_rb10_apple: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/interface_rb10_apple: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/interface_rb10_apple: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl

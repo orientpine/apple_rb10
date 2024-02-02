@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interface_rb10_apple/action/RobotTcpControl.action
+// generated code does not contain a copyright notice
+
+
+module interface_rb10_apple {
+  module action {
+    struct RobotTcpControl_Goal {
+      double x;
+
+      double y;
+
+      double z;
+
+      double rx;
+
+      double ry;
+
+      double rz;
+    };
+    @verbatim (language="comment", text=
+      "결과 메시지" "\n"
+      "작업 완료 여부")
+    struct RobotTcpControl_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "피드백 메시지" "\n"
+      "현재 진행 상황")
+    struct RobotTcpControl_Feedback {
+      string feedback;
+    };
+  };
+};

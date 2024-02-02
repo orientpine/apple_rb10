@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/interface_rb10_apple/action/__init__.py"
   "../rosidl_generator_py/interface_rb10_apple/action/_robot_mode_control.py"
   "../rosidl_generator_py/interface_rb10_apple/action/_robot_mode_control_s.c"
+  "../rosidl_generator_py/interface_rb10_apple/action/_robot_tcp_control.py"
+  "../rosidl_generator_py/interface_rb10_apple/action/_robot_tcp_control_s.c"
   "../rosidl_generator_py/interface_rb10_apple/msg/__init__.py"
   "../rosidl_generator_py/interface_rb10_apple/msg/_robot_joint_position.py"
   "../rosidl_generator_py/interface_rb10_apple/msg/_robot_joint_position_s.c"
