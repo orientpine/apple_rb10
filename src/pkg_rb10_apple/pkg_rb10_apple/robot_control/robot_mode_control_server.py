@@ -12,9 +12,9 @@ class RobotModeControlServer(Node):
             self, RobotModeControl, "robot_mode_control", self.execute_callback
         )
         self.script_poses = {
-            0: "move_j(jnt[180.0, -80.0,160.0,-160.0,0.0,0.0],30.0,20.0)",
-            1: "move_j(jnt[277.45,-34.12,133.45,-99.29,82.45,-0.32],30.0,20.0)",
-            2: "move_j(jnt[271.98, 28.95,73.34,-102.28,87.90,-0.28],30.0,20.0)",
+            0: "move_j(jnt[180.0, -80.0,160.0,-160.0,0.0,0.0],30.0,20.0)",  # 이동자세
+            1: "move_j(jnt[277.45,-34.12,133.45,-99.29,82.45,-0.32],30.0,20.0)",  # 탐지자세
+            2: "move_j(jnt[271.98, 28.95,73.34,-102.28,87.90,-0.28],30.0,20.0)",  # 정밀자세
         }
         self.cobot_initialization()
 
