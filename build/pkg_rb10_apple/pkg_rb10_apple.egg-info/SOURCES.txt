@@ -1,6 +1,7 @@
 package.xml
 setup.cfg
 setup.py
+launch/rb10_roas.launch.py
 pkg_rb10_apple/__init__.py
 pkg_rb10_apple.egg-info/PKG-INFO
 pkg_rb10_apple.egg-info/SOURCES.txt
@@ -15,5 +16,6 @@ pkg_rb10_apple/robot_control/robot_connect_control_server.py
 pkg_rb10_apple/robot_control/robot_info_publisher.py
 pkg_rb10_apple/robot_control/robot_mode_control_client.py
 pkg_rb10_apple/robot_control/robot_mode_control_server.py
+pkg_rb10_apple/robot_control/robot_mode_control_server_backup.py
 pkg_rb10_apple/robot_control/robot_tcp_control_server.py
 resource/pkg_rb10_apple
