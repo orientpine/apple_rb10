@@ -27,6 +27,8 @@ setup(
             "robot_tcp_control_server= pkg_rb10_apple.robot_control.robot_tcp_control_server:main",
             "robot_connect_control_server= pkg_rb10_apple.robot_control.robot_connect_control_server:main",
             "robot_info_publisher= pkg_rb10_apple.robot_control.robot_info_publisher:main",
+            "robot_tracking_aruco_server= pkg_rb10_apple.robot_control.robot_tracking_aruco_server:main",
+            "robot_joint_control_server= pkg_rb10_apple.robot_control.robot_joint_control_server:main",
         ],
     },
 )

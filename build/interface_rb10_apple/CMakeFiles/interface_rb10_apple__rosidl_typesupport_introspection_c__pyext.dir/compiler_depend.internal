@@ -251,15 +251,24 @@ CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c__pyext.dir/r
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support.h
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__type_support.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__struct.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__functions.h
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__type_support.h
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__struct.h
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functions.h
- /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h
- /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__type_support.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__struct.h
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__functions.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__type_support.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__struct.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__functions.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h
+ /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.h
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support.h
  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h

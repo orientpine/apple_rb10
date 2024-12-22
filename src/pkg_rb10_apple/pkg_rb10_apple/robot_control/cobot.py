@@ -1201,10 +1201,9 @@ def isValidIP(ip):
 def GetCurrentCobotStatus():
     if systemstat_global.op_stat_soft_estop_occur == 1:
         return COBOT_STATUS.PAUSED
-
     if systemstat_global.robot_state == 1:
         return COBOT_STATUS.IDLE
-    elif systemstat_global.robot_stat == 3:
+    elif systemstat_global.robot_state == 3:
         return COBOT_STATUS.RUNNING
     else:
         return COBOT_STATUS.UNKNOWN

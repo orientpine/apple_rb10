@@ -18,6 +18,7 @@ find_package(rosidl_default_generators REQUIRED)
 set(msg_files
   "msg/RobotJointPosition.msg"
   "msg/RobotTcpPose.msg"
+  "msg/ArucoPose.msg"
 )
 
 set(srv_files
@@ -25,6 +26,8 @@ set(srv_files
 )
 
 set(action_files
+  "action/RobotTrackingControl.action"
+  "action/RobotJointControl.action"
   "action/RobotModeControl.action"
   "action/RobotTcpControl.action"
 )

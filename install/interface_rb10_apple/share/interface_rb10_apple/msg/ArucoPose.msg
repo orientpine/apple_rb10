@@ -1,0 +1,1 @@
+/home/orientpine/robot_ws/src/interface_rb10_apple/msg/ArucoPose.msg

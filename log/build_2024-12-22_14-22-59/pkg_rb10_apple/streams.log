@@ -1,0 +1,23 @@
+[1.287s] Invoking command in '/home/orientpine/robot_ws/build/pkg_rb10_apple': CONDA_PROMPT_MODIFIER=(rb) PYTHONPATH=/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/build/pkg_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/pkg_rb10_apple/build --no-deps install_data
+[1.749s] running develop
+[2.055s] running egg_info
+[2.055s] writing pkg_rb10_apple.egg-info/PKG-INFO
+[2.055s] writing dependency_links to pkg_rb10_apple.egg-info/dependency_links.txt
+[2.056s] writing entry points to pkg_rb10_apple.egg-info/entry_points.txt
+[2.056s] writing requirements to pkg_rb10_apple.egg-info/requires.txt
+[2.056s] writing top-level names to pkg_rb10_apple.egg-info/top_level.txt
+[2.060s] reading manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'
+[2.061s] writing manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'
+[2.064s] running build_ext
+[2.064s] Creating /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg-rb10-apple.egg-link (link to .)
+[2.065s] Installing robot_connect_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.066s] Installing robot_info_publisher script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.066s] Installing robot_joint_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.066s] Installing robot_mode_control_client script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.067s] Installing robot_mode_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.067s] Installing robot_tcp_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.067s] Installing robot_tracking_aruco_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.067s] 
+[2.067s] Installed /home/orientpine/robot_ws/build/pkg_rb10_apple
+[2.068s] running install_data
+[2.114s] Invoked command in '/home/orientpine/robot_ws/build/pkg_rb10_apple' returned '0': CONDA_PROMPT_MODIFIER=(rb) PYTHONPATH=/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/build/pkg_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/pkg_rb10_apple/build --no-deps install_data

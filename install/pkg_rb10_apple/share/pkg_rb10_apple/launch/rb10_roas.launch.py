@@ -48,5 +48,17 @@ def generate_launch_description():
                 name="robot_mode_control_client",
                 output="screen",
             ),
+            Node(
+                package="pkg_rb10_apple",
+                executable="robot_tracking_aruco_server",
+                name="robot_tracking_aruco_server",
+                output="screen",
+            ),
+            Node(
+                package="pkg_rb10_apple",
+                executable="robot_joint_control_server",
+                name="robot_joint_control_server",
+                output="screen",
+            ),
         ]
     )

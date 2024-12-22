@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000102] (-) JobUnselected: {'identifier': 'interface_rb10_apple'}
-[0.000129] (-) JobUnselected: {'identifier': 'pkg_rb10_apple'}
-[0.000148] (-) EventReactorShutdown: {}

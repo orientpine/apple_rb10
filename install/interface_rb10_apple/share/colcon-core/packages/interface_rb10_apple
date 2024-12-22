@@ -1,1 +1,1 @@
-builtin_interfaces:rosidl_default_runtime
+action_msgs:builtin_interfaces:rclpy:rosidl_default_generators:rosidl_default_runtime

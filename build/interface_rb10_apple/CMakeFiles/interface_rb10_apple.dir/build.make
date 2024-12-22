@@ -68,9 +68,12 @@ include CMakeFiles/interface_rb10_apple.dir/progress.make
 
 CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/msg/RobotJointPosition.msg
 CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/msg/RobotTcpPose.msg
+CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/msg/ArucoPose.msg
 CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/srv/RobotConnectControl.srv
 CMakeFiles/interface_rb10_apple: rosidl_cmake/srv/RobotConnectControl_Request.msg
 CMakeFiles/interface_rb10_apple: rosidl_cmake/srv/RobotConnectControl_Response.msg
+CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotTrackingControl.action
+CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotJointControl.action
 CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotModeControl.action
 CMakeFiles/interface_rb10_apple: /home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotTcpControl.action
 CMakeFiles/interface_rb10_apple: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl

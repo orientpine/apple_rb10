@@ -5,7 +5,10 @@
   "idl_tuples": [
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple:msg/RobotJointPosition.idl",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple:msg/RobotTcpPose.idl",
+    "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple:msg/ArucoPose.idl",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple:srv/RobotConnectControl.idl",
+    "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple:action/RobotTrackingControl.idl",
+    "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple:action/RobotJointControl.idl",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple:action/RobotModeControl.idl",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple:action/RobotTcpControl.idl"
   ],
@@ -29,7 +32,10 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/msg/RobotJointPosition.idl",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/msg/RobotTcpPose.idl",
+    "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/msg/ArucoPose.idl",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/srv/RobotConnectControl.idl",
+    "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotTrackingControl.idl",
+    "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotJointControl.idl",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotModeControl.idl",
     "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotTcpControl.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",

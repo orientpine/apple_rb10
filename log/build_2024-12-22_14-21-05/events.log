@@ -1,0 +1,709 @@
+[0.000000] (-) TimerEvent: {}
+[0.000292] (interface_rb10_apple) JobQueued: {'identifier': 'interface_rb10_apple', 'dependencies': OrderedDict()}
+[0.000537] (pkg_rb10_apple) JobQueued: {'identifier': 'pkg_rb10_apple', 'dependencies': OrderedDict([('interface_rb10_apple', '/home/orientpine/robot_ws/install/interface_rb10_apple')])}
+[0.000707] (interface_rb10_apple) JobStarted: {'identifier': 'interface_rb10_apple'}
+[0.098876] (-) TimerEvent: {}
+[0.132380] (interface_rb10_apple) JobProgress: {'identifier': 'interface_rb10_apple', 'progress': 'cmake'}
+[0.132815] (interface_rb10_apple) Command: {'cmd': ['/usr/bin/cmake', '/home/orientpine/robot_ws/src/interface_rb10_apple', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/orientpine/robot_ws/install/interface_rb10_apple'], 'cwd': '/home/orientpine/robot_ws/build/interface_rb10_apple', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '0'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('CONDA_PROMPT_MODIFIER', '(rb)'), ('LANGUAGE', 'en'), ('USER', 'orientpine'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/orientpine/robot_ws/install/interface_rb10_apple/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/orientpine'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/orientpine'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[48;5;0m\\] 🐧 orientpine 02:20:26 PM 12/22/24 \\[\\e[0m\\]\\[\x1b[38;5;0;48;5;88m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;88m\\] \ue0a0 master U:125 ?:122 \\[\\e[0m\\]\\[\x1b[38;5;88;48;5;35m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;35m\\] ❲c❳ rb \\[\\e[0m\\]\\[\x1b[38;5;35;48;5;30m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;30m\\] 🏠/robot_ws \\[\\e[0m\\]\\[\x1b[38;5;30;48;5;42m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;42m\\] ✅ \\[\\e[0m\\]\\[\x1b[38;5;42m\\]\ue0b0\\[\\e[0m\\] \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1742'), ('SYSTEMD_EXEC_PID', '2118'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3670'), ('_colcon_cd_root', '/home/orientpine/robot_ws'), ('COLCON_PREFIX_PATH', '/home/orientpine/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orientpine'), ('CONDA_ROOT', '/home/orientpine/miniconda3'), ('OSH', '/home/orientpine/.oh-my-bash'), ('JOURNAL_STREAM', '8:34104'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orientpine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/orientpine/miniconda3/envs/rb/bin:/home/orientpine/miniconda3/condabin:/opt/ros/humble/bin:/home/orientpine/miniconda3/bin:/home/orientpine/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orientpine-850XAC:@/tmp/.ICE-unix/2088,unix/orientpine-850XAC:/tmp/.ICE-unix/2088'), ('INVOCATION_ID', '5351c7a2101e49b6bd790ec9f31867af'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/orientpine/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2478bf71b4.sock'), ('CONDA_PREFIX_2', '/home/orientpine/miniconda3/envs/rb'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/orientpine/robot_ws/install/pkg_rb10_apple:/home/orientpine/robot_ws/install/interface_rb10_apple:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/orientpine/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rb'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/orientpine/robot_ws/build/interface_rb10_apple'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/orientpine/miniconda3/bin/conda'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orientpine/robot_ws/build/pkg_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/orientpine/miniconda3/envs/rb'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orientpine/robot_ws/install/interface_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble')]), 'shell': False}
+[0.198982] (-) TimerEvent: {}
+[0.246255] (interface_rb10_apple) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299093] (-) TimerEvent: {}
+[0.344004] (interface_rb10_apple) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.357292] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399216] (-) TimerEvent: {}
+[0.471255] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.496392] (interface_rb10_apple) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.497186] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.498568] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.499310] (-) TimerEvent: {}
+[0.506894] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599435] (-) TimerEvent: {}
+[0.668000] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.693905] (interface_rb10_apple) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.694630] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.695840] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.699552] (-) TimerEvent: {}
+[0.716479] (interface_rb10_apple) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.799688] (-) TimerEvent: {}
+[0.900041] (-) TimerEvent: {}
+[0.995017] (interface_rb10_apple) StdoutLine: {'line': b'-- Found Python3: /home/orientpine/miniconda3/envs/rb/bin/python3.10 (found version "3.10.0") found components: Interpreter \n'}
+[1.000255] (-) TimerEvent: {}
+[1.100572] (-) TimerEvent: {}
+[1.117525] (interface_rb10_apple) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.163491] (interface_rb10_apple) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.200702] (-) TimerEvent: {}
+[1.218672] (interface_rb10_apple) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.227493] (interface_rb10_apple) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.241438] (interface_rb10_apple) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.267576] (interface_rb10_apple) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.300854] (-) TimerEvent: {}
+[1.303680] (interface_rb10_apple) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.337056] (interface_rb10_apple) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.400961] (-) TimerEvent: {}
+[1.501351] (-) TimerEvent: {}
+[1.601679] (-) TimerEvent: {}
+[1.702015] (-) TimerEvent: {}
+[1.802307] (-) TimerEvent: {}
+[1.902635] (-) TimerEvent: {}
+[2.002971] (-) TimerEvent: {}
+[2.034717] (interface_rb10_apple) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.103109] (-) TimerEvent: {}
+[2.203413] (-) TimerEvent: {}
+[2.303803] (-) TimerEvent: {}
+[2.404123] (-) TimerEvent: {}
+[2.504513] (-) TimerEvent: {}
+[2.518444] (interface_rb10_apple) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.604651] (-) TimerEvent: {}
+[2.704970] (-) TimerEvent: {}
+[2.706651] (interface_rb10_apple) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.735536] (interface_rb10_apple) StdoutLine: {'line': b'-- Found PythonInterp: /home/orientpine/miniconda3/envs/rb/bin/python3 (found suitable version "3.10", minimum required is "3.6") \n'}
+[2.745318] (interface_rb10_apple) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.776865] (interface_rb10_apple) StdoutLine: {'line': b'-- Found PythonLibs: /home/orientpine/miniconda3/envs/rb/lib/libpython3.10.so (found suitable version "3.10.0", minimum required is "3.5") \n'}
+[2.777214] (interface_rb10_apple) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/orientpine/miniconda3/envs/rb/bin/python3\n'}
+[2.777373] (interface_rb10_apple) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/orientpine/miniconda3/envs/rb/include/python3.10\n'}
+[2.777481] (interface_rb10_apple) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/orientpine/miniconda3/envs/rb/lib/libpython3.10.so\n'}
+[2.803122] (interface_rb10_apple) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.805088] (-) TimerEvent: {}
+[2.905380] (-) TimerEvent: {}
+[3.005867] (-) TimerEvent: {}
+[3.106210] (-) TimerEvent: {}
+[3.120821] (interface_rb10_apple) StdoutLine: {'line': b'-- Using numpy include directory: /home/orientpine/miniconda3/envs/rb/lib/python3.10/site-packages/numpy/core/include\n'}
+[3.161067] (interface_rb10_apple) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.206349] (-) TimerEvent: {}
+[3.216109] (interface_rb10_apple) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):\n'}
+[3.216458] (interface_rb10_apple) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[3.216680] (interface_rb10_apple) StderrLine: {'line': b'  interface_rb10_apple__rosidl_generator_py because files in some directories\n'}
+[3.216891] (interface_rb10_apple) StderrLine: {'line': b'  may conflict with libraries in implicit directories:\n'}
+[3.217083] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.217272] (interface_rb10_apple) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[3.217461] (interface_rb10_apple) StderrLine: {'line': b'      /home/orientpine/miniconda3/envs/rb/lib\n'}
+[3.217666] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.217859] (interface_rb10_apple) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.218063] (interface_rb10_apple) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.218267] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.218479] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.218697] (interface_rb10_apple) StderrLine: {'line': b'  CMakeLists.txt:34 (rosidl_generate_interfaces)\n'}
+[3.218889] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.219107] (interface_rb10_apple) StderrLine: {'line': b'\x1b[0m\n'}
+[3.223092] (interface_rb10_apple) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[3.223389] (interface_rb10_apple) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[3.223596] (interface_rb10_apple) StderrLine: {'line': b'  interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext because files in\n'}
+[3.223783] (interface_rb10_apple) StderrLine: {'line': b'  some directories may conflict with libraries in implicit directories:\n'}
+[3.223978] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.224189] (interface_rb10_apple) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[3.224378] (interface_rb10_apple) StderrLine: {'line': b'      /home/orientpine/miniconda3/envs/rb/lib\n'}
+[3.224560] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.224754] (interface_rb10_apple) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.224947] (interface_rb10_apple) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.225148] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.225356] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.225558] (interface_rb10_apple) StderrLine: {'line': b'  CMakeLists.txt:34 (rosidl_generate_interfaces)\n'}
+[3.225759] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.225950] (interface_rb10_apple) StderrLine: {'line': b'\x1b[0m\n'}
+[3.228239] (interface_rb10_apple) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[3.228488] (interface_rb10_apple) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[3.228688] (interface_rb10_apple) StderrLine: {'line': b'  interface_rb10_apple__rosidl_typesupport_introspection_c__pyext because\n'}
+[3.228875] (interface_rb10_apple) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[3.229057] (interface_rb10_apple) StderrLine: {'line': b'  directories:\n'}
+[3.229239] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.229423] (interface_rb10_apple) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[3.229605] (interface_rb10_apple) StderrLine: {'line': b'      /home/orientpine/miniconda3/envs/rb/lib\n'}
+[3.229787] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.229963] (interface_rb10_apple) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.230148] (interface_rb10_apple) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.230332] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.230533] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.230730] (interface_rb10_apple) StderrLine: {'line': b'  CMakeLists.txt:34 (rosidl_generate_interfaces)\n'}
+[3.230913] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.231095] (interface_rb10_apple) StderrLine: {'line': b'\x1b[0m\n'}
+[3.233332] (interface_rb10_apple) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[3.233594] (interface_rb10_apple) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[3.233819] (interface_rb10_apple) StderrLine: {'line': b'  interface_rb10_apple__rosidl_typesupport_c__pyext because files in some\n'}
+[3.234027] (interface_rb10_apple) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[3.234229] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.234438] (interface_rb10_apple) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[3.234637] (interface_rb10_apple) StderrLine: {'line': b'      /home/orientpine/miniconda3/envs/rb/lib\n'}
+[3.234822] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.235011] (interface_rb10_apple) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[3.235201] (interface_rb10_apple) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.235392] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.235587] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.235776] (interface_rb10_apple) StderrLine: {'line': b'  CMakeLists.txt:34 (rosidl_generate_interfaces)\n'}
+[3.235973] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[3.236223] (interface_rb10_apple) StderrLine: {'line': b'\x1b[0m\n'}
+[3.244474] (interface_rb10_apple) StdoutLine: {'line': b'-- Generating done\n'}
+[3.248742] (interface_rb10_apple) StdoutLine: {'line': b'-- Build files have been written to: /home/orientpine/robot_ws/build/interface_rb10_apple\n'}
+[3.259041] (interface_rb10_apple) CommandEnded: {'returncode': 0}
+[3.260519] (interface_rb10_apple) JobProgress: {'identifier': 'interface_rb10_apple', 'progress': 'build'}
+[3.261614] (interface_rb10_apple) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orientpine/robot_ws/build/interface_rb10_apple', '--', '-j12', '-l12'], 'cwd': '/home/orientpine/robot_ws/build/interface_rb10_apple', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '0'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('CONDA_PROMPT_MODIFIER', '(rb)'), ('LANGUAGE', 'en'), ('USER', 'orientpine'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/orientpine/robot_ws/install/interface_rb10_apple/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/orientpine'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/orientpine'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[48;5;0m\\] 🐧 orientpine 02:20:26 PM 12/22/24 \\[\\e[0m\\]\\[\x1b[38;5;0;48;5;88m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;88m\\] \ue0a0 master U:125 ?:122 \\[\\e[0m\\]\\[\x1b[38;5;88;48;5;35m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;35m\\] ❲c❳ rb \\[\\e[0m\\]\\[\x1b[38;5;35;48;5;30m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;30m\\] 🏠/robot_ws \\[\\e[0m\\]\\[\x1b[38;5;30;48;5;42m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;42m\\] ✅ \\[\\e[0m\\]\\[\x1b[38;5;42m\\]\ue0b0\\[\\e[0m\\] \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1742'), ('SYSTEMD_EXEC_PID', '2118'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3670'), ('_colcon_cd_root', '/home/orientpine/robot_ws'), ('COLCON_PREFIX_PATH', '/home/orientpine/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orientpine'), ('CONDA_ROOT', '/home/orientpine/miniconda3'), ('OSH', '/home/orientpine/.oh-my-bash'), ('JOURNAL_STREAM', '8:34104'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orientpine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/orientpine/miniconda3/envs/rb/bin:/home/orientpine/miniconda3/condabin:/opt/ros/humble/bin:/home/orientpine/miniconda3/bin:/home/orientpine/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orientpine-850XAC:@/tmp/.ICE-unix/2088,unix/orientpine-850XAC:/tmp/.ICE-unix/2088'), ('INVOCATION_ID', '5351c7a2101e49b6bd790ec9f31867af'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/orientpine/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2478bf71b4.sock'), ('CONDA_PREFIX_2', '/home/orientpine/miniconda3/envs/rb'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/orientpine/robot_ws/install/pkg_rb10_apple:/home/orientpine/robot_ws/install/interface_rb10_apple:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/orientpine/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rb'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/orientpine/robot_ws/build/interface_rb10_apple'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/orientpine/miniconda3/bin/conda'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orientpine/robot_ws/build/pkg_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/orientpine/miniconda3/envs/rb'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orientpine/robot_ws/install/interface_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble')]), 'shell': False}
+[3.306469] (-) TimerEvent: {}
+[3.331867] (interface_rb10_apple) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.347405] (interface_rb10_apple) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.360627] (interface_rb10_apple) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_interface_rb10_apple\n'}
+[3.406606] (-) TimerEvent: {}
+[3.506914] (-) TimerEvent: {}
+[3.607303] (-) TimerEvent: {}
+[3.707630] (-) TimerEvent: {}
+[3.785886] (interface_rb10_apple) StdoutLine: {'line': b'running egg_info\n'}
+[3.787040] (interface_rb10_apple) StdoutLine: {'line': b'creating interface_rb10_apple.egg-info\n'}
+[3.787360] (interface_rb10_apple) StdoutLine: {'line': b'writing interface_rb10_apple.egg-info/PKG-INFO\n'}
+[3.787621] (interface_rb10_apple) StdoutLine: {'line': b'writing dependency_links to interface_rb10_apple.egg-info/dependency_links.txt\n'}
+[3.787948] (interface_rb10_apple) StdoutLine: {'line': b'writing top-level names to interface_rb10_apple.egg-info/top_level.txt\n'}
+[3.788216] (interface_rb10_apple) StdoutLine: {'line': b"writing manifest file 'interface_rb10_apple.egg-info/SOURCES.txt'\n"}
+[3.790863] (interface_rb10_apple) StdoutLine: {'line': b"reading manifest file 'interface_rb10_apple.egg-info/SOURCES.txt'\n"}
+[3.791683] (interface_rb10_apple) StdoutLine: {'line': b"writing manifest file 'interface_rb10_apple.egg-info/SOURCES.txt'\n"}
+[3.807754] (-) TimerEvent: {}
+[3.835336] (interface_rb10_apple) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_interface_rb10_apple_egg\n'}
+[3.907888] (-) TimerEvent: {}
+[4.008153] (-) TimerEvent: {}
+[4.108525] (-) TimerEvent: {}
+[4.208817] (-) TimerEvent: {}
+[4.309165] (-) TimerEvent: {}
+[4.409545] (-) TimerEvent: {}
+[4.510131] (-) TimerEvent: {}
+[4.610444] (-) TimerEvent: {}
+[4.710759] (-) TimerEvent: {}
+[4.811041] (-) TimerEvent: {}
+[4.911348] (-) TimerEvent: {}
+[5.011649] (-) TimerEvent: {}
+[5.112021] (-) TimerEvent: {}
+[5.212417] (-) TimerEvent: {}
+[5.312820] (-) TimerEvent: {}
+[5.413140] (-) TimerEvent: {}
+[5.513446] (-) TimerEvent: {}
+[5.613815] (-) TimerEvent: {}
+[5.714172] (-) TimerEvent: {}
+[5.814556] (-) TimerEvent: {}
+[5.914852] (-) TimerEvent: {}
+[5.990619] (interface_rb10_apple) StdoutLine: {'line': b'[  2%] Built target interface_rb10_apple__cpp\n'}
+[6.007008] (interface_rb10_apple) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.007421] (interface_rb10_apple) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.007785] (interface_rb10_apple) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.014967] (-) TimerEvent: {}
+[6.115379] (-) TimerEvent: {}
+[6.150872] (interface_rb10_apple) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.c.o\x1b[0m\n'}
+[6.151907] (interface_rb10_apple) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__functions.c.o\x1b[0m\n'}
+[6.152994] (interface_rb10_apple) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.c.o\x1b[0m\n'}
+[6.155629] (interface_rb10_apple) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.c.o\x1b[0m\n'}
+[6.156993] (interface_rb10_apple) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__functions.c.o\x1b[0m\n'}
+[6.158675] (interface_rb10_apple) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.c.o\x1b[0m\n'}
+[6.159969] (interface_rb10_apple) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_c.dir/rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functions.c.o\x1b[0m\n'}
+[6.215504] (-) TimerEvent: {}
+[6.315893] (-) TimerEvent: {}
+[6.416301] (-) TimerEvent: {}
+[6.488201] (interface_rb10_apple) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libinterface_rb10_apple__rosidl_generator_c.so\x1b[0m\n'}
+[6.516415] (-) TimerEvent: {}
+[6.553941] (interface_rb10_apple) StdoutLine: {'line': b'[ 16%] Built target interface_rb10_apple__rosidl_generator_c\n'}
+[6.571357] (interface_rb10_apple) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.577605] (interface_rb10_apple) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.578002] (interface_rb10_apple) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.616527] (-) TimerEvent: {}
+[6.716907] (-) TimerEvent: {}
+[6.817280] (-) TimerEvent: {}
+[6.917644] (-) TimerEvent: {}
+[7.018022] (-) TimerEvent: {}
+[7.118395] (-) TimerEvent: {}
+[7.218756] (-) TimerEvent: {}
+[7.319118] (-) TimerEvent: {}
+[7.419502] (-) TimerEvent: {}
+[7.519871] (-) TimerEvent: {}
+[7.620261] (-) TimerEvent: {}
+[7.655925] (interface_rb10_apple) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp.o\x1b[0m\n'}
+[7.656944] (interface_rb10_apple) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o\x1b[0m\n'}
+[7.662729] (interface_rb10_apple) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o\x1b[0m\n'}
+[7.664503] (interface_rb10_apple) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o\x1b[0m\n'}
+[7.684630] (interface_rb10_apple) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o\x1b[0m\n'}
+[7.685186] (interface_rb10_apple) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp.o\x1b[0m\n'}
+[7.686924] (interface_rb10_apple) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o\x1b[0m\n'}
+[7.720370] (-) TimerEvent: {}
+[7.821171] (-) TimerEvent: {}
+[7.922109] (-) TimerEvent: {}
+[8.023155] (-) TimerEvent: {}
+[8.123963] (-) TimerEvent: {}
+[8.224789] (-) TimerEvent: {}
+[8.325195] (-) TimerEvent: {}
+[8.425669] (-) TimerEvent: {}
+[8.526498] (-) TimerEvent: {}
+[8.627434] (-) TimerEvent: {}
+[8.727868] (-) TimerEvent: {}
+[8.828288] (-) TimerEvent: {}
+[8.928781] (-) TimerEvent: {}
+[8.989322] (interface_rb10_apple) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_rb10_apple/msg/robot_joint_position__type_support.cpp.o\x1b[0m\n'}
+[9.001123] (interface_rb10_apple) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o\x1b[0m\n'}
+[9.006030] (interface_rb10_apple) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp.o\x1b[0m\n'}
+[9.018144] (interface_rb10_apple) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o\x1b[0m\n'}
+[9.028896] (-) TimerEvent: {}
+[9.037181] (interface_rb10_apple) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o\x1b[0m\n'}
+[9.041542] (interface_rb10_apple) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o\x1b[0m\n'}
+[9.050583] (interface_rb10_apple) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o\x1b[0m\n'}
+[9.073207] (interface_rb10_apple) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_rb10_apple/msg/detail/robot_joint_position__type_support.cpp.o\x1b[0m\n'}
+[9.125865] (interface_rb10_apple) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support.cpp.o\x1b[0m\n'}
+[9.129009] (-) TimerEvent: {}
+[9.161768] (interface_rb10_apple) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_rb10_apple/srv/detail/robot_connect_control__type_support.cpp.o\x1b[0m\n'}
+[9.183728] (interface_rb10_apple) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_rb10_apple/action/detail/robot_tracking_control__type_support.cpp.o\x1b[0m\n'}
+[9.196383] (interface_rb10_apple) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_rb10_apple/action/detail/robot_mode_control__type_support.cpp.o\x1b[0m\n'}
+[9.204703] (interface_rb10_apple) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_rb10_apple/action/detail/robot_joint_control__type_support.cpp.o\x1b[0m\n'}
+[9.212135] (interface_rb10_apple) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_rb10_apple/action/detail/robot_tcp_control__type_support.cpp.o\x1b[0m\n'}
+[9.229121] (-) TimerEvent: {}
+[9.292510] (interface_rb10_apple) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_rb10_apple__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.293412] (interface_rb10_apple) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_rb10_apple__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.329243] (-) TimerEvent: {}
+[9.425078] (interface_rb10_apple) StdoutLine: {'line': b'[ 49%] Built target interface_rb10_apple__rosidl_typesupport_cpp\n'}
+[9.429349] (-) TimerEvent: {}
+[9.436344] (interface_rb10_apple) StdoutLine: {'line': b'[ 49%] Built target interface_rb10_apple__rosidl_typesupport_c\n'}
+[9.529476] (-) TimerEvent: {}
+[9.629897] (-) TimerEvent: {}
+[9.730300] (-) TimerEvent: {}
+[9.830696] (-) TimerEvent: {}
+[9.851323] (interface_rb10_apple) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_rb10_apple/msg/detail/dds_fastrtps/robot_joint_position__type_support.cpp.o\x1b[0m\n'}
+[9.865378] (interface_rb10_apple) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_rb10_apple/msg/detail/dds_fastrtps/robot_tcp_pose__type_support.cpp.o\x1b[0m\n'}
+[9.865827] (interface_rb10_apple) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_rb10_apple/srv/detail/dds_fastrtps/robot_connect_control__type_support.cpp.o\x1b[0m\n'}
+[9.930819] (-) TimerEvent: {}
+[10.031230] (-) TimerEvent: {}
+[10.131617] (-) TimerEvent: {}
+[10.232010] (-) TimerEvent: {}
+[10.305269] (interface_rb10_apple) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_rb10_apple/action/detail/dds_fastrtps/robot_tracking_control__type_support.cpp.o\x1b[0m\n'}
+[10.329384] (interface_rb10_apple) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_rb10_apple/action/detail/dds_fastrtps/robot_joint_control__type_support.cpp.o\x1b[0m\n'}
+[10.332138] (-) TimerEvent: {}
+[10.432601] (-) TimerEvent: {}
+[10.501639] (interface_rb10_apple) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_rb10_apple/action/detail/dds_fastrtps/robot_mode_control__type_support.cpp.o\x1b[0m\n'}
+[10.532719] (-) TimerEvent: {}
+[10.633517] (-) TimerEvent: {}
+[10.734362] (-) TimerEvent: {}
+[10.835430] (-) TimerEvent: {}
+[10.936295] (-) TimerEvent: {}
+[10.966472] (interface_rb10_apple) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_rb10_apple/msg/detail/robot_joint_position__type_support.c.o\x1b[0m\n'}
+[10.969938] (interface_rb10_apple) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support.c.o\x1b[0m\n'}
+[11.031836] (interface_rb10_apple) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_rb10_apple/srv/detail/robot_connect_control__type_support.c.o\x1b[0m\n'}
+[11.036408] (-) TimerEvent: {}
+[11.129576] (interface_rb10_apple) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_rb10_apple/action/detail/dds_fastrtps/robot_tcp_control__type_support.cpp.o\x1b[0m\n'}
+[11.136524] (-) TimerEvent: {}
+[11.141530] (interface_rb10_apple) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_rb10_apple/action/detail/robot_tracking_control__type_support.c.o\x1b[0m\n'}
+[11.152744] (interface_rb10_apple) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_rb10_apple/action/detail/robot_joint_control__type_support.c.o\x1b[0m\n'}
+[11.175887] (interface_rb10_apple) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_rb10_apple__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.176254] (interface_rb10_apple) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.c.o\x1b[0m\n'}
+[11.201541] (interface_rb10_apple) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/detail/robot_joint_position__type_support_c.cpp.o\x1b[0m\n'}
+[11.218760] (interface_rb10_apple) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support.c.o\x1b[0m\n'}
+[11.236639] (-) TimerEvent: {}
+[11.319950] (interface_rb10_apple) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/srv/detail/robot_connect_control__type_support_c.cpp.o\x1b[0m\n'}
+[11.336755] (-) TimerEvent: {}
+[11.352695] (interface_rb10_apple) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library libinterface_rb10_apple__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.364739] (interface_rb10_apple) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_joint_control__type_support_c.cpp.o\x1b[0m\n'}
+[11.376096] (interface_rb10_apple) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support_c.cpp.o\x1b[0m\n'}
+[11.393014] (interface_rb10_apple) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_tracking_control__type_support_c.cpp.o\x1b[0m\n'}
+[11.436870] (-) TimerEvent: {}
+[11.512376] (interface_rb10_apple) StdoutLine: {'line': b'[ 75%] Built target interface_rb10_apple__rosidl_typesupport_introspection_c\n'}
+[11.537006] (-) TimerEvent: {}
+[11.538232] (interface_rb10_apple) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_mode_control__type_support_c.cpp.o\x1b[0m\n'}
+[11.571549] (interface_rb10_apple) StdoutLine: {'line': b'[ 77%] Built target interface_rb10_apple__rosidl_typesupport_introspection_cpp\n'}
+[11.576832] (interface_rb10_apple) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support_c.cpp.o\x1b[0m\n'}
+[11.637116] (-) TimerEvent: {}
+[11.737540] (-) TimerEvent: {}
+[11.838402] (-) TimerEvent: {}
+[11.939217] (-) TimerEvent: {}
+[12.039606] (-) TimerEvent: {}
+[12.140013] (-) TimerEvent: {}
+[12.240448] (-) TimerEvent: {}
+[12.340843] (-) TimerEvent: {}
+[12.441253] (-) TimerEvent: {}
+[12.541652] (-) TimerEvent: {}
+[12.580954] (interface_rb10_apple) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_rb10_apple__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.641780] (-) TimerEvent: {}
+[12.676746] (interface_rb10_apple) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_rb10_apple__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.717651] (interface_rb10_apple) StdoutLine: {'line': b'[ 81%] Built target interface_rb10_apple__rosidl_typesupport_fastrtps_cpp\n'}
+[12.741919] (-) TimerEvent: {}
+[12.811726] (interface_rb10_apple) StdoutLine: {'line': b'[ 81%] Built target interface_rb10_apple__rosidl_typesupport_fastrtps_c\n'}
+[12.842021] (-) TimerEvent: {}
+[12.845576] (interface_rb10_apple) StdoutLine: {'line': b'[ 81%] Built target interface_rb10_apple\n'}
+[12.881728] (interface_rb10_apple) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.942158] (-) TimerEvent: {}
+[13.042512] (-) TimerEvent: {}
+[13.142829] (-) TimerEvent: {}
+[13.243155] (-) TimerEvent: {}
+[13.343438] (-) TimerEvent: {}
+[13.443750] (-) TimerEvent: {}
+[13.544119] (-) TimerEvent: {}
+[13.644460] (-) TimerEvent: {}
+[13.744810] (-) TimerEvent: {}
+[13.845160] (-) TimerEvent: {}
+[13.945512] (-) TimerEvent: {}
+[14.045853] (-) TimerEvent: {}
+[14.146201] (-) TimerEvent: {}
+[14.246545] (-) TimerEvent: {}
+[14.346905] (-) TimerEvent: {}
+[14.447222] (-) TimerEvent: {}
+[14.547552] (-) TimerEvent: {}
+[14.647879] (-) TimerEvent: {}
+[14.748191] (-) TimerEvent: {}
+[14.848505] (-) TimerEvent: {}
+[14.948826] (-) TimerEvent: {}
+[15.049155] (-) TimerEvent: {}
+[15.149474] (-) TimerEvent: {}
+[15.249793] (-) TimerEvent: {}
+[15.350113] (-) TimerEvent: {}
+[15.450420] (-) TimerEvent: {}
+[15.550857] (-) TimerEvent: {}
+[15.651207] (-) TimerEvent: {}
+[15.751534] (-) TimerEvent: {}
+[15.851855] (-) TimerEvent: {}
+[15.952162] (-) TimerEvent: {}
+[16.052575] (-) TimerEvent: {}
+[16.152910] (-) TimerEvent: {}
+[16.253249] (-) TimerEvent: {}
+[16.353590] (-) TimerEvent: {}
+[16.453910] (-) TimerEvent: {}
+[16.554305] (-) TimerEvent: {}
+[16.654678] (-) TimerEvent: {}
+[16.755075] (-) TimerEvent: {}
+[16.855413] (-) TimerEvent: {}
+[16.955746] (-) TimerEvent: {}
+[17.056057] (-) TimerEvent: {}
+[17.156456] (-) TimerEvent: {}
+[17.256792] (-) TimerEvent: {}
+[17.357112] (-) TimerEvent: {}
+[17.457432] (-) TimerEvent: {}
+[17.557755] (-) TimerEvent: {}
+[17.658086] (-) TimerEvent: {}
+[17.758413] (-) TimerEvent: {}
+[17.858713] (-) TimerEvent: {}
+[17.867196] (interface_rb10_apple) StdoutLine: {'line': b'[ 82%] Built target interface_rb10_apple__py\n'}
+[17.901936] (interface_rb10_apple) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/msg/_robot_tcp_pose_s.c.o\x1b[0m\n'}
+[17.902805] (interface_rb10_apple) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/srv/_robot_connect_control_s.c.o\x1b[0m\n'}
+[17.905657] (interface_rb10_apple) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/msg/_robot_joint_position_s.c.o\x1b[0m\n'}
+[17.908008] (interface_rb10_apple) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/action/_robot_tracking_control_s.c.o\x1b[0m\n'}
+[17.908499] (interface_rb10_apple) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/action/_robot_mode_control_s.c.o\x1b[0m\n'}
+[17.908767] (interface_rb10_apple) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/action/_robot_joint_control_s.c.o\x1b[0m\n'}
+[17.909282] (interface_rb10_apple) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/action/_robot_tcp_control_s.c.o\x1b[0m\n'}
+[17.958835] (-) TimerEvent: {}
+[18.059235] (-) TimerEvent: {}
+[18.159629] (-) TimerEvent: {}
+[18.260078] (-) TimerEvent: {}
+[18.271739] (interface_rb10_apple) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_rb10_apple/libinterface_rb10_apple__rosidl_generator_py.so\x1b[0m\n'}
+[18.341624] (interface_rb10_apple) StdoutLine: {'line': b'[ 92%] Built target interface_rb10_apple__rosidl_generator_py\n'}
+[18.360196] (-) TimerEvent: {}
+[18.375197] (interface_rb10_apple) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.377033] (interface_rb10_apple) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.377278] (interface_rb10_apple) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/interface_rb10_apple__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.460293] (-) TimerEvent: {}
+[18.560601] (-) TimerEvent: {}
+[18.661009] (-) TimerEvent: {}
+[18.735807] (interface_rb10_apple) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.736187] (interface_rb10_apple) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.748605] (interface_rb10_apple) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.761128] (-) TimerEvent: {}
+[18.809354] (interface_rb10_apple) StdoutLine: {'line': b'[100%] Built target interface_rb10_apple__rosidl_typesupport_c__pyext\n'}
+[18.810158] (interface_rb10_apple) StdoutLine: {'line': b'[100%] Built target interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.823788] (interface_rb10_apple) StdoutLine: {'line': b'[100%] Built target interface_rb10_apple__rosidl_typesupport_introspection_c__pyext\n'}
+[18.843702] (interface_rb10_apple) CommandEnded: {'returncode': 0}
+[18.861268] (-) TimerEvent: {}
+[18.961588] (-) TimerEvent: {}
+[19.061874] (-) TimerEvent: {}
+[19.159652] (interface_rb10_apple) JobProgress: {'identifier': 'interface_rb10_apple', 'progress': 'install'}
+[19.161998] (-) TimerEvent: {}
+[19.173850] (interface_rb10_apple) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orientpine/robot_ws/build/interface_rb10_apple'], 'cwd': '/home/orientpine/robot_ws/build/interface_rb10_apple', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '0'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('CONDA_PROMPT_MODIFIER', '(rb)'), ('LANGUAGE', 'en'), ('USER', 'orientpine'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/orientpine/robot_ws/install/interface_rb10_apple/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/orientpine'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/orientpine'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[48;5;0m\\] 🐧 orientpine 02:20:26 PM 12/22/24 \\[\\e[0m\\]\\[\x1b[38;5;0;48;5;88m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;88m\\] \ue0a0 master U:125 ?:122 \\[\\e[0m\\]\\[\x1b[38;5;88;48;5;35m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;35m\\] ❲c❳ rb \\[\\e[0m\\]\\[\x1b[38;5;35;48;5;30m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;30m\\] 🏠/robot_ws \\[\\e[0m\\]\\[\x1b[38;5;30;48;5;42m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;42m\\] ✅ \\[\\e[0m\\]\\[\x1b[38;5;42m\\]\ue0b0\\[\\e[0m\\] \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1742'), ('SYSTEMD_EXEC_PID', '2118'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3670'), ('_colcon_cd_root', '/home/orientpine/robot_ws'), ('COLCON_PREFIX_PATH', '/home/orientpine/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orientpine'), ('CONDA_ROOT', '/home/orientpine/miniconda3'), ('OSH', '/home/orientpine/.oh-my-bash'), ('JOURNAL_STREAM', '8:34104'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orientpine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/orientpine/miniconda3/envs/rb/bin:/home/orientpine/miniconda3/condabin:/opt/ros/humble/bin:/home/orientpine/miniconda3/bin:/home/orientpine/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orientpine-850XAC:@/tmp/.ICE-unix/2088,unix/orientpine-850XAC:/tmp/.ICE-unix/2088'), ('INVOCATION_ID', '5351c7a2101e49b6bd790ec9f31867af'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/orientpine/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2478bf71b4.sock'), ('CONDA_PREFIX_2', '/home/orientpine/miniconda3/envs/rb'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/orientpine/robot_ws/install/pkg_rb10_apple:/home/orientpine/robot_ws/install/interface_rb10_apple:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/orientpine/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'rb'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/orientpine/robot_ws/build/interface_rb10_apple'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/orientpine/miniconda3/bin/conda'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orientpine/robot_ws/build/pkg_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/orientpine/miniconda3/envs/rb'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orientpine/robot_ws/install/interface_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble')]), 'shell': False}
+[19.186643] (interface_rb10_apple) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.187717] (interface_rb10_apple) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.188430] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/ament_index/resource_index/rosidl_interfaces/interface_rb10_apple\n'}
+[19.204185] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__functions.h\n'}
+[19.217891] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__struct.h\n'}
+[19.231984] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__type_support.h\n'}
+[19.245804] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__functions.h\n'}
+[19.259355] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__struct.h\n'}
+[19.262121] (-) TimerEvent: {}
+[19.273276] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__type_support.h\n'}
+[19.287692] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__functions.h\n'}
+[19.301755] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__struct.h\n'}
+[19.315533] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__type_support.h\n'}
+[19.329672] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__functions.h\n'}
+[19.343671] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__struct.h\n'}
+[19.357431] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__type_support.h\n'}
+[19.362251] (-) TimerEvent: {}
+[19.371447] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_joint_control.h\n'}
+[19.385572] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_mode_control.h\n'}
+[19.400738] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_tcp_control.h\n'}
+[19.415340] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_tracking_control.h\n'}
+[19.430049] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__functions.h\n'}
+[19.444304] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__struct.h\n'}
+[19.457933] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__type_support.h\n'}
+[19.462354] (-) TimerEvent: {}
+[19.472012] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.h\n'}
+[19.486092] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h\n'}
+[19.500388] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support.h\n'}
+[19.513747] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/robot_joint_position.h\n'}
+[19.527851] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/robot_tcp_pose.h\n'}
+[19.541858] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.555857] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__functions.h\n'}
+[19.562463] (-) TimerEvent: {}
+[19.569694] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__struct.h\n'}
+[19.584473] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__type_support.h\n'}
+[19.599210] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/robot_connect_control.h\n'}
+[19.613672] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/library_path.sh\n'}
+[19.627804] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/library_path.dsv\n'}
+[19.642687] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__rosidl_typesupport_fastrtps_c.h\n'}
+[19.656507] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_fastrtps_c.h\n'}
+[19.662591] (-) TimerEvent: {}
+[19.670124] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_fastrtps_c.h\n'}
+[19.684021] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__rosidl_typesupport_fastrtps_c.h\n'}
+[19.699311] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_fastrtps_c.h\n'}
+[19.713599] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[19.727541] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.741614] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__rosidl_typesupport_fastrtps_c.h\n'}
+[19.756727] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__builder.hpp\n'}
+[19.762733] (-) TimerEvent: {}
+[19.770875] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__struct.hpp\n'}
+[19.785781] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__traits.hpp\n'}
+[19.800348] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__builder.hpp\n'}
+[19.814906] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__struct.hpp\n'}
+[19.832458] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__traits.hpp\n'}
+[19.847320] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__builder.hpp\n'}
+[19.861698] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__struct.hpp\n'}
+[19.862856] (-) TimerEvent: {}
+[19.876745] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__traits.hpp\n'}
+[19.893286] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__builder.hpp\n'}
+[19.907750] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__struct.hpp\n'}
+[19.923514] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__traits.hpp\n'}
+[19.938291] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_joint_control.hpp\n'}
+[19.952980] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_mode_control.hpp\n'}
+[19.962997] (-) TimerEvent: {}
+[19.967725] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_tcp_control.hpp\n'}
+[19.984512] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_tracking_control.hpp\n'}
+[20.001005] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__builder.hpp\n'}
+[20.016477] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__struct.hpp\n'}
+[20.032009] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__traits.hpp\n'}
+[20.046450] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__builder.hpp\n'}
+[20.060808] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.hpp\n'}
+[20.063126] (-) TimerEvent: {}
+[20.075741] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__traits.hpp\n'}
+[20.091514] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/robot_joint_position.hpp\n'}
+[20.106399] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/robot_tcp_pose.hpp\n'}
+[20.120653] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__builder.hpp\n'}
+[20.134781] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__struct.hpp\n'}
+[20.151240] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__traits.hpp\n'}
+[20.163242] (-) TimerEvent: {}
+[20.166491] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/robot_connect_control.hpp\n'}
+[20.183256] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.198564] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.213962] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.233750] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.248449] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.263382] (-) TimerEvent: {}
+[20.263709] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.278767] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.295091] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.311670] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__rosidl_typesupport_introspection_c.h\n'}
+[20.327773] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_introspection_c.h\n'}
+[20.342997] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_introspection_c.h\n'}
+[20.358168] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__rosidl_typesupport_introspection_c.h\n'}
+[20.363517] (-) TimerEvent: {}
+[20.374243] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_introspection_c.h\n'}
+[20.389077] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_introspection_c.h\n'}
+[20.403565] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.419523] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__rosidl_typesupport_introspection_c.h\n'}
+[20.437977] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.452848] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.463636] (-) TimerEvent: {}
+[20.467849] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.483729] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.498746] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.514594] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.529154] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.543433] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/pythonpath.sh\n'}
+[20.558855] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/pythonpath.dsv\n'}
+[20.563746] (-) TimerEvent: {}
+[20.573904] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.588711] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.604596] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.620124] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.636893] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/__init__.py\n'}
+[20.652268] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_c.c\n'}
+[20.663870] (-) TimerEvent: {}
+[20.667115] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.683385] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.698862] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/__init__.py\n'}
+[20.715324] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_joint_control.py\n'}
+[20.730916] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_joint_control_s.c\n'}
+[20.746236] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_mode_control.py\n'}
+[20.761136] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_mode_control_s.c\n'}
+[20.764002] (-) TimerEvent: {}
+[20.777072] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tcp_control.py\n'}
+[20.794242] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tcp_control_s.c\n'}
+[20.810309] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tracking_control.py\n'}
+[20.825379] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tracking_control_s.c\n'}
+[20.840499] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.855302] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.864123] (-) TimerEvent: {}
+[20.870609] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.886023] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/libinterface_rb10_apple__rosidl_generator_py.so\n'}
+[20.901705] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/__init__.py\n'}
+[20.917134] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_joint_position.py\n'}
+[20.935826] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_joint_position_s.c\n'}
+[20.951237] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_tcp_pose.py\n'}
+[20.964244] (-) TimerEvent: {}
+[20.966033] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_tcp_pose_s.c\n'}
+[20.982063] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv/__init__.py\n'}
+[20.996909] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv/_robot_connect_control.py\n'}
+[21.012635] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv/_robot_connect_control_s.c\n'}
+[21.029488] (interface_rb10_apple) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.029895] (interface_rb10_apple) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.030323] (interface_rb10_apple) StdoutLine: {'line': b'-- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.030675] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/msg/RobotJointPosition.idl\n'}
+[21.045931] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/msg/RobotTcpPose.idl\n'}
+[21.061063] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/srv/RobotConnectControl.idl\n'}
+[21.064367] (-) TimerEvent: {}
+[21.076229] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotTrackingControl.idl\n'}
+[21.092639] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotJointControl.idl\n'}
+[21.109398] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotModeControl.idl\n'}
+[21.129674] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotTcpControl.idl\n'}
+[21.147224] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/msg/RobotJointPosition.msg\n'}
+[21.164100] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/msg/RobotTcpPose.msg\n'}
+[21.164438] (-) TimerEvent: {}
+[21.183460] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/srv/RobotConnectControl.srv\n'}
+[21.199829] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/srv/RobotConnectControl_Request.msg\n'}
+[21.216489] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/srv/RobotConnectControl_Response.msg\n'}
+[21.230865] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotTrackingControl.action\n'}
+[21.249508] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotJointControl.action\n'}
+[21.264588] (-) TimerEvent: {}
+[21.267388] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotModeControl.action\n'}
+[21.283306] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotTcpControl.action\n'}
+[21.303311] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/ament_index/resource_index/package_run_dependencies/interface_rb10_apple\n'}
+[21.318105] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/ament_index/resource_index/parent_prefix_path/interface_rb10_apple\n'}
+[21.332489] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/ament_prefix_path.sh\n'}
+[21.346954] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/ament_prefix_path.dsv\n'}
+[21.364740] (-) TimerEvent: {}
+[21.366001] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/path.sh\n'}
+[21.381800] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/path.dsv\n'}
+[21.401542] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/local_setup.bash\n'}
+[21.417595] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/local_setup.sh\n'}
+[21.432146] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/local_setup.zsh\n'}
+[21.446270] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/local_setup.dsv\n'}
+[21.461026] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.dsv\n'}
+[21.464844] (-) TimerEvent: {}
+[21.476677] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/ament_index/resource_index/packages/interface_rb10_apple\n'}
+[21.491890] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/rosidl_cmake-extras.cmake\n'}
+[21.510038] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.525611] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.541064] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.556210] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.564969] (-) TimerEvent: {}
+[21.571374] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.588189] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.604134] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_appleConfig.cmake\n'}
+[21.623308] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_appleConfig-version.cmake\n'}
+[21.638409] (interface_rb10_apple) StdoutLine: {'line': b'-- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.xml\n'}
+[21.652830] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_generator_c.so\n'}
+[21.654228] (interface_rb10_apple) StdoutLine: {'line': b'-- Set runtime path of "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_generator_c.so" to ""\n'}
+[21.654494] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_fastrtps_c.so\n'}
+[21.655314] (interface_rb10_apple) StdoutLine: {'line': b'-- Set runtime path of "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.655575] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.656551] (interface_rb10_apple) StdoutLine: {'line': b'-- Set runtime path of "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.656803] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_introspection_c.so\n'}
+[21.657553] (interface_rb10_apple) StdoutLine: {'line': b'-- Set runtime path of "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.657801] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_c.so\n'}
+[21.658444] (interface_rb10_apple) StdoutLine: {'line': b'-- Set runtime path of "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_c.so" to ""\n'}
+[21.658722] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_introspection_cpp.so\n'}
+[21.659541] (interface_rb10_apple) StdoutLine: {'line': b'-- Set runtime path of "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.659732] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_cpp.so\n'}
+[21.660557] (interface_rb10_apple) StdoutLine: {'line': b'-- Set runtime path of "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_cpp.so" to ""\n'}
+[21.665093] (-) TimerEvent: {}
+[21.765418] (-) TimerEvent: {}
+[21.766007] (interface_rb10_apple) StdoutLine: {'line': b"Listing '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple'...\n"}
+[21.766201] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/__init__.py'...\n"}
+[21.766339] (interface_rb10_apple) StdoutLine: {'line': b"Listing '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action'...\n"}
+[21.766533] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/__init__.py'...\n"}
+[21.766635] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_joint_control.py'...\n"}
+[21.766734] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_mode_control.py'...\n"}
+[21.766830] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tcp_control.py'...\n"}
+[21.766925] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tracking_control.py'...\n"}
+[21.767020] (interface_rb10_apple) StdoutLine: {'line': b"Listing '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg'...\n"}
+[21.767125] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/__init__.py'...\n"}
+[21.767220] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_joint_position.py'...\n"}
+[21.767315] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_tcp_pose.py'...\n"}
+[21.767409] (interface_rb10_apple) StdoutLine: {'line': b"Listing '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv'...\n"}
+[21.767504] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv/__init__.py'...\n"}
+[21.767635] (interface_rb10_apple) StdoutLine: {'line': b"Compiling '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv/_robot_connect_control.py'...\n"}
+[21.774509] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_generator_py.so\n'}
+[21.775943] (interface_rb10_apple) StdoutLine: {'line': b'-- Set runtime path of "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_generator_py.so" to ""\n'}
+[21.776376] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_cExport.cmake\n'}
+[21.776634] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.776952] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[21.777317] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[21.777689] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_cppExport.cmake\n'}
+[21.778076] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[21.778433] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[21.778817] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.779180] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.779586] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_cExport.cmake\n'}
+[21.779934] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.780344] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.780679] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.781069] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_cppExport.cmake\n'}
+[21.781445] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.781817] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_pyExport.cmake\n'}
+[21.782190] (interface_rb10_apple) StdoutLine: {'line': b'-- Installing: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_pyExport-noconfig.cmake\n'}
+[21.787468] (interface_rb10_apple) CommandEnded: {'returncode': 0}
+[21.865537] (-) TimerEvent: {}
+[21.966578] (-) TimerEvent: {}
+[22.066941] (-) TimerEvent: {}
+[22.167330] (-) TimerEvent: {}
+[22.267720] (-) TimerEvent: {}
+[22.368182] (-) TimerEvent: {}
+[22.468710] (-) TimerEvent: {}
+[22.471636] (interface_rb10_apple) JobEnded: {'identifier': 'interface_rb10_apple', 'rc': 0}
+[22.473437] (pkg_rb10_apple) JobStarted: {'identifier': 'pkg_rb10_apple'}
+[22.569301] (-) TimerEvent: {}
+[22.669633] (-) TimerEvent: {}
+[22.770035] (-) TimerEvent: {}
+[22.870439] (-) TimerEvent: {}
+[22.970840] (-) TimerEvent: {}
+[23.071131] (-) TimerEvent: {}
+[23.171644] (-) TimerEvent: {}
+[23.272048] (-) TimerEvent: {}
+[23.372448] (-) TimerEvent: {}
+[23.472761] (-) TimerEvent: {}
+[23.573079] (-) TimerEvent: {}
+[23.673397] (-) TimerEvent: {}
+[23.773700] (-) TimerEvent: {}
+[23.843142] (pkg_rb10_apple) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/orientpine/robot_ws/build/pkg_rb10_apple/build', '--no-deps', 'install_data'], 'cwd': '/home/orientpine/robot_ws/build/pkg_rb10_apple', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '0', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HISTFILESIZE': '', 'CONDA_PROMPT_MODIFIER': '(rb)', 'LANGUAGE': 'en', 'USER': 'orientpine', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_NAMESPACE': 'robot1', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/orientpine/robot_ws/install/interface_rb10_apple/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'LESS': '-R', 'HOME': '/home/orientpine', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/orientpine', 'TERM_PROGRAM_VERSION': '1.85.2', 'DESKTOP_SESSION': 'ubuntu', 'LSCOLORS': 'Gxfxcxdxdxegedabagacad', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b[48;5;0m\\] 🐧 orientpine 02:20:26 PM 12/22/24 \\[\\e[0m\\]\\[\x1b[38;5;0;48;5;88m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;88m\\] \ue0a0 master U:125 ?:122 \\[\\e[0m\\]\\[\x1b[38;5;88;48;5;35m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;35m\\] ❲c❳ rb \\[\\e[0m\\]\\[\x1b[38;5;35;48;5;30m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;30m\\] 🏠/robot_ws \\[\\e[0m\\]\\[\x1b[38;5;30;48;5;42m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;42m\\] ✅ \\[\\e[0m\\]\\[\x1b[38;5;42m\\]\ue0b0\\[\\e[0m\\] \\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1742', 'SYSTEMD_EXEC_PID': '2118', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3670', '_colcon_cd_root': '/home/orientpine/robot_ws', 'COLCON_PREFIX_PATH': '/home/orientpine/robot_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'orientpine', 'CONDA_ROOT': '/home/orientpine/miniconda3', 'OSH': '/home/orientpine/.oh-my-bash', 'JOURNAL_STREAM': '8:34104', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orientpine', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/orientpine/miniconda3/envs/rb/bin:/home/orientpine/miniconda3/condabin:/opt/ros/humble/bin:/home/orientpine/miniconda3/bin:/home/orientpine/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/orientpine-850XAC:@/tmp/.ICE-unix/2088,unix/orientpine-850XAC:/tmp/.ICE-unix/2088', 'INVOCATION_ID': '5351c7a2101e49b6bd790ec9f31867af', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'HISTSIZE': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/orientpine/miniconda3', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2478bf71b4.sock', 'CONDA_PREFIX_2': '/home/orientpine/miniconda3/envs/rb', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/orientpine/robot_ws/install/pkg_rb10_apple:/home/orientpine/robot_ws/install/interface_rb10_apple:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/orientpine/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'rb', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/orientpine/robot_ws/build/pkg_rb10_apple', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/orientpine/miniconda3/bin/conda', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages:/home/orientpine/robot_ws/build/pkg_rb10_apple:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/orientpine/miniconda3/envs/rb', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orientpine/robot_ws/install/interface_rb10_apple'}, 'shell': False}
+[23.873830] (-) TimerEvent: {}
+[23.974131] (-) TimerEvent: {}
+[24.074507] (-) TimerEvent: {}
+[24.174896] (-) TimerEvent: {}
+[24.275202] (-) TimerEvent: {}
+[24.315529] (pkg_rb10_apple) StdoutLine: {'line': b'running develop\n'}
+[24.375338] (-) TimerEvent: {}
+[24.475641] (-) TimerEvent: {}
+[24.576000] (-) TimerEvent: {}
+[24.625931] (pkg_rb10_apple) StdoutLine: {'line': b'running egg_info\n'}
+[24.626302] (pkg_rb10_apple) StdoutLine: {'line': b'creating pkg_rb10_apple.egg-info\n'}
+[24.626577] (pkg_rb10_apple) StdoutLine: {'line': b'writing pkg_rb10_apple.egg-info/PKG-INFO\n'}
+[24.626830] (pkg_rb10_apple) StdoutLine: {'line': b'writing dependency_links to pkg_rb10_apple.egg-info/dependency_links.txt\n'}
+[24.627169] (pkg_rb10_apple) StdoutLine: {'line': b'writing entry points to pkg_rb10_apple.egg-info/entry_points.txt\n'}
+[24.627364] (pkg_rb10_apple) StdoutLine: {'line': b'writing requirements to pkg_rb10_apple.egg-info/requires.txt\n'}
+[24.627564] (pkg_rb10_apple) StdoutLine: {'line': b'writing top-level names to pkg_rb10_apple.egg-info/top_level.txt\n'}
+[24.627808] (pkg_rb10_apple) StdoutLine: {'line': b"writing manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'\n"}
+[24.630060] (pkg_rb10_apple) StdoutLine: {'line': b"reading manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'\n"}
+[24.631030] (pkg_rb10_apple) StdoutLine: {'line': b"writing manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'\n"}
+[24.632964] (pkg_rb10_apple) StdoutLine: {'line': b'running build_ext\n'}
+[24.633348] (pkg_rb10_apple) StdoutLine: {'line': b'Creating /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg-rb10-apple.egg-link (link to .)\n'}
+[24.634417] (pkg_rb10_apple) StdoutLine: {'line': b'Installing robot_connect_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple\n'}
+[24.634876] (pkg_rb10_apple) StdoutLine: {'line': b'Installing robot_info_publisher script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple\n'}
+[24.635172] (pkg_rb10_apple) StdoutLine: {'line': b'Installing robot_joint_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple\n'}
+[24.635511] (pkg_rb10_apple) StdoutLine: {'line': b'Installing robot_mode_control_client script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple\n'}
+[24.635654] (pkg_rb10_apple) StdoutLine: {'line': b'Installing robot_mode_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple\n'}
+[24.635947] (pkg_rb10_apple) StdoutLine: {'line': b'Installing robot_tcp_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple\n'}
+[24.636240] (pkg_rb10_apple) StdoutLine: {'line': b'Installing robot_tracking_aruco_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple\n'}
+[24.636360] (pkg_rb10_apple) StdoutLine: {'line': b'\n'}
+[24.636473] (pkg_rb10_apple) StdoutLine: {'line': b'Installed /home/orientpine/robot_ws/build/pkg_rb10_apple\n'}
+[24.636586] (pkg_rb10_apple) StdoutLine: {'line': b'running install_data\n'}
+[24.636694] (pkg_rb10_apple) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/pkg_rb10_apple/share/ament_index\n'}
+[24.636807] (pkg_rb10_apple) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/pkg_rb10_apple/share/ament_index/resource_index\n'}
+[24.636916] (pkg_rb10_apple) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/pkg_rb10_apple/share/ament_index/resource_index/packages\n'}
+[24.637024] (pkg_rb10_apple) StdoutLine: {'line': b'copying resource/pkg_rb10_apple -> /home/orientpine/robot_ws/install/pkg_rb10_apple/share/ament_index/resource_index/packages\n'}
+[24.637202] (pkg_rb10_apple) StdoutLine: {'line': b'copying package.xml -> /home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple\n'}
+[24.637400] (pkg_rb10_apple) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/launch\n'}
+[24.637524] (pkg_rb10_apple) StdoutLine: {'line': b'copying launch/rb10_roas.launch.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/launch\n'}
+[24.676148] (-) TimerEvent: {}
+[24.683287] (pkg_rb10_apple) CommandEnded: {'returncode': 0}
+[24.776956] (-) TimerEvent: {}
+[24.810048] (pkg_rb10_apple) JobEnded: {'identifier': 'pkg_rb10_apple', 'rc': 0}
+[24.811139] (-) EventReactorShutdown: {}

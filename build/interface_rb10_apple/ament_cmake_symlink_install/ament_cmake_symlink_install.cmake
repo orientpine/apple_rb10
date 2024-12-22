@@ -364,8 +364,17 @@ ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_
 # install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/msg/RobotTcpPose.idl" "DESTINATION" "share/interface_rb10_apple/msg")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/msg/RobotTcpPose.idl" "DESTINATION" "share/interface_rb10_apple/msg")
 
+# install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/msg/ArucoPose.idl" "DESTINATION" "share/interface_rb10_apple/msg")
+ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/msg/ArucoPose.idl" "DESTINATION" "share/interface_rb10_apple/msg")
+
 # install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/srv/RobotConnectControl.idl" "DESTINATION" "share/interface_rb10_apple/srv")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/srv/RobotConnectControl.idl" "DESTINATION" "share/interface_rb10_apple/srv")
+
+# install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotTrackingControl.idl" "DESTINATION" "share/interface_rb10_apple/action")
+ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotTrackingControl.idl" "DESTINATION" "share/interface_rb10_apple/action")
+
+# install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotJointControl.idl" "DESTINATION" "share/interface_rb10_apple/action")
+ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotJointControl.idl" "DESTINATION" "share/interface_rb10_apple/action")
 
 # install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotModeControl.idl" "DESTINATION" "share/interface_rb10_apple/action")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/action/RobotModeControl.idl" "DESTINATION" "share/interface_rb10_apple/action")
@@ -379,6 +388,9 @@ ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_
 # install(FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/msg/RobotTcpPose.msg" "DESTINATION" "share/interface_rb10_apple/msg")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/msg/RobotTcpPose.msg" "DESTINATION" "share/interface_rb10_apple/msg")
 
+# install(FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/msg/ArucoPose.msg" "DESTINATION" "share/interface_rb10_apple/msg")
+ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/msg/ArucoPose.msg" "DESTINATION" "share/interface_rb10_apple/msg")
+
 # install(FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/srv/RobotConnectControl.srv" "DESTINATION" "share/interface_rb10_apple/srv")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/srv/RobotConnectControl.srv" "DESTINATION" "share/interface_rb10_apple/srv")
 
@@ -387,6 +399,12 @@ ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_
 
 # install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_cmake/srv/RobotConnectControl_Response.msg" "DESTINATION" "share/interface_rb10_apple/srv")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_cmake/srv/RobotConnectControl_Response.msg" "DESTINATION" "share/interface_rb10_apple/srv")
+
+# install(FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotTrackingControl.action" "DESTINATION" "share/interface_rb10_apple/action")
+ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotTrackingControl.action" "DESTINATION" "share/interface_rb10_apple/action")
+
+# install(FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotJointControl.action" "DESTINATION" "share/interface_rb10_apple/action")
+ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotJointControl.action" "DESTINATION" "share/interface_rb10_apple/action")
 
 # install(FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotModeControl.action" "DESTINATION" "share/interface_rb10_apple/action")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/src/interface_rb10_apple/action/RobotModeControl.action" "DESTINATION" "share/interface_rb10_apple/action")

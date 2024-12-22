@@ -77,7 +77,10 @@ rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_suppo
 rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: rosidl_adapter/interface_rb10_apple/msg/RobotJointPosition.idl
 rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: rosidl_adapter/interface_rb10_apple/msg/RobotTcpPose.idl
+rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: rosidl_adapter/interface_rb10_apple/msg/ArucoPose.idl
 rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: rosidl_adapter/interface_rb10_apple/srv/RobotConnectControl.idl
+rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: rosidl_adapter/interface_rb10_apple/action/RobotTrackingControl.idl
+rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: rosidl_adapter/interface_rb10_apple/action/RobotJointControl.idl
 rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: rosidl_adapter/interface_rb10_apple/action/RobotModeControl.idl
 rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: rosidl_adapter/interface_rb10_apple/action/RobotTcpControl.idl
 rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
@@ -93,8 +96,17 @@ rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_suppo
 rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp: rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp
 
+rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp: rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp
+
 rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp: rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp
+
+rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp: rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp
+
+rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp: rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp
 
 rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp: rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp
@@ -130,10 +142,24 @@ CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp.s
 
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o: rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o -MF CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o.d -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o -c /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp
+
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp > CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.i
+
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.s
+
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o: rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o -MF CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o.d -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o -c /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp
 
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.i: cmake_force
@@ -144,10 +170,38 @@ CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.s
 
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o: rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o -MF CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o.d -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o -c /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp
+
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp > CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.i
+
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.s
+
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o: rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o -MF CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o.d -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o -c /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp
+
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp > CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.i
+
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.s
+
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o: rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o -MF CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o.d -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o -c /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp
 
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.i: cmake_force
@@ -161,7 +215,7 @@ CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_c
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o: rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o -MF CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o.d -o CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o -c /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp
 
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.i: cmake_force
@@ -176,7 +230,10 @@ CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_c
 interface_rb10_apple__rosidl_typesupport_cpp_OBJECTS = \
 "CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp.o" \
 "CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp.o" \
+"CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o" \
 "CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o" \
+"CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o" \
+"CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o" \
 "CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o" \
 "CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o"
 
@@ -185,7 +242,10 @@ interface_rb10_apple__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
 
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp.o
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp.o
+libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp.o
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp.o
+libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp.o
+libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp.o
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp.o
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp.o
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/build.make
@@ -197,7 +257,7 @@ libinterface_rb10_apple__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librosid
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: /opt/ros/humble/lib/librcutils.so
 libinterface_rb10_apple__rosidl_typesupport_cpp.so: CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libinterface_rb10_apple__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libinterface_rb10_apple__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,8 +268,11 @@ CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/clean
 
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interface_rb10_apple/action/robot_joint_control__type_support.cpp
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interface_rb10_apple/action/robot_mode_control__type_support.cpp
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tcp_control__type_support.cpp
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interface_rb10_apple/action/robot_tracking_control__type_support.cpp
+CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interface_rb10_apple/msg/aruco_pose__type_support.cpp
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_joint_position__type_support.cpp
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interface_rb10_apple/msg/robot_tcp_pose__type_support.cpp
 CMakeFiles/interface_rb10_apple__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/interface_rb10_apple/srv/robot_connect_control__type_support.cpp

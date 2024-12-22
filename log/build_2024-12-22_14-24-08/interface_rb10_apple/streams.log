@@ -1,0 +1,220 @@
+[0.166s] Invoking command in '/home/orientpine/robot_ws/build/interface_rb10_apple': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble /usr/bin/cmake --build /home/orientpine/robot_ws/build/interface_rb10_apple -- -j12 -l12
+[0.251s] [  1%] Built target interface_rb10_apple__cpp
+[0.254s] [ 12%] Built target interface_rb10_apple__rosidl_generator_c
+[0.266s] [ 12%] Built target ament_cmake_python_symlink_interface_rb10_apple
+[0.293s] [ 24%] Built target interface_rb10_apple__rosidl_typesupport_cpp
+[0.304s] [ 44%] Built target interface_rb10_apple__rosidl_typesupport_introspection_cpp
+[0.305s] [ 46%] Built target interface_rb10_apple__rosidl_typesupport_introspection_c
+[0.306s] [ 58%] Built target interface_rb10_apple__rosidl_typesupport_fastrtps_cpp
+[0.307s] [ 81%] Built target interface_rb10_apple__rosidl_typesupport_fastrtps_c
+[0.308s] [ 81%] Built target interface_rb10_apple__rosidl_typesupport_c
+[0.341s] [ 81%] Built target interface_rb10_apple
+[0.374s] [ 82%] Built target interface_rb10_apple__py
+[0.416s] [ 92%] Built target interface_rb10_apple__rosidl_generator_py
+[0.454s] [ 94%] Built target interface_rb10_apple__rosidl_typesupport_introspection_c__pyext
+[0.456s] [ 97%] Built target interface_rb10_apple__rosidl_typesupport_c__pyext
+[0.457s] [100%] Built target interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext
+[0.644s] running egg_info
+[0.646s] writing interface_rb10_apple.egg-info/PKG-INFO
+[0.646s] writing dependency_links to interface_rb10_apple.egg-info/dependency_links.txt
+[0.646s] writing top-level names to interface_rb10_apple.egg-info/top_level.txt
+[0.650s] reading manifest file 'interface_rb10_apple.egg-info/SOURCES.txt'
+[0.651s] writing manifest file 'interface_rb10_apple.egg-info/SOURCES.txt'
+[0.690s] [100%] Built target ament_cmake_python_build_interface_rb10_apple_egg
+[0.710s] Invoked command in '/home/orientpine/robot_ws/build/interface_rb10_apple' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble /usr/bin/cmake --build /home/orientpine/robot_ws/build/interface_rb10_apple -- -j12 -l12
+[1.038s] Invoking command in '/home/orientpine/robot_ws/build/interface_rb10_apple': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble /usr/bin/cmake --install /home/orientpine/robot_ws/build/interface_rb10_apple
+[1.051s] -- Install configuration: ""
+[1.052s] -- Execute custom install script
+[1.053s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/ament_index/resource_index/rosidl_interfaces/interface_rb10_apple
+[1.055s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__functions.h
+[1.055s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__struct.h
+[1.056s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__type_support.h
+[1.057s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__functions.h
+[1.057s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__struct.h
+[1.057s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__type_support.h
+[1.057s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__functions.h
+[1.058s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__struct.h
+[1.058s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__type_support.h
+[1.058s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__functions.h
+[1.059s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__struct.h
+[1.059s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__type_support.h
+[1.059s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_joint_control.h
+[1.059s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_mode_control.h
+[1.060s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_tcp_control.h
+[1.060s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_tracking_control.h
+[1.060s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__functions.h
+[1.061s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__struct.h
+[1.061s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__type_support.h
+[1.061s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.h
+[1.062s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h
+[1.062s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support.h
+[1.062s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/robot_joint_position.h
+[1.063s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/robot_tcp_pose.h
+[1.063s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/rosidl_generator_c__visibility_control.h
+[1.063s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__functions.h
+[1.064s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__struct.h
+[1.064s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__type_support.h
+[1.064s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/robot_connect_control.h
+[1.065s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/library_path.sh
+[1.065s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/library_path.dsv
+[1.067s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__rosidl_typesupport_fastrtps_c.h
+[1.067s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_fastrtps_c.h
+[1.067s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_fastrtps_c.h
+[1.067s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__rosidl_typesupport_fastrtps_c.h
+[1.068s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_fastrtps_c.h
+[1.068s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_fastrtps_c.h
+[1.069s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.069s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__rosidl_typesupport_fastrtps_c.h
+[1.071s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__builder.hpp
+[1.071s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__struct.hpp
+[1.071s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__traits.hpp
+[1.071s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__builder.hpp
+[1.072s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__struct.hpp
+[1.072s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__traits.hpp
+[1.072s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__builder.hpp
+[1.072s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__struct.hpp
+[1.072s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__traits.hpp
+[1.073s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__builder.hpp
+[1.073s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__struct.hpp
+[1.073s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__traits.hpp
+[1.073s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_joint_control.hpp
+[1.074s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_mode_control.hpp
+[1.074s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_tcp_control.hpp
+[1.074s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/robot_tracking_control.hpp
+[1.074s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__builder.hpp
+[1.074s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__struct.hpp
+[1.075s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__traits.hpp
+[1.075s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__builder.hpp
+[1.075s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.hpp
+[1.075s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__traits.hpp
+[1.075s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/robot_joint_position.hpp
+[1.076s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/robot_tcp_pose.hpp
+[1.076s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__builder.hpp
+[1.076s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__struct.hpp
+[1.076s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__traits.hpp
+[1.077s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/robot_connect_control.hpp
+[1.078s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.078s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.078s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.078s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.079s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.079s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.080s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__rosidl_typesupport_introspection_c.h
+[1.081s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_introspection_c.h
+[1.081s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_introspection_c.h
+[1.081s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__rosidl_typesupport_introspection_c.h
+[1.081s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_introspection_c.h
+[1.082s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_introspection_c.h
+[1.082s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.082s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__rosidl_typesupport_introspection_c.h
+[1.083s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_joint_control__rosidl_typesupport_introspection_cpp.hpp
+[1.083s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_mode_control__rosidl_typesupport_introspection_cpp.hpp
+[1.084s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tcp_control__rosidl_typesupport_introspection_cpp.hpp
+[1.084s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/action/detail/robot_tracking_control__rosidl_typesupport_introspection_cpp.hpp
+[1.084s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[1.084s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.085s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/include/interface_rb10_apple/interface_rb10_apple/srv/detail/robot_connect_control__rosidl_typesupport_introspection_cpp.hpp
+[1.085s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/pythonpath.sh
+[1.085s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/pythonpath.dsv
+[1.086s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple-0.0.0-py3.10.egg-info/PKG-INFO
+[1.086s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.086s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.086s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple-0.0.0-py3.10.egg-info/top_level.txt
+[1.089s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/__init__.py
+[1.089s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_c.c
+[1.089s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.089s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_introspection_c.c
+[1.090s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/__init__.py
+[1.090s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_joint_control.py
+[1.090s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_joint_control_s.c
+[1.090s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_mode_control.py
+[1.090s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_mode_control_s.c
+[1.091s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tcp_control.py
+[1.091s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tcp_control_s.c
+[1.091s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tracking_control.py
+[1.091s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action/_robot_tracking_control_s.c
+[1.092s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.092s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.092s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.092s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/libinterface_rb10_apple__rosidl_generator_py.so
+[1.093s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/__init__.py
+[1.093s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_joint_position.py
+[1.093s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_joint_position_s.c
+[1.093s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_tcp_pose.py
+[1.093s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg/_robot_tcp_pose_s.c
+[1.094s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv/__init__.py
+[1.094s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv/_robot_connect_control.py
+[1.094s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv/_robot_connect_control_s.c
+[1.094s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.095s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.096s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/interface_rb10_apple_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.096s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/msg/RobotJointPosition.idl
+[1.096s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/msg/RobotTcpPose.idl
+[1.097s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/srv/RobotConnectControl.idl
+[1.097s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotTrackingControl.idl
+[1.097s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotJointControl.idl
+[1.097s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotModeControl.idl
+[1.098s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotTcpControl.idl
+[1.098s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/msg/RobotJointPosition.msg
+[1.098s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/msg/RobotTcpPose.msg
+[1.099s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/srv/RobotConnectControl.srv
+[1.099s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/srv/RobotConnectControl_Request.msg
+[1.099s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/srv/RobotConnectControl_Response.msg
+[1.099s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotTrackingControl.action
+[1.100s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotJointControl.action
+[1.100s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotModeControl.action
+[1.100s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/action/RobotTcpControl.action
+[1.100s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/ament_index/resource_index/package_run_dependencies/interface_rb10_apple
+[1.101s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/ament_index/resource_index/parent_prefix_path/interface_rb10_apple
+[1.101s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/ament_prefix_path.sh
+[1.101s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/ament_prefix_path.dsv
+[1.101s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/path.sh
+[1.102s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/environment/path.dsv
+[1.102s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/local_setup.bash
+[1.102s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/local_setup.sh
+[1.103s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/local_setup.zsh
+[1.103s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/local_setup.dsv
+[1.103s] -- Symlinking: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.dsv
+[1.120s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/ament_index/resource_index/packages/interface_rb10_apple
+[1.120s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/rosidl_cmake-extras.cmake
+[1.120s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.121s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.121s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/ament_cmake_export_libraries-extras.cmake
+[1.121s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/ament_cmake_export_targets-extras.cmake
+[1.122s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.122s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.122s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_appleConfig.cmake
+[1.123s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_appleConfig-version.cmake
+[1.123s] -- Up-to-date symlink: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.xml
+[1.124s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_generator_c.so
+[1.125s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_fastrtps_c.so
+[1.125s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_fastrtps_cpp.so
+[1.126s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_introspection_c.so
+[1.127s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_c.so
+[1.128s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_introspection_cpp.so
+[1.129s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_typesupport_cpp.so
+[1.190s] Listing '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple'...
+[1.190s] Listing '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/action'...
+[1.190s] Listing '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/msg'...
+[1.191s] Listing '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple/srv'...
+[1.197s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/lib/libinterface_rb10_apple__rosidl_generator_py.so
+[1.198s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_cExport.cmake
+[1.198s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_cExport-noconfig.cmake
+[1.199s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_typesupport_fastrtps_cExport.cmake
+[1.199s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.199s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_cppExport.cmake
+[1.199s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.199s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.200s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_introspection_cExport.cmake
+[1.200s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.200s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_cExport.cmake
+[1.200s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_cExport-noconfig.cmake
+[1.200s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_introspection_cppExport.cmake
+[1.201s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.201s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_cppExport.cmake
+[1.201s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/interface_rb10_apple__rosidl_typesupport_cppExport-noconfig.cmake
+[1.201s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_pyExport.cmake
+[1.201s] -- Up-to-date: /home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/cmake/export_interface_rb10_apple__rosidl_generator_pyExport-noconfig.cmake
+[1.203s] Invoked command in '/home/orientpine/robot_ws/build/interface_rb10_apple' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble /usr/bin/cmake --install /home/orientpine/robot_ws/build/interface_rb10_apple

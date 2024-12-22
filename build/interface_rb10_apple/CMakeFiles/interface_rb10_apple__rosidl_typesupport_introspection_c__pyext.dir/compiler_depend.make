@@ -250,15 +250,24 @@ CMakeFiles/interface_rb10_apple__rosidl_typesupport_introspection_c__pyext.dir/r
   rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support.h \
   rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h \
   rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.h \
+  rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__type_support.h \
+  rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__struct.h \
+  rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__functions.h \
   rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__type_support.h \
   rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__struct.h \
   rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functions.h \
-  rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h \
-  rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h \
+  rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__type_support.h \
+  rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__functions.h \
+  rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__type_support.h \
+  rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__struct.h \
+  rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__functions.h \
+  rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h \
+  rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h \
   rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.h \
   rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__type_support.h \
   rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h \
@@ -270,6 +279,14 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functio
 rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h:
 
 rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.h:
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__struct.h:
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__functions.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -283,11 +300,17 @@ rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functi
 
 /usr/include/linux/stddef.h:
 
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h:
+
+/usr/include/linux/posix_types.h:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/methodobject.h:
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
@@ -301,6 +324,10 @@ rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functi
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/bytesobject.h:
 
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
 rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
@@ -312,6 +339,8 @@ rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h:
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
@@ -378,6 +407,8 @@ rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h:
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__type_support.h:
 
 /usr/include/stdint.h:
 
@@ -467,6 +498,10 @@ rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__struct.
 
 rosidl_generator_py/interface_rb10_apple/_interface_rb10_apple_s.ep.rosidl_typesupport_introspection_c.c:
 
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+
+/home/orientpine/miniconda3/envs/rb/include/python3.10/Python.h:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -530,10 +565,6 @@ rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__type_s
 /usr/include/linux/types.h:
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/cellobject.h:
-
-/usr/include/x86_64-linux-gnu/sys/time.h:
-
-rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -599,8 +630,6 @@ rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__type_su
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/warnings.h:
 
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/cpython/pydebug.h:
@@ -641,9 +670,11 @@ rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__type_su
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/unicodeobject.h:
 
-/usr/include/ctype.h:
+rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__functions.h:
 
 /usr/include/wchar.h:
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__type_support.h:
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/enumobject.h:
 
@@ -666,10 +697,6 @@ rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__type_su
 /home/orientpine/miniconda3/envs/rb/include/python3.10/listobject.h:
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/dictobject.h:
-
-/home/orientpine/miniconda3/envs/rb/include/python3.10/Python.h:
-
-/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -731,6 +758,8 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__type_su
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/structseq.h:
 
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__struct.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /home/orientpine/miniconda3/envs/rb/include/python3.10/pythread.h:
@@ -781,8 +810,6 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__type_su
 
 rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__type_support.h:
 
-/usr/include/linux/posix_types.h:
+/usr/include/ctype.h:
 
-rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__type_support.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__type_support.h:

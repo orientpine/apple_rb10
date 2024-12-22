@@ -1,7 +1,13 @@
+action/RobotJointControl.action
+action/RobotJointControl.idl
 action/RobotModeControl.action
 action/RobotModeControl.idl
 action/RobotTcpControl.action
 action/RobotTcpControl.idl
+action/RobotTrackingControl.action
+action/RobotTrackingControl.idl
+msg/ArucoPose.idl
+msg/ArucoPose.msg
 msg/RobotJointPosition.idl
 msg/RobotJointPosition.msg
 msg/RobotTcpPose.idl

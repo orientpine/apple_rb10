@@ -1,0 +1,14 @@
+# Goal
+# 작업 시작을 요청할 때 필요한 데이터
+string command  # "start_tracking" 명령어
+
+---
+# Feedback
+# 작업 진행 상황을 클라이언트에 전달
+string feedback  # 예: "Visual servoing in progress."
+
+---
+# Result
+# 작업 완료 또는 실패 시 결과 반환
+bool success     # 작업 성공 여부
+string message   # 성공 또는 실패 메시지
