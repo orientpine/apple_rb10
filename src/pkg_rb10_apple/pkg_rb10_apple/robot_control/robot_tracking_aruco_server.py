@@ -57,13 +57,13 @@ class ArucoTrackingServer(Node):
             self.get_logger().info("Waiting for robot to become IDLE...")
             rclpy.spin_once(self, timeout_sec=1.0)  # 1초 대기 후 다시 상태 확인
 
-        feedback_msg = ArucoTracking.Feedback()
+        feedback_msg = RobotTrackingControl.Feedback()
         feedback_msg.feedback = "Visual servoing in progress."
         goal_handle.publish_feedback(feedback_msg)
 
         success = self.perform_visual_servoing()
 
-        result = ArucoTracking.Result()
+        result = RobotTrackingControl.Result()
         if success:
             result.success = True
             result.message = "Aruco marker successfully tracked."

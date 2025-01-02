@@ -71,6 +71,7 @@ class RobotJointControlServer(Node):
     def observe_cobot_status(self):
         status = GetCurrentCobotStatus()
         self.get_logger().info(f"Current COBOT_STATUS: {status}")
+        return status
 
 
 def main(args=None):
