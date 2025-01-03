@@ -660,6 +660,21 @@ get_service_type_support_handle<interface_rb10_apple::action::RobotJointControl_
 
 }  // namespace rosidl_typesupport_cpp
 
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_cpp, interface_rb10_apple, action, RobotJointControl_SendGoal)() {
+  return ::rosidl_typesupport_cpp::get_service_type_support_handle<interface_rb10_apple::action::RobotJointControl_SendGoal>();
+}
+
+#ifdef __cplusplus
+}
+#endif
+
 // already included above
 // #include "cstddef"
 // already included above
@@ -988,6 +1003,21 @@ get_service_type_support_handle<interface_rb10_apple::action::RobotJointControl_
 
 }  // namespace rosidl_typesupport_cpp
 
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_cpp, interface_rb10_apple, action, RobotJointControl_GetResult)() {
+  return ::rosidl_typesupport_cpp::get_service_type_support_handle<interface_rb10_apple::action::RobotJointControl_GetResult>();
+}
+
+#ifdef __cplusplus
+}
+#endif
+
 // already included above
 // #include "cstddef"
 // already included above
@@ -1152,3 +1182,18 @@ get_action_type_support_handle<interface_rb10_apple::action::RobotJointControl>(
 }
 
 }  // namespace rosidl_typesupport_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_action_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__ACTION_SYMBOL_NAME(rosidl_typesupport_cpp, interface_rb10_apple, action, RobotJointControl)() {
+  return ::rosidl_typesupport_cpp::get_action_type_support_handle<interface_rb10_apple::action::RobotJointControl>();
+}
+
+#ifdef __cplusplus
+}
+#endif

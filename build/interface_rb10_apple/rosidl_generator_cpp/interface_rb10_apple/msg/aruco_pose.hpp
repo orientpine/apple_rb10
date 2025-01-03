@@ -7,5 +7,6 @@
 #include "interface_rb10_apple/msg/detail/aruco_pose__struct.hpp"
 #include "interface_rb10_apple/msg/detail/aruco_pose__builder.hpp"
 #include "interface_rb10_apple/msg/detail/aruco_pose__traits.hpp"
+#include "interface_rb10_apple/msg/detail/aruco_pose__type_support.hpp"
 
 #endif  // INTERFACE_RB10_APPLE__MSG__ARUCO_POSE_HPP_

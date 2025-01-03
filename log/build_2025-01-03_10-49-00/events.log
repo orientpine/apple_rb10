@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000970] (interface_rb10_apple) JobQueued: {'identifier': 'interface_rb10_apple', 'dependencies': OrderedDict()}
+[0.001027] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict()}
+[0.001062] (ros2_aruco_interfaces) JobQueued: {'identifier': 'ros2_aruco_interfaces', 'dependencies': OrderedDict()}
+[0.001091] (pkg_rb10_apple) JobQueued: {'identifier': 'pkg_rb10_apple', 'dependencies': OrderedDict([('interface_rb10_apple', '/home/orientpine/robot_ws/install/interface_rb10_apple')])}
+[0.001124] (interface_rb10_apple) JobStarted: {'identifier': 'interface_rb10_apple'}
+[0.010074] (ros2_aruco) JobStarted: {'identifier': 'ros2_aruco'}
+[0.017984] (ros2_aruco_interfaces) JobStarted: {'identifier': 'ros2_aruco_interfaces'}
+[0.026332] (interface_rb10_apple) JobProgress: {'identifier': 'interface_rb10_apple', 'progress': 'cmake'}
+[0.027115] (interface_rb10_apple) Command: {'cmd': ['/usr/bin/cmake', '/home/orientpine/robot_ws/src/interface_rb10_apple', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/orientpine/robot_ws/install/interface_rb10_apple'], 'cwd': '/home/orientpine/robot_ws/build/interface_rb10_apple', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '0'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('PYTHONIOENCODING', 'utf-8'), ('LANGUAGE', 'en'), ('USER', 'orientpine'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/orientpine'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/orientpine/robot_ws'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('PYTHONUNBUFFERED', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[48;5;0m\\] 🐧 orientpine 10:48:53 AM 01/03/25 \\[\\e[0m\\]\\[\x1b[38;5;0;48;5;88m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;88m\\] \ue0a0 master U:973 ?:2 \\[\\e[0m\\]\\[\x1b[38;5;88;48;5;30m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;30m\\] 🏠/robot_ws \\[\\e[0m\\]\\[\x1b[38;5;30;48;5;42m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;42m\\] ✅ \\[\\e[0m\\]\\[\x1b[38;5;42m\\]\ue0b0\\[\\e[0m\\] \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1794'), ('SYSTEMD_EXEC_PID', '2261'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '86534'), ('_colcon_cd_root', '/home/orientpine/robot_ws'), ('COLCON_PREFIX_PATH', '/home/orientpine/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orientpine'), ('CONDA_ROOT', '/home/orientpine/miniconda3'), ('OSH', '/home/orientpine/.oh-my-bash'), ('JOURNAL_STREAM', '8:17128'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orientpine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orientpine/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orientpine/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/orientpine-850XAC:@/tmp/.ICE-unix/2230,unix/orientpine-850XAC:/tmp/.ICE-unix/2230'), ('INVOCATION_ID', '9564846e36fc4171b5ad009e5834fed6'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-232b613f6e.sock'), ('CONDA_PREFIX_2', '/home/orientpine/miniconda3/envs/rb'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/orientpine/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/orientpine/robot_ws/build/interface_rb10_apple'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/orientpine/miniconda3/bin/conda'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099991] (-) TimerEvent: {}
+[0.200331] (-) TimerEvent: {}
+[0.300672] (-) TimerEvent: {}
+[0.401011] (-) TimerEvent: {}
+[0.487415] (interface_rb10_apple) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.488342] (interface_rb10_apple) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.488640] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.490030] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.490368] (interface_rb10_apple) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.490808] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.491034] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.491223] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.491675] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.492053] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'cmake'}
+[0.492110] (interface_rb10_apple) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.492426] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.492818] (interface_rb10_apple) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.493312] (ros2_aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/orientpine/robot_ws/install/ros2_aruco_interfaces'], 'cwd': '/home/orientpine/robot_ws/build/ros2_aruco_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '0'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('PYTHONIOENCODING', 'utf-8'), ('LANGUAGE', 'en'), ('USER', 'orientpine'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/orientpine'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/orientpine/robot_ws'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('PYTHONUNBUFFERED', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[48;5;0m\\] 🐧 orientpine 10:48:53 AM 01/03/25 \\[\\e[0m\\]\\[\x1b[38;5;0;48;5;88m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;88m\\] \ue0a0 master U:973 ?:2 \\[\\e[0m\\]\\[\x1b[38;5;88;48;5;30m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;30m\\] 🏠/robot_ws \\[\\e[0m\\]\\[\x1b[38;5;30;48;5;42m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;42m\\] ✅ \\[\\e[0m\\]\\[\x1b[38;5;42m\\]\ue0b0\\[\\e[0m\\] \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1794'), ('SYSTEMD_EXEC_PID', '2261'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '86534'), ('_colcon_cd_root', '/home/orientpine/robot_ws'), ('COLCON_PREFIX_PATH', '/home/orientpine/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'orientpine'), ('CONDA_ROOT', '/home/orientpine/miniconda3'), ('OSH', '/home/orientpine/.oh-my-bash'), ('JOURNAL_STREAM', '8:17128'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orientpine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/orientpine/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orientpine/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/orientpine-850XAC:@/tmp/.ICE-unix/2230,unix/orientpine-850XAC:/tmp/.ICE-unix/2230'), ('INVOCATION_ID', '9564846e36fc4171b5ad009e5834fed6'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-232b613f6e.sock'), ('CONDA_PREFIX_2', '/home/orientpine/miniconda3/envs/rb'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/orientpine/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/orientpine/robot_ws/build/ros2_aruco_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/orientpine/miniconda3/bin/conda'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.498246] (interface_rb10_apple) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501441] (-) TimerEvent: {}
+[0.588193] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601561] (-) TimerEvent: {}
+[0.690153] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.701671] (-) TimerEvent: {}
+[0.707149] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801806] (-) TimerEvent: {}
+[0.816524] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.834899] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.835281] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.835903] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.841885] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901925] (-) TimerEvent: {}
+[0.970807] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.983978] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.984419] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.985176] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.988565] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002040] (-) TimerEvent: {}
+[1.036493] (interface_rb10_apple) StdoutLine: {'line': b'-- Found Python3: /home/orientpine/miniconda3/bin/python3 (found version "3.11.5") found components: Interpreter \n'}
+[1.102262] (-) TimerEvent: {}
+[1.104430] (ros2_aruco) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/orientpine/robot_ws/build/ros2_aruco/build', '--no-deps', 'symlink_data'], 'cwd': '/home/orientpine/robot_ws/build/ros2_aruco', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '0', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HISTFILESIZE': '', 'PYTHONIOENCODING': 'utf-8', 'LANGUAGE': 'en', 'USER': 'orientpine', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_NAMESPACE': 'robot1', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'LESS': '-R', 'HOME': '/home/orientpine', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/orientpine/robot_ws', 'TERM_PROGRAM_VERSION': '1.96.2', 'DESKTOP_SESSION': 'ubuntu', 'LSCOLORS': 'Gxfxcxdxdxegedabagacad', 'PYTHONUNBUFFERED': '1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\x1b[48;5;0m\\] 🐧 orientpine 10:48:53 AM 01/03/25 \\[\\e[0m\\]\\[\x1b[38;5;0;48;5;88m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;88m\\] \ue0a0 master U:973 ?:2 \\[\\e[0m\\]\\[\x1b[38;5;88;48;5;30m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;30m\\] 🏠/robot_ws \\[\\e[0m\\]\\[\x1b[38;5;30;48;5;42m\\]\ue0b0\\[\\e[0m\\]\\[\x1b[48;5;42m\\] ✅ \\[\\e[0m\\]\\[\x1b[38;5;42m\\]\ue0b0\\[\\e[0m\\] \\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1794', 'SYSTEMD_EXEC_PID': '2261', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '86534', '_colcon_cd_root': '/home/orientpine/robot_ws', 'COLCON_PREFIX_PATH': '/home/orientpine/robot_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'orientpine', 'CONDA_ROOT': '/home/orientpine/miniconda3', 'OSH': '/home/orientpine/.oh-my-bash', 'JOURNAL_STREAM': '8:17128', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orientpine', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/orientpine/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orientpine/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/orientpine-850XAC:@/tmp/.ICE-unix/2230,unix/orientpine-850XAC:/tmp/.ICE-unix/2230', 'INVOCATION_ID': '9564846e36fc4171b5ad009e5834fed6', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'HISTSIZE': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-232b613f6e.sock', 'CONDA_PREFIX_2': '/home/orientpine/miniconda3/envs/rb', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/orientpine/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/orientpine/robot_ws/build/ros2_aruco', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/orientpine/miniconda3/bin/conda', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orientpine/robot_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.150985] (interface_rb10_apple) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.186374] (interface_rb10_apple) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.202382] (-) TimerEvent: {}
+[1.236453] (interface_rb10_apple) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.244132] (interface_rb10_apple) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.257139] (interface_rb10_apple) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.276460] (interface_rb10_apple) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301659] (interface_rb10_apple) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302462] (-) TimerEvent: {}
+[1.329526] (interface_rb10_apple) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.402589] (-) TimerEvent: {}
+[1.502972] (-) TimerEvent: {}
+[1.515519] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/orientpine/miniconda3/bin/python3 (found version "3.11.5") found components: Interpreter \n'}
+[1.516486] (interface_rb10_apple) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.516741] (interface_rb10_apple) StderrLine: {'line': b'  execute_process(/home/orientpine/miniconda3/bin/python3 -m rosidl_adapter\n'}
+[1.516922] (interface_rb10_apple) StderrLine: {'line': b'  --package-name interface_rb10_apple --arguments-file\n'}
+[1.517150] (interface_rb10_apple) StderrLine: {'line': b'  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter__arguments__interface_rb10_apple.json\n'}
+[1.517337] (interface_rb10_apple) StderrLine: {'line': b'  --output-dir\n'}
+[1.517517] (interface_rb10_apple) StderrLine: {'line': b'  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple\n'}
+[1.517682] (interface_rb10_apple) StderrLine: {'line': b'  --output-file\n'}
+[1.517841] (interface_rb10_apple) StderrLine: {'line': b'  /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple.idls)\n'}
+[1.518001] (interface_rb10_apple) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.518162] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.518340] (interface_rb10_apple) StderrLine: {'line': b"  AttributeError processing template 'msg.idl.em'\n"}
+[1.518517] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.518679] (interface_rb10_apple) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.518841] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.518997] (interface_rb10_apple) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template\n'}
+[1.519154] (interface_rb10_apple) StderrLine: {'line': b'      em.BUFFERED_OPT: True,\n'}
+[1.519323] (interface_rb10_apple) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^\n'}
+[1.519495] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.519654] (interface_rb10_apple) StderrLine: {'line': b"  AttributeError: module 'em' has no attribute 'BUFFERED_OPT'\n"}
+[1.519813] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.519974] (interface_rb10_apple) StderrLine: {'line': b'  \n'}
+[1.520129] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.520283] (interface_rb10_apple) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[1.520466] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.520631] (interface_rb10_apple) StderrLine: {'line': b'  \n'}
+[1.520792] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.520953] (interface_rb10_apple) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.521112] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.521271] (interface_rb10_apple) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[1.521454] (interface_rb10_apple) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[1.521616] (interface_rb10_apple) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.521794] (interface_rb10_apple) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.521949] (interface_rb10_apple) StderrLine: {'line': b'               ^^^^^^\n'}
+[1.522103] (interface_rb10_apple) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.522263] (interface_rb10_apple) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.522443] (interface_rb10_apple) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[1.522605] (interface_rb10_apple) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.522761] (interface_rb10_apple) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.522917] (interface_rb10_apple) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[1.523068] (interface_rb10_apple) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl\n'}
+[1.523225] (interface_rb10_apple) StderrLine: {'line': b"      expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')\n"}
+[1.523421] (interface_rb10_apple) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template\n'}
+[1.523588] (interface_rb10_apple) StderrLine: {'line': b'      content = evaluate_template(template_name, data)\n'}
+[1.523747] (interface_rb10_apple) StderrLine: {'line': b'                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.523904] (interface_rb10_apple) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template\n'}
+[1.524068] (interface_rb10_apple) StderrLine: {'line': b'      _interpreter.shutdown()\n'}
+[1.524235] (interface_rb10_apple) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.524417] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.524574] (interface_rb10_apple) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'shutdown'\n"}
+[1.524731] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.524887] (interface_rb10_apple) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.525044] (interface_rb10_apple) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.525211] (interface_rb10_apple) StderrLine: {'line': b'  CMakeLists.txt:35 (rosidl_generate_interfaces)\n'}
+[1.525493] (interface_rb10_apple) StderrLine: {'line': b'\n'}
+[1.525843] (interface_rb10_apple) StderrLine: {'line': b'\x1b[0m\n'}
+[1.526027] (interface_rb10_apple) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.526546] (interface_rb10_apple) StdoutLine: {'line': b'See also "/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles/CMakeOutput.log".\n'}
+[1.527191] (interface_rb10_apple) CommandEnded: {'returncode': 1}
+[1.557076] (interface_rb10_apple) JobEnded: {'identifier': 'interface_rb10_apple', 'rc': 1}
+[1.573597] (ros2_aruco) StdoutLine: {'line': b'running develop\n'}
+[1.603084] (-) TimerEvent: {}
+[1.620407] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.656399] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.703193] (-) TimerEvent: {}
+[1.710460] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.718095] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.732236] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.751397] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.776888] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.803316] (-) TimerEvent: {}
+[1.845538] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.861456] (ros2_aruco) StdoutLine: {'line': b'running egg_info\n'}
+[1.861708] (ros2_aruco) StdoutLine: {'line': b'creating ros2_aruco.egg-info\n'}
+[1.861955] (ros2_aruco) StdoutLine: {'line': b'writing ros2_aruco.egg-info/PKG-INFO\n'}
+[1.862264] (ros2_aruco) StdoutLine: {'line': b'writing dependency_links to ros2_aruco.egg-info/dependency_links.txt\n'}
+[1.862582] (ros2_aruco) StdoutLine: {'line': b'writing entry points to ros2_aruco.egg-info/entry_points.txt\n'}
+[1.862858] (ros2_aruco) StdoutLine: {'line': b'writing requirements to ros2_aruco.egg-info/requires.txt\n'}
+[1.863103] (ros2_aruco) StdoutLine: {'line': b'writing top-level names to ros2_aruco.egg-info/top_level.txt\n'}
+[1.863406] (ros2_aruco) StdoutLine: {'line': b"writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'\n"}
+[1.866087] (ros2_aruco) StdoutLine: {'line': b"reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'\n"}
+[1.867184] (ros2_aruco) StdoutLine: {'line': b"writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'\n"}
+[1.869116] (ros2_aruco) StdoutLine: {'line': b'running build_ext\n'}
+[1.869546] (ros2_aruco) StdoutLine: {'line': b'Creating /home/orientpine/robot_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2-aruco.egg-link (link to .)\n'}
+[1.870723] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_generate_marker script to /home/orientpine/robot_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[1.871086] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_node script to /home/orientpine/robot_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[1.871371] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_node_rs script to /home/orientpine/robot_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[1.871676] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[1.871986] (ros2_aruco) StdoutLine: {'line': b'Installed /home/orientpine/robot_ws/build/ros2_aruco\n'}
+[1.872253] (ros2_aruco) StdoutLine: {'line': b'running symlink_data\n'}
+[1.872531] (ros2_aruco) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/ros2_aruco/share/ament_index\n'}
+[1.872743] (ros2_aruco) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/ros2_aruco/share/ament_index/resource_index\n'}
+[1.872952] (ros2_aruco) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/ros2_aruco/share/ament_index/resource_index/packages\n'}
+[1.873263] (ros2_aruco) StdoutLine: {'line': b'symbolically linking /home/orientpine/robot_ws/build/ros2_aruco/resource/ros2_aruco -> /home/orientpine/robot_ws/install/ros2_aruco/share/ament_index/resource_index/packages\n'}
+[1.873522] (ros2_aruco) StdoutLine: {'line': b'symbolically linking /home/orientpine/robot_ws/build/ros2_aruco/package.xml -> /home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco\n'}
+[1.873737] (ros2_aruco) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/launch\n'}
+[1.873898] (ros2_aruco) StdoutLine: {'line': b'symbolically linking /home/orientpine/robot_ws/build/ros2_aruco/launch/aruco_recognition_rs.launch.py -> /home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/launch\n'}
+[1.874055] (ros2_aruco) StdoutLine: {'line': b'symbolically linking /home/orientpine/robot_ws/build/ros2_aruco/launch/aruco_recognition.launch.py -> /home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/launch\n'}
+[1.874208] (ros2_aruco) StdoutLine: {'line': b'creating /home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/config\n'}
+[1.874385] (ros2_aruco) StdoutLine: {'line': b'symbolically linking /home/orientpine/robot_ws/build/ros2_aruco/config/aruco_parameters_rs.yaml -> /home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/config\n'}
+[1.874559] (ros2_aruco) StdoutLine: {'line': b'symbolically linking /home/orientpine/robot_ws/build/ros2_aruco/config/aruco_parameters.yaml -> /home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/config\n'}
+[1.903413] (-) TimerEvent: {}
+[1.913268] (ros2_aruco) JobEnded: {'identifier': 'ros2_aruco', 'rc': 'SIGINT'}
+[2.003560] (-) TimerEvent: {}
+[2.033178] (ros2_aruco_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[2.033433] (ros2_aruco_interfaces) StderrLine: {'line': b'  execute_process(/home/orientpine/miniconda3/bin/python3 -m rosidl_adapter\n'}
+[2.033687] (ros2_aruco_interfaces) StderrLine: {'line': b'  --package-name ros2_aruco_interfaces --arguments-file\n'}
+[2.033804] (ros2_aruco_interfaces) StderrLine: {'line': b'  /home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_adapter__arguments__ros2_aruco_interfaces.json\n'}
+[2.033900] (ros2_aruco_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[2.033990] (ros2_aruco_interfaces) StderrLine: {'line': b'  /home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces\n'}
+[2.034079] (ros2_aruco_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[2.034163] (ros2_aruco_interfaces) StderrLine: {'line': b'  /home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces.idls)\n'}
+[2.034247] (ros2_aruco_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.034358] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.034451] (ros2_aruco_interfaces) StderrLine: {'line': b"  AttributeError processing template 'msg.idl.em'\n"}
+[2.034537] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.034620] (ros2_aruco_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.034703] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.034785] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template\n'}
+[2.034870] (ros2_aruco_interfaces) StderrLine: {'line': b'      em.BUFFERED_OPT: True,\n'}
+[2.034952] (ros2_aruco_interfaces) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^\n'}
+[2.035034] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.035115] (ros2_aruco_interfaces) StderrLine: {'line': b"  AttributeError: module 'em' has no attribute 'BUFFERED_OPT'\n"}
+[2.035198] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.035279] (ros2_aruco_interfaces) StderrLine: {'line': b'  \n'}
+[2.035383] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.035469] (ros2_aruco_interfaces) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[2.035554] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.035635] (ros2_aruco_interfaces) StderrLine: {'line': b'  \n'}
+[2.035717] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.035799] (ros2_aruco_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.035882] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.035963] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[2.036047] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[2.036129] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.036212] (ros2_aruco_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.036305] (ros2_aruco_interfaces) StderrLine: {'line': b'               ^^^^^^\n'}
+[2.036399] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.036483] (ros2_aruco_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.036577] (ros2_aruco_interfaces) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[2.036659] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[2.036743] (ros2_aruco_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[2.036825] (ros2_aruco_interfaces) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[2.036906] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl\n'}
+[2.036996] (ros2_aruco_interfaces) StderrLine: {'line': b"      expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')\n"}
+[2.037081] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template\n'}
+[2.037165] (ros2_aruco_interfaces) StderrLine: {'line': b'      content = evaluate_template(template_name, data)\n'}
+[2.037247] (ros2_aruco_interfaces) StderrLine: {'line': b'                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.037349] (ros2_aruco_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template\n'}
+[2.037441] (ros2_aruco_interfaces) StderrLine: {'line': b'      _interpreter.shutdown()\n'}
+[2.037525] (ros2_aruco_interfaces) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.037608] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.037691] (ros2_aruco_interfaces) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'shutdown'\n"}
+[2.037776] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.037859] (ros2_aruco_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.037940] (ros2_aruco_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.038024] (ros2_aruco_interfaces) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_generate_interfaces)\n'}
+[2.038106] (ros2_aruco_interfaces) StderrLine: {'line': b'\n'}
+[2.038188] (ros2_aruco_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.038272] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.038404] (ros2_aruco_interfaces) StdoutLine: {'line': b'See also "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.044916] (ros2_aruco_interfaces) JobEnded: {'identifier': 'ros2_aruco_interfaces', 'rc': 'SIGINT'}
+[2.055631] (pkg_rb10_apple) JobSkipped: {'identifier': 'pkg_rb10_apple'}
+[2.055705] (-) EventReactorShutdown: {}

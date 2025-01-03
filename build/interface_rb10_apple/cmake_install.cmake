@@ -210,8 +210,8 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/home/orientpine/miniconda3/envs/rb/bin/python3.10" "-m" "compileall"
-        "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages/interface_rb10_apple"
+        "/home/orientpine/miniconda3/bin/python3" "-m" "compileall"
+        "/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.11/site-packages/interface_rb10_apple"
       )
 endif()
 
@@ -227,7 +227,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterface_rb10_apple__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterface_rb10_apple__rosidl_generator_py.so"
-         OLD_RPATH "/home/orientpine/miniconda3/envs/rb/lib:/home/orientpine/robot_ws/build/interface_rb10_apple:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/orientpine/miniconda3/lib:/home/orientpine/robot_ws/build/interface_rb10_apple:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterface_rb10_apple__rosidl_generator_py.so")

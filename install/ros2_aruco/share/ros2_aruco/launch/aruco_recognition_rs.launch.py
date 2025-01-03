@@ -1,0 +1,1 @@
+/home/orientpine/robot_ws/build/ros2_aruco/launch/aruco_recognition_rs.launch.py

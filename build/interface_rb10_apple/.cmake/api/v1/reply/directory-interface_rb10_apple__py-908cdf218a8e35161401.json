@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interface_rb10_apple__py",
+		"source" : "/home/orientpine/robot_ws/build/interface_rb10_apple/interface_rb10_apple__py"
+	}
+}

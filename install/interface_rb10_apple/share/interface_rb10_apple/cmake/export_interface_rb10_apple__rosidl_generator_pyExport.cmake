@@ -54,8 +54,8 @@ endif()
 add_library(interface_rb10_apple::interface_rb10_apple__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(interface_rb10_apple::interface_rb10_apple__rosidl_generator_py PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/orientpine/miniconda3/envs/rb/lib/python3.10/site-packages/numpy/core/include"
-  INTERFACE_LINK_LIBRARIES "interface_rb10_apple::interface_rb10_apple__rosidl_generator_c;/home/orientpine/miniconda3/envs/rb/lib/libpython3.10.so;interface_rb10_apple::interface_rb10_apple__rosidl_typesupport_c;builtin_interfaces::builtin_interfaces__rosidl_generator_py;action_msgs::action_msgs__rosidl_generator_py;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include"
+  INTERFACE_LINK_LIBRARIES "interface_rb10_apple::interface_rb10_apple__rosidl_generator_c;/home/orientpine/miniconda3/lib/libpython3.11.so;interface_rb10_apple::interface_rb10_apple__rosidl_typesupport_c;builtin_interfaces::builtin_interfaces__rosidl_generator_py;action_msgs::action_msgs__rosidl_generator_py;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

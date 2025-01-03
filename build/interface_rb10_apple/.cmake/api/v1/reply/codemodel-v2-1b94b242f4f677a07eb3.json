@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-67549f23f28f33610631.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "interface_rb10_apple__py",
+					"jsonFile" : "directory-interface_rb10_apple__py-908cdf218a8e35161401.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/orientpine/robot_ws/build/interface_rb10_apple/interface_rb10_apple__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "interface_rb10_apple",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_interface_rb10_apple_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_interface_rb10_apple_egg-88e94a1e6775a87b5436.json",
+					"name" : "ament_cmake_python_build_interface_rb10_apple_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_interface_rb10_apple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_interface_rb10_apple-18c2ada465cea3f30583.json",
+					"name" : "ament_cmake_python_symlink_interface_rb10_apple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple-765c29cade96f20f9887.json",
+					"name" : "interface_rb10_apple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__cpp-7661cdd6753f53d1ae7a.json",
+					"name" : "interface_rb10_apple__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "interface_rb10_apple__py::@ac3f7d223785043e47a8",
+					"jsonFile" : "target-interface_rb10_apple__py-4c570b6e7c88fb15921d.json",
+					"name" : "interface_rb10_apple__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_generator_c-3111b4bc4fcf995f34f7.json",
+					"name" : "interface_rb10_apple__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_generator_py-cb53332e9f77ed0ce94a.json",
+					"name" : "interface_rb10_apple__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_c-c2382fc4d16c3e77a5a2.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_c__pyext-c47f72af117d39d9fa23.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_cpp-1321604694d204351d16.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_fastrtps_c-2a8a719a68e48353e75b.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext-6cb1c006d3ef090bb9f6.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_fastrtps_cpp-81a2206d670ecfb85cd3.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_introspection_c-403620856451457bd948.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_introspection_c__pyext-4936ec86a4e3d2dc1dd9.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple__rosidl_typesupport_introspection_cpp-b6260a5537ee6640e2fe.json",
+					"name" : "interface_rb10_apple__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_rb10_apple_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_rb10_apple_uninstall-bb5c54bbb987bcb0eaad.json",
+					"name" : "interface_rb10_apple_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cf4ece9c63b45ea298d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orientpine/robot_ws/build/interface_rb10_apple",
+		"source" : "/home/orientpine/robot_ws/src/interface_rb10_apple"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

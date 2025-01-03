@@ -7,5 +7,6 @@
 #include "interface_rb10_apple/msg/detail/robot_joint_position__struct.hpp"
 #include "interface_rb10_apple/msg/detail/robot_joint_position__builder.hpp"
 #include "interface_rb10_apple/msg/detail/robot_joint_position__traits.hpp"
+#include "interface_rb10_apple/msg/detail/robot_joint_position__type_support.hpp"
 
 #endif  // INTERFACE_RB10_APPLE__MSG__ROBOT_JOINT_POSITION_HPP_
