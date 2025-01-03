@@ -210,8 +210,8 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/home/orientpine/miniconda3/bin/python3" "-m" "compileall"
-        "/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib/python3.11/site-packages/ros2_aruco_interfaces"
+        "/usr/bin/python3" "-m" "compileall"
+        "/home/orientpine/robot_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces"
       )
 endif()
 
@@ -227,7 +227,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libros2_aruco_interfaces__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libros2_aruco_interfaces__rosidl_generator_py.so"
-         OLD_RPATH "/home/orientpine/miniconda3/lib:/home/orientpine/robot_ws/build/ros2_aruco_interfaces:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/orientpine/robot_ws/build/ros2_aruco_interfaces:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libros2_aruco_interfaces__rosidl_generator_py.so")

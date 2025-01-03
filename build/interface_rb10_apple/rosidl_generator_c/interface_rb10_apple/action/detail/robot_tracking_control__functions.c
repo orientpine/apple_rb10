@@ -252,7 +252,7 @@ interface_rb10_apple__action__RobotTrackingControl_Goal__Sequence__copy(
 
 
 // Include directives for member types
-// Member `feedback`
+// Member `message`
 // already included above
 // #include "rosidl_runtime_c/string_functions.h"
 
@@ -262,8 +262,9 @@ interface_rb10_apple__action__RobotTrackingControl_Result__init(interface_rb10_a
   if (!msg) {
     return false;
   }
-  // feedback
-  if (!rosidl_runtime_c__String__init(&msg->feedback)) {
+  // success
+  // message
+  if (!rosidl_runtime_c__String__init(&msg->message)) {
     interface_rb10_apple__action__RobotTrackingControl_Result__fini(msg);
     return false;
   }
@@ -276,8 +277,9 @@ interface_rb10_apple__action__RobotTrackingControl_Result__fini(interface_rb10_a
   if (!msg) {
     return;
   }
-  // feedback
-  rosidl_runtime_c__String__fini(&msg->feedback);
+  // success
+  // message
+  rosidl_runtime_c__String__fini(&msg->message);
 }
 
 bool
@@ -286,9 +288,13 @@ interface_rb10_apple__action__RobotTrackingControl_Result__are_equal(const inter
   if (!lhs || !rhs) {
     return false;
   }
-  // feedback
+  // success
+  if (lhs->success != rhs->success) {
+    return false;
+  }
+  // message
   if (!rosidl_runtime_c__String__are_equal(
-      &(lhs->feedback), &(rhs->feedback)))
+      &(lhs->message), &(rhs->message)))
   {
     return false;
   }
@@ -303,9 +309,11 @@ interface_rb10_apple__action__RobotTrackingControl_Result__copy(
   if (!input || !output) {
     return false;
   }
-  // feedback
+  // success
+  output->success = input->success;
+  // message
   if (!rosidl_runtime_c__String__copy(
-      &(input->feedback), &(output->feedback)))
+      &(input->message), &(output->message)))
   {
     return false;
   }
@@ -493,7 +501,7 @@ interface_rb10_apple__action__RobotTrackingControl_Result__Sequence__copy(
 
 
 // Include directives for member types
-// Member `message`
+// Member `feedback`
 // already included above
 // #include "rosidl_runtime_c/string_functions.h"
 
@@ -503,9 +511,8 @@ interface_rb10_apple__action__RobotTrackingControl_Feedback__init(interface_rb10
   if (!msg) {
     return false;
   }
-  // success
-  // message
-  if (!rosidl_runtime_c__String__init(&msg->message)) {
+  // feedback
+  if (!rosidl_runtime_c__String__init(&msg->feedback)) {
     interface_rb10_apple__action__RobotTrackingControl_Feedback__fini(msg);
     return false;
   }
@@ -518,9 +525,8 @@ interface_rb10_apple__action__RobotTrackingControl_Feedback__fini(interface_rb10
   if (!msg) {
     return;
   }
-  // success
-  // message
-  rosidl_runtime_c__String__fini(&msg->message);
+  // feedback
+  rosidl_runtime_c__String__fini(&msg->feedback);
 }
 
 bool
@@ -529,13 +535,9 @@ interface_rb10_apple__action__RobotTrackingControl_Feedback__are_equal(const int
   if (!lhs || !rhs) {
     return false;
   }
-  // success
-  if (lhs->success != rhs->success) {
-    return false;
-  }
-  // message
+  // feedback
   if (!rosidl_runtime_c__String__are_equal(
-      &(lhs->message), &(rhs->message)))
+      &(lhs->feedback), &(rhs->feedback)))
   {
     return false;
   }
@@ -550,11 +552,9 @@ interface_rb10_apple__action__RobotTrackingControl_Feedback__copy(
   if (!input || !output) {
     return false;
   }
-  // success
-  output->success = input->success;
-  // message
+  // feedback
   if (!rosidl_runtime_c__String__copy(
-      &(input->message), &(output->message)))
+      &(input->feedback), &(output->feedback)))
   {
     return false;
   }

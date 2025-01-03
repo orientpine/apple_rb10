@@ -1,0 +1,30 @@
+
+Result folder: DyCalibResult/313522071822/DC7
+Serial number: 313522071822
+Device name: Intel RealSense D435I
+Device PID: 0B3A
+FW version: 05.13.00.55
+USB Type: 3.2
+Calibration Type: Targeted
+Laser Power: Off
+RGB: Yes
+Wide Angle Lens: Yes
+IMU: Yes
+Auto Exposure: On
+IR setpoint: 1000, (min: 0, max: 4095, default: 1000)
+RGB brightness: 0, (min: 0, max: 0, default: 0)
+AE SetPoint: Auto
+Streamming Resolution: 1280x720 at 30(fps)
+initialize dynamic calibration parameters ...
+Start Initialize device ...
+Start rectification ...
+Start scale calibration
+Computed rotational correction angles in degrees: <rx, ry, rz> = <0.035, 0.036, 0.007>
+Out of calibration.
+Scale calibration completed, start RGB calibration
+Streamming Resolution: 1280x720 at 30(fps)
+initialize dynamic calibration parameters ...
+Start InitRgbCalibration
+Computed rotational correction angles in degrees: <rx, ry, rz> = <0.064, -0.015, 0.026>  translation in mm: <tx, ty, tz> = <-0.000, 0.007, 0.004>
+Calibration completed, results updated to device successfully!
+

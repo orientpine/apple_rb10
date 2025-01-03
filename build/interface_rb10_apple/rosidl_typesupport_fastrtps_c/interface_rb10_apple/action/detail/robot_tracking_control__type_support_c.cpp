@@ -253,9 +253,9 @@ extern "C"
 #endif
 
 // already included above
-// #include "rosidl_runtime_c/string.h"  // feedback
+// #include "rosidl_runtime_c/string.h"  // message
 // already included above
-// #include "rosidl_runtime_c/string_functions.h"  // feedback
+// #include "rosidl_runtime_c/string_functions.h"  // message
 
 // forward declare type support functions
 
@@ -271,9 +271,14 @@ static bool _RobotTrackingControl_Result__cdr_serialize(
     return false;
   }
   const _RobotTrackingControl_Result__ros_msg_type * ros_message = static_cast<const _RobotTrackingControl_Result__ros_msg_type *>(untyped_ros_message);
-  // Field name: feedback
+  // Field name: success
   {
-    const rosidl_runtime_c__String * str = &ros_message->feedback;
+    cdr << (ros_message->success ? true : false);
+  }
+
+  // Field name: message
+  {
+    const rosidl_runtime_c__String * str = &ros_message->message;
     if (str->capacity == 0 || str->capacity <= str->size) {
       fprintf(stderr, "string capacity not greater than size\n");
       return false;
@@ -297,18 +302,25 @@ static bool _RobotTrackingControl_Result__cdr_deserialize(
     return false;
   }
   _RobotTrackingControl_Result__ros_msg_type * ros_message = static_cast<_RobotTrackingControl_Result__ros_msg_type *>(untyped_ros_message);
-  // Field name: feedback
+  // Field name: success
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->success = tmp ? true : false;
+  }
+
+  // Field name: message
   {
     std::string tmp;
     cdr >> tmp;
-    if (!ros_message->feedback.data) {
-      rosidl_runtime_c__String__init(&ros_message->feedback);
+    if (!ros_message->message.data) {
+      rosidl_runtime_c__String__init(&ros_message->message);
     }
     bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->feedback,
+      &ros_message->message,
       tmp.c_str());
     if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'feedback'\n");
+      fprintf(stderr, "failed to assign string into field 'message'\n");
       return false;
     }
   }
@@ -330,10 +342,16 @@ size_t get_serialized_size_interface_rb10_apple__action__RobotTrackingControl_Re
   (void)padding;
   (void)wchar_size;
 
-  // field.name feedback
+  // field.name success
+  {
+    size_t item_size = sizeof(ros_message->success);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name message
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->feedback.size + 1);
+    (ros_message->message.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -363,7 +381,14 @@ size_t max_serialized_size_interface_rb10_apple__action__RobotTrackingControl_Re
   full_bounded = true;
   is_plain = true;
 
-  // member: feedback
+  // member: success
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: message
   {
     size_t array_size = 1;
 
@@ -384,7 +409,7 @@ size_t max_serialized_size_interface_rb10_apple__action__RobotTrackingControl_Re
     using DataType = interface_rb10_apple__action__RobotTrackingControl_Result;
     is_plain =
       (
-      offsetof(DataType, feedback) +
+      offsetof(DataType, message) +
       last_member_size
       ) == ret_val;
   }
@@ -473,9 +498,9 @@ extern "C"
 #endif
 
 // already included above
-// #include "rosidl_runtime_c/string.h"  // message
+// #include "rosidl_runtime_c/string.h"  // feedback
 // already included above
-// #include "rosidl_runtime_c/string_functions.h"  // message
+// #include "rosidl_runtime_c/string_functions.h"  // feedback
 
 // forward declare type support functions
 
@@ -491,14 +516,9 @@ static bool _RobotTrackingControl_Feedback__cdr_serialize(
     return false;
   }
   const _RobotTrackingControl_Feedback__ros_msg_type * ros_message = static_cast<const _RobotTrackingControl_Feedback__ros_msg_type *>(untyped_ros_message);
-  // Field name: success
+  // Field name: feedback
   {
-    cdr << (ros_message->success ? true : false);
-  }
-
-  // Field name: message
-  {
-    const rosidl_runtime_c__String * str = &ros_message->message;
+    const rosidl_runtime_c__String * str = &ros_message->feedback;
     if (str->capacity == 0 || str->capacity <= str->size) {
       fprintf(stderr, "string capacity not greater than size\n");
       return false;
@@ -522,25 +542,18 @@ static bool _RobotTrackingControl_Feedback__cdr_deserialize(
     return false;
   }
   _RobotTrackingControl_Feedback__ros_msg_type * ros_message = static_cast<_RobotTrackingControl_Feedback__ros_msg_type *>(untyped_ros_message);
-  // Field name: success
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->success = tmp ? true : false;
-  }
-
-  // Field name: message
+  // Field name: feedback
   {
     std::string tmp;
     cdr >> tmp;
-    if (!ros_message->message.data) {
-      rosidl_runtime_c__String__init(&ros_message->message);
+    if (!ros_message->feedback.data) {
+      rosidl_runtime_c__String__init(&ros_message->feedback);
     }
     bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->message,
+      &ros_message->feedback,
       tmp.c_str());
     if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'message'\n");
+      fprintf(stderr, "failed to assign string into field 'feedback'\n");
       return false;
     }
   }
@@ -562,16 +575,10 @@ size_t get_serialized_size_interface_rb10_apple__action__RobotTrackingControl_Fe
   (void)padding;
   (void)wchar_size;
 
-  // field.name success
-  {
-    size_t item_size = sizeof(ros_message->success);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name message
+  // field.name feedback
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->message.size + 1);
+    (ros_message->feedback.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -601,14 +608,7 @@ size_t max_serialized_size_interface_rb10_apple__action__RobotTrackingControl_Fe
   full_bounded = true;
   is_plain = true;
 
-  // member: success
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-  // member: message
+  // member: feedback
   {
     size_t array_size = 1;
 
@@ -629,7 +629,7 @@ size_t max_serialized_size_interface_rb10_apple__action__RobotTrackingControl_Fe
     using DataType = interface_rb10_apple__action__RobotTrackingControl_Feedback;
     is_plain =
       (
-      offsetof(DataType, message) +
+      offsetof(DataType, feedback) +
       last_member_size
       ) == ret_val;
   }

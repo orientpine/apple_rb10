@@ -6,32 +6,23 @@
 module interface_rb10_apple {
   module action {
     @verbatim (language="comment", text=
-      "Goal" "\n"
-      "작업 시작을 요청할 때 필요한 데이터")
+      "Goal")
     struct RobotTrackingControl_Goal {
       @verbatim (language="comment", text=
         "\"start_tracking\" 명령어")
       string command;
     };
     @verbatim (language="comment", text=
-      "Feedback" "\n"
-      "작업 진행 상황을 클라이언트에 전달")
+      "Result")
     struct RobotTrackingControl_Result {
-      @verbatim (language="comment", text=
-        "예: \"Visual servoing in progress.\"")
-      string feedback;
-    };
-    @verbatim (language="comment", text=
-      "Result" "\n"
-      "작업 완료 또는 실패 시 결과 반환")
-    struct RobotTrackingControl_Feedback {
-      @verbatim (language="comment", text=
-        "작업 성공 여부")
       boolean success;
 
-      @verbatim (language="comment", text=
-        "성공 또는 실패 메시지")
       string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct RobotTrackingControl_Feedback {
+      string feedback;
     };
   };
 };

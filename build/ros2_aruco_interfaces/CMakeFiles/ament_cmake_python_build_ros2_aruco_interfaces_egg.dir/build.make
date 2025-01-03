@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/compil
 include CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg:
-	cd /home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces && /home/orientpine/miniconda3/bin/python3 setup.py egg_info
+	cd /home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_ros2_aruco_interfaces_egg: CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg
 ament_cmake_python_build_ros2_aruco_interfaces_egg: CMakeFiles/ament_cmake_python_build_ros2_aruco_interfaces_egg.dir/build.make

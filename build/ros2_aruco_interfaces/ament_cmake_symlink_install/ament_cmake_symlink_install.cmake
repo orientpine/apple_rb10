@@ -343,19 +343,19 @@ ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/ros2_aruco/ros2
 # install(FILES "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces" FILES "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/ros2_aruco_interfaces/environment")
 
-# install(DIRECTORY "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/" "DESTINATION" "lib/python3.11/site-packages/ros2_aruco_interfaces-0.1.0-py3.11.egg-info")
-ament_cmake_symlink_install_directory("/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/" "DESTINATION" "lib/python3.11/site-packages/ros2_aruco_interfaces-0.1.0-py3.11.egg-info")
+# install(DIRECTORY "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_python/ros2_aruco_interfaces/ros2_aruco_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/" "DESTINATION" "lib/python3.11/site-packages/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/" "DESTINATION" "lib/python3.11/site-packages/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces" DIRECTORY "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_py/ros2_aruco_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.11/site-packages/ros2_aruco_interfaces")
+# install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces")
 include("/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.11/site-packages/ros2_aruco_interfaces")
+# install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces")
 include("/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.11/site-packages/ros2_aruco_interfaces")
+# install("TARGETS" "ros2_aruco_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_aruco_interfaces")
 include("/home/orientpine/robot_ws/build/ros2_aruco_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces/msg/ArucoMarkers.idl" "DESTINATION" "share/ros2_aruco_interfaces/msg")

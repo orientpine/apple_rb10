@@ -146,7 +146,7 @@ rosidl_generator_c/ros2_aruco_interfaces/msg/aruco_markers.h: /opt/ros/humble/sh
 rosidl_generator_c/ros2_aruco_interfaces/msg/aruco_markers.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/ros2_aruco_interfaces/msg/aruco_markers.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orientpine/robot_ws/build/ros2_aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/home/orientpine/miniconda3/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h: rosidl_generator_c/ros2_aruco_interfaces/msg/aruco_markers.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h

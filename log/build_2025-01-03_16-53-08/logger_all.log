@@ -1,0 +1,469 @@
+[0.211s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.211s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7df2f552d960>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7df2f552d450>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7df2f552d450>>)
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.566s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orientpine/robot_ws'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extension 'ros'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extensions ['cmake', 'python']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extension 'cmake'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extension 'python'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extensions ['python_setup_py']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult) by extension 'python_setup_py'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extension 'ros'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extensions ['cmake', 'python']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extension 'cmake'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extension 'python'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extensions ['python_setup_py']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822) by extension 'python_setup_py'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extension 'ros'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extensions ['cmake', 'python']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extension 'cmake'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extension 'python'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extensions ['python_setup_py']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC1) by extension 'python_setup_py'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extension 'ros'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extensions ['cmake', 'python']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extension 'cmake'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extension 'python'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extensions ['python_setup_py']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC2) by extension 'python_setup_py'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extension 'ros'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extensions ['cmake', 'python']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC3) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extension 'ros'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extensions ['cmake', 'python']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extension 'cmake'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC4) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extension 'ros'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extensions ['cmake', 'python']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extension 'cmake'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extension 'python'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extensions ['python_setup_py']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC5) by extension 'python_setup_py'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extension 'ros'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extensions ['cmake', 'python']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extension 'cmake'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extension 'python'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extensions ['python_setup_py']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC6) by extension 'python_setup_py'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extension 'ros'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extension 'cmake'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extension 'python'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extensions ['python_setup_py']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(DyCalibResult/313522071822/DC7) by extension 'python_setup_py'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_rb10_apple) by extension 'ros'
+[0.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interface_rb10_apple' with type 'ros.ament_cmake' and name 'interface_rb10_apple'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_rb10_apple) by extension 'ros'
+[0.615s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_rb10_apple' with type 'ros.ament_python' and name 'pkg_rb10_apple'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ros'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[0.622s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.678s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/orientpine/robot_ws/install
+[0.681s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'cmake_target' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'cmake_clean_cache' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'cmake_clean_first' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'cmake_force_configure' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'ament_cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'catkin_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'interface_rb10_apple' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.757s] DEBUG:colcon.colcon_core.verb:Building package 'interface_rb10_apple' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orientpine/robot_ws/build/interface_rb10_apple', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orientpine/robot_ws/install/interface_rb10_apple', 'merge_install': False, 'path': '/home/orientpine/robot_ws/src/interface_rb10_apple', 'symlink_install': True, 'test_result_base': None}
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.758s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orientpine/robot_ws/build/ros2_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orientpine/robot_ws/install/ros2_aruco', 'merge_install': False, 'path': '/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco', 'symlink_install': True, 'test_result_base': None}
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.760s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orientpine/robot_ws/build/ros2_aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orientpine/robot_ws/install/ros2_aruco_interfaces', 'merge_install': False, 'path': '/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'cmake_target' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'cmake_clean_cache' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'cmake_clean_first' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'cmake_force_configure' from command line to 'False'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'ament_cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'catkin_cmake_args' from command line to 'None'
+[0.761s] Level 5:colcon.colcon_core.verb:set package 'pkg_rb10_apple' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.761s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_rb10_apple' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orientpine/robot_ws/build/pkg_rb10_apple', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orientpine/robot_ws/install/pkg_rb10_apple', 'merge_install': False, 'path': '/home/orientpine/robot_ws/src/pkg_rb10_apple', 'symlink_install': True, 'test_result_base': None}
+[0.761s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.763s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.764s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orientpine/robot_ws/src/interface_rb10_apple' with build type 'ament_cmake'
+[0.764s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orientpine/robot_ws/src/interface_rb10_apple'
+[0.768s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.768s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.775s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco' with build type 'ament_python'
+[0.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ament_prefix_path')
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.sh'
+[0.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.786s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces' with build type 'ament_cmake'
+[0.786s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces'
+[0.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orientpine/robot_ws/build/interface_rb10_apple': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/ros2_aruco:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake --build /home/orientpine/robot_ws/build/interface_rb10_apple -- -j12 -l12
+[1.432s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco'
+[1.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.433s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orientpine/robot_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/ros2_aruco:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake --build /home/orientpine/robot_ws/build/ros2_aruco_interfaces -- -j12 -l12
+[2.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orientpine/robot_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/ros2_aruco:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake --build /home/orientpine/robot_ws/build/ros2_aruco_interfaces -- -j12 -l12
+[2.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orientpine/robot_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/ros2_aruco:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake --install /home/orientpine/robot_ws/build/ros2_aruco_interfaces
+[2.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orientpine/robot_ws/build/ros2_aruco': CONDA_PROMPT_MODIFIER=(rb) PYTHONPATH=/home/orientpine/robot_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/ros2_aruco/build --no-deps symlink_data
+[2.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[2.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orientpine/robot_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/ros2_aruco:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake --install /home/orientpine/robot_ws/build/ros2_aruco_interfaces
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces' for CMake module files
+[2.561s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces' for CMake config files
+[2.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[2.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[2.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[2.565s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib'
+[2.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[2.567s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/bin'
+[2.567s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[2.568s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib/python3.10/site-packages'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/bin'
+[2.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[2.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[2.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[2.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[2.581s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces' for CMake module files
+[2.583s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces' for CMake config files
+[2.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib'
+[2.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[2.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[2.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/bin'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib/python3.10/site-packages'
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/bin'
+[2.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[2.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[2.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[2.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[2.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orientpine/robot_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[3.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath_develop')
+[3.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.ps1'
+[3.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.dsv'
+[3.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.sh'
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco' for CMake module files
+[3.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orientpine/robot_ws/build/ros2_aruco' returned '0': CONDA_PROMPT_MODIFIER=(rb) PYTHONPATH=/home/orientpine/robot_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/ros2_aruco/build --no-deps symlink_data
+[3.747s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco' for CMake config files
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco/lib'
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco/bin'
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco/lib/pkgconfig/ros2_aruco.pc'
+[3.749s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco/lib/python3.10/site-packages'
+[3.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath')
+[3.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.ps1'
+[3.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.dsv'
+[3.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.sh'
+[3.754s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/ros2_aruco/bin'
+[3.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco)
+[3.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/package.ps1'
+[3.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/package.dsv'
+[3.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/package.sh'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/package.bash'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/ros2_aruco/share/ros2_aruco/package.zsh'
+[3.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orientpine/robot_ws/install/ros2_aruco/share/colcon-core/packages/ros2_aruco)
+[25.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orientpine/robot_ws/build/interface_rb10_apple' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/ros2_aruco:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake --build /home/orientpine/robot_ws/build/interface_rb10_apple -- -j12 -l12
+[25.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orientpine/robot_ws/build/interface_rb10_apple': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/ros2_aruco:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake --install /home/orientpine/robot_ws/build/interface_rb10_apple
+[25.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_rb10_apple)
+[25.350s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple' for CMake module files
+[25.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orientpine/robot_ws/build/interface_rb10_apple' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orientpine/robot_ws/install/ros2_aruco:/home/orientpine/robot_ws/install/pkg_rb10_apple:/opt/ros/humble CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake --install /home/orientpine/robot_ws/build/interface_rb10_apple
+[25.353s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple' for CMake config files
+[25.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_rb10_apple', 'cmake_prefix_path')
+[25.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/cmake_prefix_path.ps1'
+[25.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/cmake_prefix_path.dsv'
+[25.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/cmake_prefix_path.sh'
+[25.357s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/lib'
+[25.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_rb10_apple', 'ld_library_path_lib')
+[25.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/ld_library_path_lib.ps1'
+[25.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/ld_library_path_lib.dsv'
+[25.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/ld_library_path_lib.sh'
+[25.360s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/bin'
+[25.360s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/pkgconfig/interface_rb10_apple.pc'
+[25.360s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages'
+[25.361s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/bin'
+[25.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.ps1'
+[25.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.dsv'
+[25.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.sh'
+[25.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.bash'
+[25.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.zsh'
+[25.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orientpine/robot_ws/install/interface_rb10_apple/share/colcon-core/packages/interface_rb10_apple)
+[25.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_rb10_apple)
+[25.367s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple' for CMake module files
+[25.368s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple' for CMake config files
+[25.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_rb10_apple', 'cmake_prefix_path')
+[25.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/cmake_prefix_path.ps1'
+[25.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/cmake_prefix_path.dsv'
+[25.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/cmake_prefix_path.sh'
+[25.373s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/lib'
+[25.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_rb10_apple', 'ld_library_path_lib')
+[25.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/ld_library_path_lib.ps1'
+[25.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/ld_library_path_lib.dsv'
+[25.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/hook/ld_library_path_lib.sh'
+[25.377s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/bin'
+[25.377s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/pkgconfig/interface_rb10_apple.pc'
+[25.377s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/lib/python3.10/site-packages'
+[25.378s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/interface_rb10_apple/bin'
+[25.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.ps1'
+[25.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.dsv'
+[25.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.sh'
+[25.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.bash'
+[25.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/interface_rb10_apple/share/interface_rb10_apple/package.zsh'
+[25.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orientpine/robot_ws/install/interface_rb10_apple/share/colcon-core/packages/interface_rb10_apple)
+[25.386s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orientpine/robot_ws/src/pkg_rb10_apple' with build type 'ament_python'
+[25.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_rb10_apple', 'ament_prefix_path')
+[25.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/hook/ament_prefix_path.ps1'
+[25.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/hook/ament_prefix_path.dsv'
+[25.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/hook/ament_prefix_path.sh'
+[25.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.126s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orientpine/robot_ws/src/pkg_rb10_apple'
+[26.127s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.127s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orientpine/robot_ws/build/pkg_rb10_apple': CMAKE_PREFIX_PATH=/home/orientpine/robot_ws/install/interface_rb10_apple:/home/orientpine/robot_ws/install/ros2_aruco_interfaces CONDA_PROMPT_MODIFIER=(rb) LD_LIBRARY_PATH=/home/orientpine/robot_ws/install/interface_rb10_apple/lib:/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/pkg_rb10_apple/build --no-deps symlink_data
+[27.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_rb10_apple', 'pythonpath_develop')
+[27.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/build/pkg_rb10_apple/share/pkg_rb10_apple/hook/pythonpath_develop.ps1'
+[27.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orientpine/robot_ws/build/pkg_rb10_apple' returned '0': CMAKE_PREFIX_PATH=/home/orientpine/robot_ws/install/interface_rb10_apple:/home/orientpine/robot_ws/install/ros2_aruco_interfaces CONDA_PROMPT_MODIFIER=(rb) LD_LIBRARY_PATH=/home/orientpine/robot_ws/install/interface_rb10_apple/lib:/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/pkg_rb10_apple/build --no-deps symlink_data
+[27.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/build/pkg_rb10_apple/share/pkg_rb10_apple/hook/pythonpath_develop.dsv'
+[27.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/build/pkg_rb10_apple/share/pkg_rb10_apple/hook/pythonpath_develop.sh'
+[27.852s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/pkg_rb10_apple' for CMake module files
+[27.854s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/pkg_rb10_apple' for CMake config files
+[27.855s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/pkg_rb10_apple/lib'
+[27.855s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/pkg_rb10_apple/bin'
+[27.855s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkgconfig/pkg_rb10_apple.pc'
+[27.856s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages'
+[27.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_rb10_apple', 'pythonpath')
+[27.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/hook/pythonpath.ps1'
+[27.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/hook/pythonpath.dsv'
+[27.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/hook/pythonpath.sh'
+[27.860s] Level 1:colcon.colcon_core.environment:checking '/home/orientpine/robot_ws/install/pkg_rb10_apple/bin'
+[27.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_rb10_apple)
+[27.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/package.ps1'
+[27.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/package.dsv'
+[27.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/package.sh'
+[27.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/package.bash'
+[27.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/package.zsh'
+[27.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orientpine/robot_ws/install/pkg_rb10_apple/share/colcon-core/packages/pkg_rb10_apple)
+[27.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.867s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.878s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.900s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orientpine/robot_ws/install/local_setup.ps1'
+[27.903s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orientpine/robot_ws/install/_local_setup_util_ps1.py'
+[27.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orientpine/robot_ws/install/setup.ps1'
+[27.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orientpine/robot_ws/install/local_setup.sh'
+[27.912s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orientpine/robot_ws/install/_local_setup_util_sh.py'
+[27.913s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orientpine/robot_ws/install/setup.sh'
+[27.916s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orientpine/robot_ws/install/local_setup.bash'
+[27.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orientpine/robot_ws/install/setup.bash'
+[27.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orientpine/robot_ws/install/local_setup.zsh'
+[27.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orientpine/robot_ws/install/setup.zsh'

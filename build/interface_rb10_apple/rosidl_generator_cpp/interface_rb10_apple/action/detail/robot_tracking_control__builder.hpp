@@ -63,16 +63,32 @@ namespace action
 namespace builder
 {
 
-class Init_RobotTrackingControl_Result_feedback
+class Init_RobotTrackingControl_Result_message
 {
 public:
-  Init_RobotTrackingControl_Result_feedback()
+  explicit Init_RobotTrackingControl_Result_message(::interface_rb10_apple::action::RobotTrackingControl_Result & msg)
+  : msg_(msg)
+  {}
+  ::interface_rb10_apple::action::RobotTrackingControl_Result message(::interface_rb10_apple::action::RobotTrackingControl_Result::_message_type arg)
+  {
+    msg_.message = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::interface_rb10_apple::action::RobotTrackingControl_Result msg_;
+};
+
+class Init_RobotTrackingControl_Result_success
+{
+public:
+  Init_RobotTrackingControl_Result_success()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::interface_rb10_apple::action::RobotTrackingControl_Result feedback(::interface_rb10_apple::action::RobotTrackingControl_Result::_feedback_type arg)
+  Init_RobotTrackingControl_Result_message success(::interface_rb10_apple::action::RobotTrackingControl_Result::_success_type arg)
   {
-    msg_.feedback = std::move(arg);
-    return std::move(msg_);
+    msg_.success = std::move(arg);
+    return Init_RobotTrackingControl_Result_message(msg_);
   }
 
 private:
@@ -90,7 +106,7 @@ template<>
 inline
 auto build<::interface_rb10_apple::action::RobotTrackingControl_Result>()
 {
-  return interface_rb10_apple::action::builder::Init_RobotTrackingControl_Result_feedback();
+  return interface_rb10_apple::action::builder::Init_RobotTrackingControl_Result_success();
 }
 
 }  // namespace interface_rb10_apple
@@ -105,32 +121,16 @@ namespace action
 namespace builder
 {
 
-class Init_RobotTrackingControl_Feedback_message
+class Init_RobotTrackingControl_Feedback_feedback
 {
 public:
-  explicit Init_RobotTrackingControl_Feedback_message(::interface_rb10_apple::action::RobotTrackingControl_Feedback & msg)
-  : msg_(msg)
-  {}
-  ::interface_rb10_apple::action::RobotTrackingControl_Feedback message(::interface_rb10_apple::action::RobotTrackingControl_Feedback::_message_type arg)
-  {
-    msg_.message = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::interface_rb10_apple::action::RobotTrackingControl_Feedback msg_;
-};
-
-class Init_RobotTrackingControl_Feedback_success
-{
-public:
-  Init_RobotTrackingControl_Feedback_success()
+  Init_RobotTrackingControl_Feedback_feedback()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_RobotTrackingControl_Feedback_message success(::interface_rb10_apple::action::RobotTrackingControl_Feedback::_success_type arg)
+  ::interface_rb10_apple::action::RobotTrackingControl_Feedback feedback(::interface_rb10_apple::action::RobotTrackingControl_Feedback::_feedback_type arg)
   {
-    msg_.success = std::move(arg);
-    return Init_RobotTrackingControl_Feedback_message(msg_);
+    msg_.feedback = std::move(arg);
+    return std::move(msg_);
   }
 
 private:
@@ -148,7 +148,7 @@ template<>
 inline
 auto build<::interface_rb10_apple::action::RobotTrackingControl_Feedback>()
 {
-  return interface_rb10_apple::action::builder::Init_RobotTrackingControl_Feedback_success();
+  return interface_rb10_apple::action::builder::Init_RobotTrackingControl_Feedback_feedback();
 }
 
 }  // namespace interface_rb10_apple

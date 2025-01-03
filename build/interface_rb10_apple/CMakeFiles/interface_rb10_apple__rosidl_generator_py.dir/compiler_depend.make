@@ -3,11 +3,14 @@
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/action/_robot_joint_control_s.c.o: rosidl_generator_py/interface_rb10_apple/action/_robot_joint_control_s.c \
   /usr/include/stdc-predef.h \
-  /home/orientpine/miniconda3/include/python3.11/Python.h \
-  /home/orientpine/miniconda3/include/python3.11/patchlevel.h \
-  /home/orientpine/miniconda3/include/python3.11/pyconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacconfig.h \
-  /usr/include/stdlib.h \
+  /usr/include/python3.10/Python.h \
+  /usr/include/python3.10/patchlevel.h \
+  /usr/include/python3.10/pyconfig.h \
+  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
+  /usr/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
@@ -17,17 +20,44 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -52,25 +82,6 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -80,25 +91,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /home/orientpine/miniconda3/include/python3.11/pyport.h \
+  /usr/include/python3.10/pyport.h \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -134,82 +132,78 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  /home/orientpine/miniconda3/include/python3.11/exports.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacro.h \
-  /home/orientpine/miniconda3/include/python3.11/pymath.h \
-  /home/orientpine/miniconda3/include/python3.11/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/pytypedefs.h \
-  /home/orientpine/miniconda3/include/python3.11/pybuffer.h \
-  /home/orientpine/miniconda3/include/python3.11/object.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/object.h \
-  /home/orientpine/miniconda3/include/python3.11/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/typeslots.h \
-  /home/orientpine/miniconda3/include/python3.11/pyhash.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h \
-  /home/orientpine/miniconda3/include/python3.11/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/unicodeobject.h \
+  /usr/include/python3.10/exports.h \
+  /usr/include/python3.10/pymacro.h \
+  /usr/include/python3.10/pymath.h \
+  /usr/include/python3.10/pymem.h \
+  /usr/include/python3.10/cpython/pymem.h \
+  /usr/include/python3.10/object.h \
+  /usr/include/python3.10/cpython/object.h \
+  /usr/include/python3.10/objimpl.h \
+  /usr/include/python3.10/cpython/objimpl.h \
+  /usr/include/python3.10/typeslots.h \
+  /usr/include/python3.10/pyhash.h \
+  /usr/include/python3.10/cpython/pydebug.h \
+  /usr/include/python3.10/bytearrayobject.h \
+  /usr/include/python3.10/cpython/bytearrayobject.h \
+  /usr/include/python3.10/bytesobject.h \
+  /usr/include/python3.10/cpython/bytesobject.h \
+  /usr/include/python3.10/unicodeobject.h \
   /usr/include/ctype.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h \
-  /home/orientpine/miniconda3/include/python3.11/boolobject.h \
-  /home/orientpine/miniconda3/include/python3.11/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/rangeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/memoryobject.h \
-  /home/orientpine/miniconda3/include/python3.11/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/enumobject.h \
-  /home/orientpine/miniconda3/include/python3.11/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/moduleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/classobject.h \
-  /home/orientpine/miniconda3/include/python3.11/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/pycapsule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/code.h \
-  /home/orientpine/miniconda3/include/python3.11/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/sliceobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h \
-  /home/orientpine/miniconda3/include/python3.11/iterobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/genobject.h \
-  /home/orientpine/miniconda3/include/python3.11/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/genericaliasobject.h \
-  /home/orientpine/miniconda3/include/python3.11/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/structseq.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pytime.h \
-  /home/orientpine/miniconda3/include/python3.11/codecs.h \
-  /home/orientpine/miniconda3/include/python3.11/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/pythread.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythread.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/python3.10/cpython/unicodeobject.h \
+  /usr/include/python3.10/longobject.h \
+  /usr/include/python3.10/longintrepr.h \
+  /usr/include/python3.10/boolobject.h \
+  /usr/include/python3.10/floatobject.h \
+  /usr/include/python3.10/complexobject.h \
+  /usr/include/python3.10/rangeobject.h \
+  /usr/include/python3.10/memoryobject.h \
+  /usr/include/python3.10/tupleobject.h \
+  /usr/include/python3.10/cpython/tupleobject.h \
+  /usr/include/python3.10/listobject.h \
+  /usr/include/python3.10/cpython/listobject.h \
+  /usr/include/python3.10/dictobject.h \
+  /usr/include/python3.10/cpython/dictobject.h \
+  /usr/include/python3.10/cpython/odictobject.h \
+  /usr/include/python3.10/enumobject.h \
+  /usr/include/python3.10/setobject.h \
+  /usr/include/python3.10/methodobject.h \
+  /usr/include/python3.10/cpython/methodobject.h \
+  /usr/include/python3.10/moduleobject.h \
+  /usr/include/python3.10/funcobject.h \
+  /usr/include/python3.10/classobject.h \
+  /usr/include/python3.10/fileobject.h \
+  /usr/include/python3.10/cpython/fileobject.h \
+  /usr/include/python3.10/pycapsule.h \
+  /usr/include/python3.10/code.h \
+  /usr/include/python3.10/cpython/code.h \
+  /usr/include/python3.10/pyframe.h \
+  /usr/include/python3.10/traceback.h \
+  /usr/include/python3.10/cpython/traceback.h \
+  /usr/include/python3.10/sliceobject.h \
+  /usr/include/python3.10/cellobject.h \
+  /usr/include/python3.10/iterobject.h \
+  /usr/include/python3.10/cpython/initconfig.h \
+  /usr/include/python3.10/genobject.h \
+  /usr/include/python3.10/pystate.h \
+  /usr/include/python3.10/cpython/pystate.h \
+  /usr/include/python3.10/abstract.h \
+  /usr/include/python3.10/cpython/abstract.h \
+  /usr/include/python3.10/descrobject.h \
+  /usr/include/python3.10/genericaliasobject.h \
+  /usr/include/python3.10/warnings.h \
+  /usr/include/python3.10/weakrefobject.h \
+  /usr/include/python3.10/structseq.h \
+  /usr/include/python3.10/namespaceobject.h \
+  /usr/include/python3.10/cpython/picklebufobject.h \
+  /usr/include/python3.10/cpython/pytime.h \
+  /usr/include/python3.10/codecs.h \
+  /usr/include/python3.10/pyerrors.h \
+  /usr/include/python3.10/cpython/pyerrors.h \
+  /usr/include/python3.10/pythread.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -217,50 +211,42 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/context.h \
-  /home/orientpine/miniconda3/include/python3.11/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/osmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/intrcheck.h \
-  /home/orientpine/miniconda3/include/python3.11/import.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/import.h \
-  /home/orientpine/miniconda3/include/python3.11/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/bltinmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrtod.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrcmp.h \
-  /home/orientpine/miniconda3/include/python3.11/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h \
-  /home/orientpine/miniconda3/include/python3.11/tracemalloc.h \
+  /usr/include/python3.10/context.h \
+  /usr/include/python3.10/modsupport.h \
+  /usr/include/python3.10/compile.h \
+  /usr/include/python3.10/cpython/compile.h \
+  /usr/include/python3.10/pythonrun.h \
+  /usr/include/python3.10/cpython/pythonrun.h \
+  /usr/include/python3.10/pylifecycle.h \
+  /usr/include/python3.10/cpython/pylifecycle.h \
+  /usr/include/python3.10/ceval.h \
+  /usr/include/python3.10/cpython/ceval.h \
+  /usr/include/python3.10/sysmodule.h \
+  /usr/include/python3.10/cpython/sysmodule.h \
+  /usr/include/python3.10/osmodule.h \
+  /usr/include/python3.10/intrcheck.h \
+  /usr/include/python3.10/import.h \
+  /usr/include/python3.10/cpython/import.h \
+  /usr/include/python3.10/bltinmodule.h \
+  /usr/include/python3.10/eval.h \
+  /usr/include/python3.10/cpython/pyctype.h \
+  /usr/include/python3.10/pystrtod.h \
+  /usr/include/python3.10/pystrcmp.h \
+  /usr/include/python3.10/fileutils.h \
+  /usr/include/python3.10/cpython/fileutils.h \
+  /usr/include/python3.10/cpython/pyfpe.h \
+  /usr/include/python3.10/tracemalloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
-  /usr/include/complex.h \
-  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
-  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /usr/include/python3.10/numpy/ndarrayobject.h \
+  /usr/include/python3.10/numpy/ndarraytypes.h \
+  /usr/include/python3.10/numpy/npy_common.h \
+  /usr/include/python3.10/numpy/numpyconfig.h \
+  /usr/include/python3.10/numpy/_numpyconfig.h \
+  /usr/include/python3.10/numpy/npy_endian.h \
+  /usr/include/python3.10/numpy/npy_cpu.h \
+  /usr/include/python3.10/numpy/utils.h \
+  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
+  /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
@@ -273,11 +259,14 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/action/_robot_mode_control_s.c.o: rosidl_generator_py/interface_rb10_apple/action/_robot_mode_control_s.c \
   /usr/include/stdc-predef.h \
-  /home/orientpine/miniconda3/include/python3.11/Python.h \
-  /home/orientpine/miniconda3/include/python3.11/patchlevel.h \
-  /home/orientpine/miniconda3/include/python3.11/pyconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacconfig.h \
-  /usr/include/stdlib.h \
+  /usr/include/python3.10/Python.h \
+  /usr/include/python3.10/patchlevel.h \
+  /usr/include/python3.10/pyconfig.h \
+  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
+  /usr/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
@@ -287,17 +276,44 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -322,25 +338,6 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -350,25 +347,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /home/orientpine/miniconda3/include/python3.11/pyport.h \
+  /usr/include/python3.10/pyport.h \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -404,82 +388,78 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  /home/orientpine/miniconda3/include/python3.11/exports.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacro.h \
-  /home/orientpine/miniconda3/include/python3.11/pymath.h \
-  /home/orientpine/miniconda3/include/python3.11/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/pytypedefs.h \
-  /home/orientpine/miniconda3/include/python3.11/pybuffer.h \
-  /home/orientpine/miniconda3/include/python3.11/object.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/object.h \
-  /home/orientpine/miniconda3/include/python3.11/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/typeslots.h \
-  /home/orientpine/miniconda3/include/python3.11/pyhash.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h \
-  /home/orientpine/miniconda3/include/python3.11/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/unicodeobject.h \
+  /usr/include/python3.10/exports.h \
+  /usr/include/python3.10/pymacro.h \
+  /usr/include/python3.10/pymath.h \
+  /usr/include/python3.10/pymem.h \
+  /usr/include/python3.10/cpython/pymem.h \
+  /usr/include/python3.10/object.h \
+  /usr/include/python3.10/cpython/object.h \
+  /usr/include/python3.10/objimpl.h \
+  /usr/include/python3.10/cpython/objimpl.h \
+  /usr/include/python3.10/typeslots.h \
+  /usr/include/python3.10/pyhash.h \
+  /usr/include/python3.10/cpython/pydebug.h \
+  /usr/include/python3.10/bytearrayobject.h \
+  /usr/include/python3.10/cpython/bytearrayobject.h \
+  /usr/include/python3.10/bytesobject.h \
+  /usr/include/python3.10/cpython/bytesobject.h \
+  /usr/include/python3.10/unicodeobject.h \
   /usr/include/ctype.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h \
-  /home/orientpine/miniconda3/include/python3.11/boolobject.h \
-  /home/orientpine/miniconda3/include/python3.11/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/rangeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/memoryobject.h \
-  /home/orientpine/miniconda3/include/python3.11/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/enumobject.h \
-  /home/orientpine/miniconda3/include/python3.11/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/moduleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/classobject.h \
-  /home/orientpine/miniconda3/include/python3.11/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/pycapsule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/code.h \
-  /home/orientpine/miniconda3/include/python3.11/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/sliceobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h \
-  /home/orientpine/miniconda3/include/python3.11/iterobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/genobject.h \
-  /home/orientpine/miniconda3/include/python3.11/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/genericaliasobject.h \
-  /home/orientpine/miniconda3/include/python3.11/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/structseq.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pytime.h \
-  /home/orientpine/miniconda3/include/python3.11/codecs.h \
-  /home/orientpine/miniconda3/include/python3.11/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/pythread.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythread.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/python3.10/cpython/unicodeobject.h \
+  /usr/include/python3.10/longobject.h \
+  /usr/include/python3.10/longintrepr.h \
+  /usr/include/python3.10/boolobject.h \
+  /usr/include/python3.10/floatobject.h \
+  /usr/include/python3.10/complexobject.h \
+  /usr/include/python3.10/rangeobject.h \
+  /usr/include/python3.10/memoryobject.h \
+  /usr/include/python3.10/tupleobject.h \
+  /usr/include/python3.10/cpython/tupleobject.h \
+  /usr/include/python3.10/listobject.h \
+  /usr/include/python3.10/cpython/listobject.h \
+  /usr/include/python3.10/dictobject.h \
+  /usr/include/python3.10/cpython/dictobject.h \
+  /usr/include/python3.10/cpython/odictobject.h \
+  /usr/include/python3.10/enumobject.h \
+  /usr/include/python3.10/setobject.h \
+  /usr/include/python3.10/methodobject.h \
+  /usr/include/python3.10/cpython/methodobject.h \
+  /usr/include/python3.10/moduleobject.h \
+  /usr/include/python3.10/funcobject.h \
+  /usr/include/python3.10/classobject.h \
+  /usr/include/python3.10/fileobject.h \
+  /usr/include/python3.10/cpython/fileobject.h \
+  /usr/include/python3.10/pycapsule.h \
+  /usr/include/python3.10/code.h \
+  /usr/include/python3.10/cpython/code.h \
+  /usr/include/python3.10/pyframe.h \
+  /usr/include/python3.10/traceback.h \
+  /usr/include/python3.10/cpython/traceback.h \
+  /usr/include/python3.10/sliceobject.h \
+  /usr/include/python3.10/cellobject.h \
+  /usr/include/python3.10/iterobject.h \
+  /usr/include/python3.10/cpython/initconfig.h \
+  /usr/include/python3.10/genobject.h \
+  /usr/include/python3.10/pystate.h \
+  /usr/include/python3.10/cpython/pystate.h \
+  /usr/include/python3.10/abstract.h \
+  /usr/include/python3.10/cpython/abstract.h \
+  /usr/include/python3.10/descrobject.h \
+  /usr/include/python3.10/genericaliasobject.h \
+  /usr/include/python3.10/warnings.h \
+  /usr/include/python3.10/weakrefobject.h \
+  /usr/include/python3.10/structseq.h \
+  /usr/include/python3.10/namespaceobject.h \
+  /usr/include/python3.10/cpython/picklebufobject.h \
+  /usr/include/python3.10/cpython/pytime.h \
+  /usr/include/python3.10/codecs.h \
+  /usr/include/python3.10/pyerrors.h \
+  /usr/include/python3.10/cpython/pyerrors.h \
+  /usr/include/python3.10/pythread.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -487,50 +467,42 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/context.h \
-  /home/orientpine/miniconda3/include/python3.11/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/osmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/intrcheck.h \
-  /home/orientpine/miniconda3/include/python3.11/import.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/import.h \
-  /home/orientpine/miniconda3/include/python3.11/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/bltinmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrtod.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrcmp.h \
-  /home/orientpine/miniconda3/include/python3.11/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h \
-  /home/orientpine/miniconda3/include/python3.11/tracemalloc.h \
+  /usr/include/python3.10/context.h \
+  /usr/include/python3.10/modsupport.h \
+  /usr/include/python3.10/compile.h \
+  /usr/include/python3.10/cpython/compile.h \
+  /usr/include/python3.10/pythonrun.h \
+  /usr/include/python3.10/cpython/pythonrun.h \
+  /usr/include/python3.10/pylifecycle.h \
+  /usr/include/python3.10/cpython/pylifecycle.h \
+  /usr/include/python3.10/ceval.h \
+  /usr/include/python3.10/cpython/ceval.h \
+  /usr/include/python3.10/sysmodule.h \
+  /usr/include/python3.10/cpython/sysmodule.h \
+  /usr/include/python3.10/osmodule.h \
+  /usr/include/python3.10/intrcheck.h \
+  /usr/include/python3.10/import.h \
+  /usr/include/python3.10/cpython/import.h \
+  /usr/include/python3.10/bltinmodule.h \
+  /usr/include/python3.10/eval.h \
+  /usr/include/python3.10/cpython/pyctype.h \
+  /usr/include/python3.10/pystrtod.h \
+  /usr/include/python3.10/pystrcmp.h \
+  /usr/include/python3.10/fileutils.h \
+  /usr/include/python3.10/cpython/fileutils.h \
+  /usr/include/python3.10/cpython/pyfpe.h \
+  /usr/include/python3.10/tracemalloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
-  /usr/include/complex.h \
-  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
-  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /usr/include/python3.10/numpy/ndarrayobject.h \
+  /usr/include/python3.10/numpy/ndarraytypes.h \
+  /usr/include/python3.10/numpy/npy_common.h \
+  /usr/include/python3.10/numpy/numpyconfig.h \
+  /usr/include/python3.10/numpy/_numpyconfig.h \
+  /usr/include/python3.10/numpy/npy_endian.h \
+  /usr/include/python3.10/numpy/npy_cpu.h \
+  /usr/include/python3.10/numpy/utils.h \
+  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
+  /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
@@ -543,11 +515,14 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/action/_robot_tcp_control_s.c.o: rosidl_generator_py/interface_rb10_apple/action/_robot_tcp_control_s.c \
   /usr/include/stdc-predef.h \
-  /home/orientpine/miniconda3/include/python3.11/Python.h \
-  /home/orientpine/miniconda3/include/python3.11/patchlevel.h \
-  /home/orientpine/miniconda3/include/python3.11/pyconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacconfig.h \
-  /usr/include/stdlib.h \
+  /usr/include/python3.10/Python.h \
+  /usr/include/python3.10/patchlevel.h \
+  /usr/include/python3.10/pyconfig.h \
+  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
+  /usr/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
@@ -557,17 +532,44 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -592,25 +594,6 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -620,25 +603,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /home/orientpine/miniconda3/include/python3.11/pyport.h \
+  /usr/include/python3.10/pyport.h \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -674,82 +644,78 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  /home/orientpine/miniconda3/include/python3.11/exports.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacro.h \
-  /home/orientpine/miniconda3/include/python3.11/pymath.h \
-  /home/orientpine/miniconda3/include/python3.11/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/pytypedefs.h \
-  /home/orientpine/miniconda3/include/python3.11/pybuffer.h \
-  /home/orientpine/miniconda3/include/python3.11/object.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/object.h \
-  /home/orientpine/miniconda3/include/python3.11/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/typeslots.h \
-  /home/orientpine/miniconda3/include/python3.11/pyhash.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h \
-  /home/orientpine/miniconda3/include/python3.11/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/unicodeobject.h \
+  /usr/include/python3.10/exports.h \
+  /usr/include/python3.10/pymacro.h \
+  /usr/include/python3.10/pymath.h \
+  /usr/include/python3.10/pymem.h \
+  /usr/include/python3.10/cpython/pymem.h \
+  /usr/include/python3.10/object.h \
+  /usr/include/python3.10/cpython/object.h \
+  /usr/include/python3.10/objimpl.h \
+  /usr/include/python3.10/cpython/objimpl.h \
+  /usr/include/python3.10/typeslots.h \
+  /usr/include/python3.10/pyhash.h \
+  /usr/include/python3.10/cpython/pydebug.h \
+  /usr/include/python3.10/bytearrayobject.h \
+  /usr/include/python3.10/cpython/bytearrayobject.h \
+  /usr/include/python3.10/bytesobject.h \
+  /usr/include/python3.10/cpython/bytesobject.h \
+  /usr/include/python3.10/unicodeobject.h \
   /usr/include/ctype.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h \
-  /home/orientpine/miniconda3/include/python3.11/boolobject.h \
-  /home/orientpine/miniconda3/include/python3.11/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/rangeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/memoryobject.h \
-  /home/orientpine/miniconda3/include/python3.11/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/enumobject.h \
-  /home/orientpine/miniconda3/include/python3.11/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/moduleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/classobject.h \
-  /home/orientpine/miniconda3/include/python3.11/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/pycapsule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/code.h \
-  /home/orientpine/miniconda3/include/python3.11/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/sliceobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h \
-  /home/orientpine/miniconda3/include/python3.11/iterobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/genobject.h \
-  /home/orientpine/miniconda3/include/python3.11/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/genericaliasobject.h \
-  /home/orientpine/miniconda3/include/python3.11/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/structseq.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pytime.h \
-  /home/orientpine/miniconda3/include/python3.11/codecs.h \
-  /home/orientpine/miniconda3/include/python3.11/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/pythread.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythread.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/python3.10/cpython/unicodeobject.h \
+  /usr/include/python3.10/longobject.h \
+  /usr/include/python3.10/longintrepr.h \
+  /usr/include/python3.10/boolobject.h \
+  /usr/include/python3.10/floatobject.h \
+  /usr/include/python3.10/complexobject.h \
+  /usr/include/python3.10/rangeobject.h \
+  /usr/include/python3.10/memoryobject.h \
+  /usr/include/python3.10/tupleobject.h \
+  /usr/include/python3.10/cpython/tupleobject.h \
+  /usr/include/python3.10/listobject.h \
+  /usr/include/python3.10/cpython/listobject.h \
+  /usr/include/python3.10/dictobject.h \
+  /usr/include/python3.10/cpython/dictobject.h \
+  /usr/include/python3.10/cpython/odictobject.h \
+  /usr/include/python3.10/enumobject.h \
+  /usr/include/python3.10/setobject.h \
+  /usr/include/python3.10/methodobject.h \
+  /usr/include/python3.10/cpython/methodobject.h \
+  /usr/include/python3.10/moduleobject.h \
+  /usr/include/python3.10/funcobject.h \
+  /usr/include/python3.10/classobject.h \
+  /usr/include/python3.10/fileobject.h \
+  /usr/include/python3.10/cpython/fileobject.h \
+  /usr/include/python3.10/pycapsule.h \
+  /usr/include/python3.10/code.h \
+  /usr/include/python3.10/cpython/code.h \
+  /usr/include/python3.10/pyframe.h \
+  /usr/include/python3.10/traceback.h \
+  /usr/include/python3.10/cpython/traceback.h \
+  /usr/include/python3.10/sliceobject.h \
+  /usr/include/python3.10/cellobject.h \
+  /usr/include/python3.10/iterobject.h \
+  /usr/include/python3.10/cpython/initconfig.h \
+  /usr/include/python3.10/genobject.h \
+  /usr/include/python3.10/pystate.h \
+  /usr/include/python3.10/cpython/pystate.h \
+  /usr/include/python3.10/abstract.h \
+  /usr/include/python3.10/cpython/abstract.h \
+  /usr/include/python3.10/descrobject.h \
+  /usr/include/python3.10/genericaliasobject.h \
+  /usr/include/python3.10/warnings.h \
+  /usr/include/python3.10/weakrefobject.h \
+  /usr/include/python3.10/structseq.h \
+  /usr/include/python3.10/namespaceobject.h \
+  /usr/include/python3.10/cpython/picklebufobject.h \
+  /usr/include/python3.10/cpython/pytime.h \
+  /usr/include/python3.10/codecs.h \
+  /usr/include/python3.10/pyerrors.h \
+  /usr/include/python3.10/cpython/pyerrors.h \
+  /usr/include/python3.10/pythread.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -757,50 +723,42 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/context.h \
-  /home/orientpine/miniconda3/include/python3.11/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/osmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/intrcheck.h \
-  /home/orientpine/miniconda3/include/python3.11/import.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/import.h \
-  /home/orientpine/miniconda3/include/python3.11/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/bltinmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrtod.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrcmp.h \
-  /home/orientpine/miniconda3/include/python3.11/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h \
-  /home/orientpine/miniconda3/include/python3.11/tracemalloc.h \
+  /usr/include/python3.10/context.h \
+  /usr/include/python3.10/modsupport.h \
+  /usr/include/python3.10/compile.h \
+  /usr/include/python3.10/cpython/compile.h \
+  /usr/include/python3.10/pythonrun.h \
+  /usr/include/python3.10/cpython/pythonrun.h \
+  /usr/include/python3.10/pylifecycle.h \
+  /usr/include/python3.10/cpython/pylifecycle.h \
+  /usr/include/python3.10/ceval.h \
+  /usr/include/python3.10/cpython/ceval.h \
+  /usr/include/python3.10/sysmodule.h \
+  /usr/include/python3.10/cpython/sysmodule.h \
+  /usr/include/python3.10/osmodule.h \
+  /usr/include/python3.10/intrcheck.h \
+  /usr/include/python3.10/import.h \
+  /usr/include/python3.10/cpython/import.h \
+  /usr/include/python3.10/bltinmodule.h \
+  /usr/include/python3.10/eval.h \
+  /usr/include/python3.10/cpython/pyctype.h \
+  /usr/include/python3.10/pystrtod.h \
+  /usr/include/python3.10/pystrcmp.h \
+  /usr/include/python3.10/fileutils.h \
+  /usr/include/python3.10/cpython/fileutils.h \
+  /usr/include/python3.10/cpython/pyfpe.h \
+  /usr/include/python3.10/tracemalloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
-  /usr/include/complex.h \
-  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
-  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /usr/include/python3.10/numpy/ndarrayobject.h \
+  /usr/include/python3.10/numpy/ndarraytypes.h \
+  /usr/include/python3.10/numpy/npy_common.h \
+  /usr/include/python3.10/numpy/numpyconfig.h \
+  /usr/include/python3.10/numpy/_numpyconfig.h \
+  /usr/include/python3.10/numpy/npy_endian.h \
+  /usr/include/python3.10/numpy/npy_cpu.h \
+  /usr/include/python3.10/numpy/utils.h \
+  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
+  /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
@@ -813,11 +771,14 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/action/_robot_tracking_control_s.c.o: rosidl_generator_py/interface_rb10_apple/action/_robot_tracking_control_s.c \
   /usr/include/stdc-predef.h \
-  /home/orientpine/miniconda3/include/python3.11/Python.h \
-  /home/orientpine/miniconda3/include/python3.11/patchlevel.h \
-  /home/orientpine/miniconda3/include/python3.11/pyconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacconfig.h \
-  /usr/include/stdlib.h \
+  /usr/include/python3.10/Python.h \
+  /usr/include/python3.10/patchlevel.h \
+  /usr/include/python3.10/pyconfig.h \
+  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
+  /usr/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
@@ -827,17 +788,44 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -862,25 +850,6 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -890,25 +859,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /home/orientpine/miniconda3/include/python3.11/pyport.h \
+  /usr/include/python3.10/pyport.h \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -944,82 +900,78 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  /home/orientpine/miniconda3/include/python3.11/exports.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacro.h \
-  /home/orientpine/miniconda3/include/python3.11/pymath.h \
-  /home/orientpine/miniconda3/include/python3.11/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/pytypedefs.h \
-  /home/orientpine/miniconda3/include/python3.11/pybuffer.h \
-  /home/orientpine/miniconda3/include/python3.11/object.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/object.h \
-  /home/orientpine/miniconda3/include/python3.11/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/typeslots.h \
-  /home/orientpine/miniconda3/include/python3.11/pyhash.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h \
-  /home/orientpine/miniconda3/include/python3.11/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/unicodeobject.h \
+  /usr/include/python3.10/exports.h \
+  /usr/include/python3.10/pymacro.h \
+  /usr/include/python3.10/pymath.h \
+  /usr/include/python3.10/pymem.h \
+  /usr/include/python3.10/cpython/pymem.h \
+  /usr/include/python3.10/object.h \
+  /usr/include/python3.10/cpython/object.h \
+  /usr/include/python3.10/objimpl.h \
+  /usr/include/python3.10/cpython/objimpl.h \
+  /usr/include/python3.10/typeslots.h \
+  /usr/include/python3.10/pyhash.h \
+  /usr/include/python3.10/cpython/pydebug.h \
+  /usr/include/python3.10/bytearrayobject.h \
+  /usr/include/python3.10/cpython/bytearrayobject.h \
+  /usr/include/python3.10/bytesobject.h \
+  /usr/include/python3.10/cpython/bytesobject.h \
+  /usr/include/python3.10/unicodeobject.h \
   /usr/include/ctype.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h \
-  /home/orientpine/miniconda3/include/python3.11/boolobject.h \
-  /home/orientpine/miniconda3/include/python3.11/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/rangeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/memoryobject.h \
-  /home/orientpine/miniconda3/include/python3.11/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/enumobject.h \
-  /home/orientpine/miniconda3/include/python3.11/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/moduleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/classobject.h \
-  /home/orientpine/miniconda3/include/python3.11/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/pycapsule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/code.h \
-  /home/orientpine/miniconda3/include/python3.11/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/sliceobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h \
-  /home/orientpine/miniconda3/include/python3.11/iterobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/genobject.h \
-  /home/orientpine/miniconda3/include/python3.11/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/genericaliasobject.h \
-  /home/orientpine/miniconda3/include/python3.11/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/structseq.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pytime.h \
-  /home/orientpine/miniconda3/include/python3.11/codecs.h \
-  /home/orientpine/miniconda3/include/python3.11/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/pythread.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythread.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/python3.10/cpython/unicodeobject.h \
+  /usr/include/python3.10/longobject.h \
+  /usr/include/python3.10/longintrepr.h \
+  /usr/include/python3.10/boolobject.h \
+  /usr/include/python3.10/floatobject.h \
+  /usr/include/python3.10/complexobject.h \
+  /usr/include/python3.10/rangeobject.h \
+  /usr/include/python3.10/memoryobject.h \
+  /usr/include/python3.10/tupleobject.h \
+  /usr/include/python3.10/cpython/tupleobject.h \
+  /usr/include/python3.10/listobject.h \
+  /usr/include/python3.10/cpython/listobject.h \
+  /usr/include/python3.10/dictobject.h \
+  /usr/include/python3.10/cpython/dictobject.h \
+  /usr/include/python3.10/cpython/odictobject.h \
+  /usr/include/python3.10/enumobject.h \
+  /usr/include/python3.10/setobject.h \
+  /usr/include/python3.10/methodobject.h \
+  /usr/include/python3.10/cpython/methodobject.h \
+  /usr/include/python3.10/moduleobject.h \
+  /usr/include/python3.10/funcobject.h \
+  /usr/include/python3.10/classobject.h \
+  /usr/include/python3.10/fileobject.h \
+  /usr/include/python3.10/cpython/fileobject.h \
+  /usr/include/python3.10/pycapsule.h \
+  /usr/include/python3.10/code.h \
+  /usr/include/python3.10/cpython/code.h \
+  /usr/include/python3.10/pyframe.h \
+  /usr/include/python3.10/traceback.h \
+  /usr/include/python3.10/cpython/traceback.h \
+  /usr/include/python3.10/sliceobject.h \
+  /usr/include/python3.10/cellobject.h \
+  /usr/include/python3.10/iterobject.h \
+  /usr/include/python3.10/cpython/initconfig.h \
+  /usr/include/python3.10/genobject.h \
+  /usr/include/python3.10/pystate.h \
+  /usr/include/python3.10/cpython/pystate.h \
+  /usr/include/python3.10/abstract.h \
+  /usr/include/python3.10/cpython/abstract.h \
+  /usr/include/python3.10/descrobject.h \
+  /usr/include/python3.10/genericaliasobject.h \
+  /usr/include/python3.10/warnings.h \
+  /usr/include/python3.10/weakrefobject.h \
+  /usr/include/python3.10/structseq.h \
+  /usr/include/python3.10/namespaceobject.h \
+  /usr/include/python3.10/cpython/picklebufobject.h \
+  /usr/include/python3.10/cpython/pytime.h \
+  /usr/include/python3.10/codecs.h \
+  /usr/include/python3.10/pyerrors.h \
+  /usr/include/python3.10/cpython/pyerrors.h \
+  /usr/include/python3.10/pythread.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -1027,50 +979,42 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/context.h \
-  /home/orientpine/miniconda3/include/python3.11/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/osmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/intrcheck.h \
-  /home/orientpine/miniconda3/include/python3.11/import.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/import.h \
-  /home/orientpine/miniconda3/include/python3.11/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/bltinmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrtod.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrcmp.h \
-  /home/orientpine/miniconda3/include/python3.11/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h \
-  /home/orientpine/miniconda3/include/python3.11/tracemalloc.h \
+  /usr/include/python3.10/context.h \
+  /usr/include/python3.10/modsupport.h \
+  /usr/include/python3.10/compile.h \
+  /usr/include/python3.10/cpython/compile.h \
+  /usr/include/python3.10/pythonrun.h \
+  /usr/include/python3.10/cpython/pythonrun.h \
+  /usr/include/python3.10/pylifecycle.h \
+  /usr/include/python3.10/cpython/pylifecycle.h \
+  /usr/include/python3.10/ceval.h \
+  /usr/include/python3.10/cpython/ceval.h \
+  /usr/include/python3.10/sysmodule.h \
+  /usr/include/python3.10/cpython/sysmodule.h \
+  /usr/include/python3.10/osmodule.h \
+  /usr/include/python3.10/intrcheck.h \
+  /usr/include/python3.10/import.h \
+  /usr/include/python3.10/cpython/import.h \
+  /usr/include/python3.10/bltinmodule.h \
+  /usr/include/python3.10/eval.h \
+  /usr/include/python3.10/cpython/pyctype.h \
+  /usr/include/python3.10/pystrtod.h \
+  /usr/include/python3.10/pystrcmp.h \
+  /usr/include/python3.10/fileutils.h \
+  /usr/include/python3.10/cpython/fileutils.h \
+  /usr/include/python3.10/cpython/pyfpe.h \
+  /usr/include/python3.10/tracemalloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
-  /usr/include/complex.h \
-  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
-  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /usr/include/python3.10/numpy/ndarrayobject.h \
+  /usr/include/python3.10/numpy/ndarraytypes.h \
+  /usr/include/python3.10/numpy/npy_common.h \
+  /usr/include/python3.10/numpy/numpyconfig.h \
+  /usr/include/python3.10/numpy/_numpyconfig.h \
+  /usr/include/python3.10/numpy/npy_endian.h \
+  /usr/include/python3.10/numpy/npy_cpu.h \
+  /usr/include/python3.10/numpy/utils.h \
+  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
+  /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
@@ -1083,11 +1027,14 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/msg/_aruco_pose_s.c.o: rosidl_generator_py/interface_rb10_apple/msg/_aruco_pose_s.c \
   /usr/include/stdc-predef.h \
-  /home/orientpine/miniconda3/include/python3.11/Python.h \
-  /home/orientpine/miniconda3/include/python3.11/patchlevel.h \
-  /home/orientpine/miniconda3/include/python3.11/pyconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacconfig.h \
-  /usr/include/stdlib.h \
+  /usr/include/python3.10/Python.h \
+  /usr/include/python3.10/patchlevel.h \
+  /usr/include/python3.10/pyconfig.h \
+  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
+  /usr/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
@@ -1097,17 +1044,44 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -1132,25 +1106,6 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -1160,25 +1115,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /home/orientpine/miniconda3/include/python3.11/pyport.h \
+  /usr/include/python3.10/pyport.h \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -1214,82 +1156,78 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  /home/orientpine/miniconda3/include/python3.11/exports.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacro.h \
-  /home/orientpine/miniconda3/include/python3.11/pymath.h \
-  /home/orientpine/miniconda3/include/python3.11/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/pytypedefs.h \
-  /home/orientpine/miniconda3/include/python3.11/pybuffer.h \
-  /home/orientpine/miniconda3/include/python3.11/object.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/object.h \
-  /home/orientpine/miniconda3/include/python3.11/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/typeslots.h \
-  /home/orientpine/miniconda3/include/python3.11/pyhash.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h \
-  /home/orientpine/miniconda3/include/python3.11/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/unicodeobject.h \
+  /usr/include/python3.10/exports.h \
+  /usr/include/python3.10/pymacro.h \
+  /usr/include/python3.10/pymath.h \
+  /usr/include/python3.10/pymem.h \
+  /usr/include/python3.10/cpython/pymem.h \
+  /usr/include/python3.10/object.h \
+  /usr/include/python3.10/cpython/object.h \
+  /usr/include/python3.10/objimpl.h \
+  /usr/include/python3.10/cpython/objimpl.h \
+  /usr/include/python3.10/typeslots.h \
+  /usr/include/python3.10/pyhash.h \
+  /usr/include/python3.10/cpython/pydebug.h \
+  /usr/include/python3.10/bytearrayobject.h \
+  /usr/include/python3.10/cpython/bytearrayobject.h \
+  /usr/include/python3.10/bytesobject.h \
+  /usr/include/python3.10/cpython/bytesobject.h \
+  /usr/include/python3.10/unicodeobject.h \
   /usr/include/ctype.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h \
-  /home/orientpine/miniconda3/include/python3.11/boolobject.h \
-  /home/orientpine/miniconda3/include/python3.11/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/rangeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/memoryobject.h \
-  /home/orientpine/miniconda3/include/python3.11/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/enumobject.h \
-  /home/orientpine/miniconda3/include/python3.11/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/moduleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/classobject.h \
-  /home/orientpine/miniconda3/include/python3.11/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/pycapsule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/code.h \
-  /home/orientpine/miniconda3/include/python3.11/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/sliceobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h \
-  /home/orientpine/miniconda3/include/python3.11/iterobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/genobject.h \
-  /home/orientpine/miniconda3/include/python3.11/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/genericaliasobject.h \
-  /home/orientpine/miniconda3/include/python3.11/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/structseq.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pytime.h \
-  /home/orientpine/miniconda3/include/python3.11/codecs.h \
-  /home/orientpine/miniconda3/include/python3.11/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/pythread.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythread.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/python3.10/cpython/unicodeobject.h \
+  /usr/include/python3.10/longobject.h \
+  /usr/include/python3.10/longintrepr.h \
+  /usr/include/python3.10/boolobject.h \
+  /usr/include/python3.10/floatobject.h \
+  /usr/include/python3.10/complexobject.h \
+  /usr/include/python3.10/rangeobject.h \
+  /usr/include/python3.10/memoryobject.h \
+  /usr/include/python3.10/tupleobject.h \
+  /usr/include/python3.10/cpython/tupleobject.h \
+  /usr/include/python3.10/listobject.h \
+  /usr/include/python3.10/cpython/listobject.h \
+  /usr/include/python3.10/dictobject.h \
+  /usr/include/python3.10/cpython/dictobject.h \
+  /usr/include/python3.10/cpython/odictobject.h \
+  /usr/include/python3.10/enumobject.h \
+  /usr/include/python3.10/setobject.h \
+  /usr/include/python3.10/methodobject.h \
+  /usr/include/python3.10/cpython/methodobject.h \
+  /usr/include/python3.10/moduleobject.h \
+  /usr/include/python3.10/funcobject.h \
+  /usr/include/python3.10/classobject.h \
+  /usr/include/python3.10/fileobject.h \
+  /usr/include/python3.10/cpython/fileobject.h \
+  /usr/include/python3.10/pycapsule.h \
+  /usr/include/python3.10/code.h \
+  /usr/include/python3.10/cpython/code.h \
+  /usr/include/python3.10/pyframe.h \
+  /usr/include/python3.10/traceback.h \
+  /usr/include/python3.10/cpython/traceback.h \
+  /usr/include/python3.10/sliceobject.h \
+  /usr/include/python3.10/cellobject.h \
+  /usr/include/python3.10/iterobject.h \
+  /usr/include/python3.10/cpython/initconfig.h \
+  /usr/include/python3.10/genobject.h \
+  /usr/include/python3.10/pystate.h \
+  /usr/include/python3.10/cpython/pystate.h \
+  /usr/include/python3.10/abstract.h \
+  /usr/include/python3.10/cpython/abstract.h \
+  /usr/include/python3.10/descrobject.h \
+  /usr/include/python3.10/genericaliasobject.h \
+  /usr/include/python3.10/warnings.h \
+  /usr/include/python3.10/weakrefobject.h \
+  /usr/include/python3.10/structseq.h \
+  /usr/include/python3.10/namespaceobject.h \
+  /usr/include/python3.10/cpython/picklebufobject.h \
+  /usr/include/python3.10/cpython/pytime.h \
+  /usr/include/python3.10/codecs.h \
+  /usr/include/python3.10/pyerrors.h \
+  /usr/include/python3.10/cpython/pyerrors.h \
+  /usr/include/python3.10/pythread.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -1297,50 +1235,42 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/context.h \
-  /home/orientpine/miniconda3/include/python3.11/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/osmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/intrcheck.h \
-  /home/orientpine/miniconda3/include/python3.11/import.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/import.h \
-  /home/orientpine/miniconda3/include/python3.11/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/bltinmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrtod.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrcmp.h \
-  /home/orientpine/miniconda3/include/python3.11/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h \
-  /home/orientpine/miniconda3/include/python3.11/tracemalloc.h \
+  /usr/include/python3.10/context.h \
+  /usr/include/python3.10/modsupport.h \
+  /usr/include/python3.10/compile.h \
+  /usr/include/python3.10/cpython/compile.h \
+  /usr/include/python3.10/pythonrun.h \
+  /usr/include/python3.10/cpython/pythonrun.h \
+  /usr/include/python3.10/pylifecycle.h \
+  /usr/include/python3.10/cpython/pylifecycle.h \
+  /usr/include/python3.10/ceval.h \
+  /usr/include/python3.10/cpython/ceval.h \
+  /usr/include/python3.10/sysmodule.h \
+  /usr/include/python3.10/cpython/sysmodule.h \
+  /usr/include/python3.10/osmodule.h \
+  /usr/include/python3.10/intrcheck.h \
+  /usr/include/python3.10/import.h \
+  /usr/include/python3.10/cpython/import.h \
+  /usr/include/python3.10/bltinmodule.h \
+  /usr/include/python3.10/eval.h \
+  /usr/include/python3.10/cpython/pyctype.h \
+  /usr/include/python3.10/pystrtod.h \
+  /usr/include/python3.10/pystrcmp.h \
+  /usr/include/python3.10/fileutils.h \
+  /usr/include/python3.10/cpython/fileutils.h \
+  /usr/include/python3.10/cpython/pyfpe.h \
+  /usr/include/python3.10/tracemalloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
-  /usr/include/complex.h \
-  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
-  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /usr/include/python3.10/numpy/ndarrayobject.h \
+  /usr/include/python3.10/numpy/ndarraytypes.h \
+  /usr/include/python3.10/numpy/npy_common.h \
+  /usr/include/python3.10/numpy/numpyconfig.h \
+  /usr/include/python3.10/numpy/_numpyconfig.h \
+  /usr/include/python3.10/numpy/npy_endian.h \
+  /usr/include/python3.10/numpy/npy_cpu.h \
+  /usr/include/python3.10/numpy/utils.h \
+  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
+  /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__struct.h \
   rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__functions.h \
@@ -1348,11 +1278,14 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/msg/_robot_joint_position_s.c.o: rosidl_generator_py/interface_rb10_apple/msg/_robot_joint_position_s.c \
   /usr/include/stdc-predef.h \
-  /home/orientpine/miniconda3/include/python3.11/Python.h \
-  /home/orientpine/miniconda3/include/python3.11/patchlevel.h \
-  /home/orientpine/miniconda3/include/python3.11/pyconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacconfig.h \
-  /usr/include/stdlib.h \
+  /usr/include/python3.10/Python.h \
+  /usr/include/python3.10/patchlevel.h \
+  /usr/include/python3.10/pyconfig.h \
+  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
+  /usr/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
@@ -1362,17 +1295,44 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -1397,25 +1357,6 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -1425,25 +1366,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /home/orientpine/miniconda3/include/python3.11/pyport.h \
+  /usr/include/python3.10/pyport.h \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -1479,82 +1407,78 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  /home/orientpine/miniconda3/include/python3.11/exports.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacro.h \
-  /home/orientpine/miniconda3/include/python3.11/pymath.h \
-  /home/orientpine/miniconda3/include/python3.11/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/pytypedefs.h \
-  /home/orientpine/miniconda3/include/python3.11/pybuffer.h \
-  /home/orientpine/miniconda3/include/python3.11/object.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/object.h \
-  /home/orientpine/miniconda3/include/python3.11/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/typeslots.h \
-  /home/orientpine/miniconda3/include/python3.11/pyhash.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h \
-  /home/orientpine/miniconda3/include/python3.11/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/unicodeobject.h \
+  /usr/include/python3.10/exports.h \
+  /usr/include/python3.10/pymacro.h \
+  /usr/include/python3.10/pymath.h \
+  /usr/include/python3.10/pymem.h \
+  /usr/include/python3.10/cpython/pymem.h \
+  /usr/include/python3.10/object.h \
+  /usr/include/python3.10/cpython/object.h \
+  /usr/include/python3.10/objimpl.h \
+  /usr/include/python3.10/cpython/objimpl.h \
+  /usr/include/python3.10/typeslots.h \
+  /usr/include/python3.10/pyhash.h \
+  /usr/include/python3.10/cpython/pydebug.h \
+  /usr/include/python3.10/bytearrayobject.h \
+  /usr/include/python3.10/cpython/bytearrayobject.h \
+  /usr/include/python3.10/bytesobject.h \
+  /usr/include/python3.10/cpython/bytesobject.h \
+  /usr/include/python3.10/unicodeobject.h \
   /usr/include/ctype.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h \
-  /home/orientpine/miniconda3/include/python3.11/boolobject.h \
-  /home/orientpine/miniconda3/include/python3.11/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/rangeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/memoryobject.h \
-  /home/orientpine/miniconda3/include/python3.11/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/enumobject.h \
-  /home/orientpine/miniconda3/include/python3.11/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/moduleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/classobject.h \
-  /home/orientpine/miniconda3/include/python3.11/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/pycapsule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/code.h \
-  /home/orientpine/miniconda3/include/python3.11/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/sliceobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h \
-  /home/orientpine/miniconda3/include/python3.11/iterobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/genobject.h \
-  /home/orientpine/miniconda3/include/python3.11/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/genericaliasobject.h \
-  /home/orientpine/miniconda3/include/python3.11/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/structseq.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pytime.h \
-  /home/orientpine/miniconda3/include/python3.11/codecs.h \
-  /home/orientpine/miniconda3/include/python3.11/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/pythread.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythread.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/python3.10/cpython/unicodeobject.h \
+  /usr/include/python3.10/longobject.h \
+  /usr/include/python3.10/longintrepr.h \
+  /usr/include/python3.10/boolobject.h \
+  /usr/include/python3.10/floatobject.h \
+  /usr/include/python3.10/complexobject.h \
+  /usr/include/python3.10/rangeobject.h \
+  /usr/include/python3.10/memoryobject.h \
+  /usr/include/python3.10/tupleobject.h \
+  /usr/include/python3.10/cpython/tupleobject.h \
+  /usr/include/python3.10/listobject.h \
+  /usr/include/python3.10/cpython/listobject.h \
+  /usr/include/python3.10/dictobject.h \
+  /usr/include/python3.10/cpython/dictobject.h \
+  /usr/include/python3.10/cpython/odictobject.h \
+  /usr/include/python3.10/enumobject.h \
+  /usr/include/python3.10/setobject.h \
+  /usr/include/python3.10/methodobject.h \
+  /usr/include/python3.10/cpython/methodobject.h \
+  /usr/include/python3.10/moduleobject.h \
+  /usr/include/python3.10/funcobject.h \
+  /usr/include/python3.10/classobject.h \
+  /usr/include/python3.10/fileobject.h \
+  /usr/include/python3.10/cpython/fileobject.h \
+  /usr/include/python3.10/pycapsule.h \
+  /usr/include/python3.10/code.h \
+  /usr/include/python3.10/cpython/code.h \
+  /usr/include/python3.10/pyframe.h \
+  /usr/include/python3.10/traceback.h \
+  /usr/include/python3.10/cpython/traceback.h \
+  /usr/include/python3.10/sliceobject.h \
+  /usr/include/python3.10/cellobject.h \
+  /usr/include/python3.10/iterobject.h \
+  /usr/include/python3.10/cpython/initconfig.h \
+  /usr/include/python3.10/genobject.h \
+  /usr/include/python3.10/pystate.h \
+  /usr/include/python3.10/cpython/pystate.h \
+  /usr/include/python3.10/abstract.h \
+  /usr/include/python3.10/cpython/abstract.h \
+  /usr/include/python3.10/descrobject.h \
+  /usr/include/python3.10/genericaliasobject.h \
+  /usr/include/python3.10/warnings.h \
+  /usr/include/python3.10/weakrefobject.h \
+  /usr/include/python3.10/structseq.h \
+  /usr/include/python3.10/namespaceobject.h \
+  /usr/include/python3.10/cpython/picklebufobject.h \
+  /usr/include/python3.10/cpython/pytime.h \
+  /usr/include/python3.10/codecs.h \
+  /usr/include/python3.10/pyerrors.h \
+  /usr/include/python3.10/cpython/pyerrors.h \
+  /usr/include/python3.10/pythread.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -1562,50 +1486,42 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/context.h \
-  /home/orientpine/miniconda3/include/python3.11/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/osmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/intrcheck.h \
-  /home/orientpine/miniconda3/include/python3.11/import.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/import.h \
-  /home/orientpine/miniconda3/include/python3.11/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/bltinmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrtod.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrcmp.h \
-  /home/orientpine/miniconda3/include/python3.11/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h \
-  /home/orientpine/miniconda3/include/python3.11/tracemalloc.h \
+  /usr/include/python3.10/context.h \
+  /usr/include/python3.10/modsupport.h \
+  /usr/include/python3.10/compile.h \
+  /usr/include/python3.10/cpython/compile.h \
+  /usr/include/python3.10/pythonrun.h \
+  /usr/include/python3.10/cpython/pythonrun.h \
+  /usr/include/python3.10/pylifecycle.h \
+  /usr/include/python3.10/cpython/pylifecycle.h \
+  /usr/include/python3.10/ceval.h \
+  /usr/include/python3.10/cpython/ceval.h \
+  /usr/include/python3.10/sysmodule.h \
+  /usr/include/python3.10/cpython/sysmodule.h \
+  /usr/include/python3.10/osmodule.h \
+  /usr/include/python3.10/intrcheck.h \
+  /usr/include/python3.10/import.h \
+  /usr/include/python3.10/cpython/import.h \
+  /usr/include/python3.10/bltinmodule.h \
+  /usr/include/python3.10/eval.h \
+  /usr/include/python3.10/cpython/pyctype.h \
+  /usr/include/python3.10/pystrtod.h \
+  /usr/include/python3.10/pystrcmp.h \
+  /usr/include/python3.10/fileutils.h \
+  /usr/include/python3.10/cpython/fileutils.h \
+  /usr/include/python3.10/cpython/pyfpe.h \
+  /usr/include/python3.10/tracemalloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
-  /usr/include/complex.h \
-  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
-  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /usr/include/python3.10/numpy/ndarrayobject.h \
+  /usr/include/python3.10/numpy/ndarraytypes.h \
+  /usr/include/python3.10/numpy/npy_common.h \
+  /usr/include/python3.10/numpy/numpyconfig.h \
+  /usr/include/python3.10/numpy/_numpyconfig.h \
+  /usr/include/python3.10/numpy/npy_endian.h \
+  /usr/include/python3.10/numpy/npy_cpu.h \
+  /usr/include/python3.10/numpy/utils.h \
+  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
+  /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__struct.h \
   rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.h \
@@ -1613,11 +1529,14 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/msg/_robot_tcp_pose_s.c.o: rosidl_generator_py/interface_rb10_apple/msg/_robot_tcp_pose_s.c \
   /usr/include/stdc-predef.h \
-  /home/orientpine/miniconda3/include/python3.11/Python.h \
-  /home/orientpine/miniconda3/include/python3.11/patchlevel.h \
-  /home/orientpine/miniconda3/include/python3.11/pyconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacconfig.h \
-  /usr/include/stdlib.h \
+  /usr/include/python3.10/Python.h \
+  /usr/include/python3.10/patchlevel.h \
+  /usr/include/python3.10/pyconfig.h \
+  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
+  /usr/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
@@ -1627,17 +1546,44 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -1662,25 +1608,6 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -1690,25 +1617,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /home/orientpine/miniconda3/include/python3.11/pyport.h \
+  /usr/include/python3.10/pyport.h \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -1744,82 +1658,78 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  /home/orientpine/miniconda3/include/python3.11/exports.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacro.h \
-  /home/orientpine/miniconda3/include/python3.11/pymath.h \
-  /home/orientpine/miniconda3/include/python3.11/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/pytypedefs.h \
-  /home/orientpine/miniconda3/include/python3.11/pybuffer.h \
-  /home/orientpine/miniconda3/include/python3.11/object.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/object.h \
-  /home/orientpine/miniconda3/include/python3.11/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/typeslots.h \
-  /home/orientpine/miniconda3/include/python3.11/pyhash.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h \
-  /home/orientpine/miniconda3/include/python3.11/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/unicodeobject.h \
+  /usr/include/python3.10/exports.h \
+  /usr/include/python3.10/pymacro.h \
+  /usr/include/python3.10/pymath.h \
+  /usr/include/python3.10/pymem.h \
+  /usr/include/python3.10/cpython/pymem.h \
+  /usr/include/python3.10/object.h \
+  /usr/include/python3.10/cpython/object.h \
+  /usr/include/python3.10/objimpl.h \
+  /usr/include/python3.10/cpython/objimpl.h \
+  /usr/include/python3.10/typeslots.h \
+  /usr/include/python3.10/pyhash.h \
+  /usr/include/python3.10/cpython/pydebug.h \
+  /usr/include/python3.10/bytearrayobject.h \
+  /usr/include/python3.10/cpython/bytearrayobject.h \
+  /usr/include/python3.10/bytesobject.h \
+  /usr/include/python3.10/cpython/bytesobject.h \
+  /usr/include/python3.10/unicodeobject.h \
   /usr/include/ctype.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h \
-  /home/orientpine/miniconda3/include/python3.11/boolobject.h \
-  /home/orientpine/miniconda3/include/python3.11/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/rangeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/memoryobject.h \
-  /home/orientpine/miniconda3/include/python3.11/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/enumobject.h \
-  /home/orientpine/miniconda3/include/python3.11/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/moduleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/classobject.h \
-  /home/orientpine/miniconda3/include/python3.11/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/pycapsule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/code.h \
-  /home/orientpine/miniconda3/include/python3.11/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/sliceobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h \
-  /home/orientpine/miniconda3/include/python3.11/iterobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/genobject.h \
-  /home/orientpine/miniconda3/include/python3.11/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/genericaliasobject.h \
-  /home/orientpine/miniconda3/include/python3.11/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/structseq.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pytime.h \
-  /home/orientpine/miniconda3/include/python3.11/codecs.h \
-  /home/orientpine/miniconda3/include/python3.11/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/pythread.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythread.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/python3.10/cpython/unicodeobject.h \
+  /usr/include/python3.10/longobject.h \
+  /usr/include/python3.10/longintrepr.h \
+  /usr/include/python3.10/boolobject.h \
+  /usr/include/python3.10/floatobject.h \
+  /usr/include/python3.10/complexobject.h \
+  /usr/include/python3.10/rangeobject.h \
+  /usr/include/python3.10/memoryobject.h \
+  /usr/include/python3.10/tupleobject.h \
+  /usr/include/python3.10/cpython/tupleobject.h \
+  /usr/include/python3.10/listobject.h \
+  /usr/include/python3.10/cpython/listobject.h \
+  /usr/include/python3.10/dictobject.h \
+  /usr/include/python3.10/cpython/dictobject.h \
+  /usr/include/python3.10/cpython/odictobject.h \
+  /usr/include/python3.10/enumobject.h \
+  /usr/include/python3.10/setobject.h \
+  /usr/include/python3.10/methodobject.h \
+  /usr/include/python3.10/cpython/methodobject.h \
+  /usr/include/python3.10/moduleobject.h \
+  /usr/include/python3.10/funcobject.h \
+  /usr/include/python3.10/classobject.h \
+  /usr/include/python3.10/fileobject.h \
+  /usr/include/python3.10/cpython/fileobject.h \
+  /usr/include/python3.10/pycapsule.h \
+  /usr/include/python3.10/code.h \
+  /usr/include/python3.10/cpython/code.h \
+  /usr/include/python3.10/pyframe.h \
+  /usr/include/python3.10/traceback.h \
+  /usr/include/python3.10/cpython/traceback.h \
+  /usr/include/python3.10/sliceobject.h \
+  /usr/include/python3.10/cellobject.h \
+  /usr/include/python3.10/iterobject.h \
+  /usr/include/python3.10/cpython/initconfig.h \
+  /usr/include/python3.10/genobject.h \
+  /usr/include/python3.10/pystate.h \
+  /usr/include/python3.10/cpython/pystate.h \
+  /usr/include/python3.10/abstract.h \
+  /usr/include/python3.10/cpython/abstract.h \
+  /usr/include/python3.10/descrobject.h \
+  /usr/include/python3.10/genericaliasobject.h \
+  /usr/include/python3.10/warnings.h \
+  /usr/include/python3.10/weakrefobject.h \
+  /usr/include/python3.10/structseq.h \
+  /usr/include/python3.10/namespaceobject.h \
+  /usr/include/python3.10/cpython/picklebufobject.h \
+  /usr/include/python3.10/cpython/pytime.h \
+  /usr/include/python3.10/codecs.h \
+  /usr/include/python3.10/pyerrors.h \
+  /usr/include/python3.10/cpython/pyerrors.h \
+  /usr/include/python3.10/pythread.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -1827,50 +1737,42 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/context.h \
-  /home/orientpine/miniconda3/include/python3.11/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/osmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/intrcheck.h \
-  /home/orientpine/miniconda3/include/python3.11/import.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/import.h \
-  /home/orientpine/miniconda3/include/python3.11/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/bltinmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrtod.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrcmp.h \
-  /home/orientpine/miniconda3/include/python3.11/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h \
-  /home/orientpine/miniconda3/include/python3.11/tracemalloc.h \
+  /usr/include/python3.10/context.h \
+  /usr/include/python3.10/modsupport.h \
+  /usr/include/python3.10/compile.h \
+  /usr/include/python3.10/cpython/compile.h \
+  /usr/include/python3.10/pythonrun.h \
+  /usr/include/python3.10/cpython/pythonrun.h \
+  /usr/include/python3.10/pylifecycle.h \
+  /usr/include/python3.10/cpython/pylifecycle.h \
+  /usr/include/python3.10/ceval.h \
+  /usr/include/python3.10/cpython/ceval.h \
+  /usr/include/python3.10/sysmodule.h \
+  /usr/include/python3.10/cpython/sysmodule.h \
+  /usr/include/python3.10/osmodule.h \
+  /usr/include/python3.10/intrcheck.h \
+  /usr/include/python3.10/import.h \
+  /usr/include/python3.10/cpython/import.h \
+  /usr/include/python3.10/bltinmodule.h \
+  /usr/include/python3.10/eval.h \
+  /usr/include/python3.10/cpython/pyctype.h \
+  /usr/include/python3.10/pystrtod.h \
+  /usr/include/python3.10/pystrcmp.h \
+  /usr/include/python3.10/fileutils.h \
+  /usr/include/python3.10/cpython/fileutils.h \
+  /usr/include/python3.10/cpython/pyfpe.h \
+  /usr/include/python3.10/tracemalloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
-  /usr/include/complex.h \
-  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
-  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /usr/include/python3.10/numpy/ndarrayobject.h \
+  /usr/include/python3.10/numpy/ndarraytypes.h \
+  /usr/include/python3.10/numpy/npy_common.h \
+  /usr/include/python3.10/numpy/numpyconfig.h \
+  /usr/include/python3.10/numpy/_numpyconfig.h \
+  /usr/include/python3.10/numpy/npy_endian.h \
+  /usr/include/python3.10/numpy/npy_cpu.h \
+  /usr/include/python3.10/numpy/utils.h \
+  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
+  /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h \
   rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.h \
@@ -1878,11 +1780,14 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
 
 CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/interface_rb10_apple/srv/_robot_connect_control_s.c.o: rosidl_generator_py/interface_rb10_apple/srv/_robot_connect_control_s.c \
   /usr/include/stdc-predef.h \
-  /home/orientpine/miniconda3/include/python3.11/Python.h \
-  /home/orientpine/miniconda3/include/python3.11/patchlevel.h \
-  /home/orientpine/miniconda3/include/python3.11/pyconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacconfig.h \
-  /usr/include/stdlib.h \
+  /usr/include/python3.10/Python.h \
+  /usr/include/python3.10/patchlevel.h \
+  /usr/include/python3.10/pyconfig.h \
+  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
+  /usr/include/python3.10/pymacconfig.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
@@ -1892,17 +1797,44 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -1927,25 +1859,6 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -1955,25 +1868,12 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /home/orientpine/miniconda3/include/python3.11/pyport.h \
+  /usr/include/python3.10/pyport.h \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -2009,82 +1909,78 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  /home/orientpine/miniconda3/include/python3.11/exports.h \
-  /home/orientpine/miniconda3/include/python3.11/pymacro.h \
-  /home/orientpine/miniconda3/include/python3.11/pymath.h \
-  /home/orientpine/miniconda3/include/python3.11/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pymem.h \
-  /home/orientpine/miniconda3/include/python3.11/pytypedefs.h \
-  /home/orientpine/miniconda3/include/python3.11/pybuffer.h \
-  /home/orientpine/miniconda3/include/python3.11/object.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/object.h \
-  /home/orientpine/miniconda3/include/python3.11/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h \
-  /home/orientpine/miniconda3/include/python3.11/typeslots.h \
-  /home/orientpine/miniconda3/include/python3.11/pyhash.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h \
-  /home/orientpine/miniconda3/include/python3.11/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h \
-  /home/orientpine/miniconda3/include/python3.11/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h \
-  /home/orientpine/miniconda3/include/python3.11/unicodeobject.h \
+  /usr/include/python3.10/exports.h \
+  /usr/include/python3.10/pymacro.h \
+  /usr/include/python3.10/pymath.h \
+  /usr/include/python3.10/pymem.h \
+  /usr/include/python3.10/cpython/pymem.h \
+  /usr/include/python3.10/object.h \
+  /usr/include/python3.10/cpython/object.h \
+  /usr/include/python3.10/objimpl.h \
+  /usr/include/python3.10/cpython/objimpl.h \
+  /usr/include/python3.10/typeslots.h \
+  /usr/include/python3.10/pyhash.h \
+  /usr/include/python3.10/cpython/pydebug.h \
+  /usr/include/python3.10/bytearrayobject.h \
+  /usr/include/python3.10/cpython/bytearrayobject.h \
+  /usr/include/python3.10/bytesobject.h \
+  /usr/include/python3.10/cpython/bytesobject.h \
+  /usr/include/python3.10/unicodeobject.h \
   /usr/include/ctype.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h \
-  /home/orientpine/miniconda3/include/python3.11/boolobject.h \
-  /home/orientpine/miniconda3/include/python3.11/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h \
-  /home/orientpine/miniconda3/include/python3.11/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h \
-  /home/orientpine/miniconda3/include/python3.11/rangeobject.h \
-  /home/orientpine/miniconda3/include/python3.11/memoryobject.h \
-  /home/orientpine/miniconda3/include/python3.11/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/listobject.h \
-  /home/orientpine/miniconda3/include/python3.11/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h \
-  /home/orientpine/miniconda3/include/python3.11/enumobject.h \
-  /home/orientpine/miniconda3/include/python3.11/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/setobject.h \
-  /home/orientpine/miniconda3/include/python3.11/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h \
-  /home/orientpine/miniconda3/include/python3.11/moduleobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/classobject.h \
-  /home/orientpine/miniconda3/include/python3.11/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h \
-  /home/orientpine/miniconda3/include/python3.11/pycapsule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/code.h \
-  /home/orientpine/miniconda3/include/python3.11/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h \
-  /home/orientpine/miniconda3/include/python3.11/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/traceback.h \
-  /home/orientpine/miniconda3/include/python3.11/sliceobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h \
-  /home/orientpine/miniconda3/include/python3.11/iterobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h \
-  /home/orientpine/miniconda3/include/python3.11/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pystate.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/genobject.h \
-  /home/orientpine/miniconda3/include/python3.11/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h \
-  /home/orientpine/miniconda3/include/python3.11/genericaliasobject.h \
-  /home/orientpine/miniconda3/include/python3.11/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/warnings.h \
-  /home/orientpine/miniconda3/include/python3.11/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h \
-  /home/orientpine/miniconda3/include/python3.11/structseq.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pytime.h \
-  /home/orientpine/miniconda3/include/python3.11/codecs.h \
-  /home/orientpine/miniconda3/include/python3.11/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h \
-  /home/orientpine/miniconda3/include/python3.11/pythread.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythread.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/python3.10/cpython/unicodeobject.h \
+  /usr/include/python3.10/longobject.h \
+  /usr/include/python3.10/longintrepr.h \
+  /usr/include/python3.10/boolobject.h \
+  /usr/include/python3.10/floatobject.h \
+  /usr/include/python3.10/complexobject.h \
+  /usr/include/python3.10/rangeobject.h \
+  /usr/include/python3.10/memoryobject.h \
+  /usr/include/python3.10/tupleobject.h \
+  /usr/include/python3.10/cpython/tupleobject.h \
+  /usr/include/python3.10/listobject.h \
+  /usr/include/python3.10/cpython/listobject.h \
+  /usr/include/python3.10/dictobject.h \
+  /usr/include/python3.10/cpython/dictobject.h \
+  /usr/include/python3.10/cpython/odictobject.h \
+  /usr/include/python3.10/enumobject.h \
+  /usr/include/python3.10/setobject.h \
+  /usr/include/python3.10/methodobject.h \
+  /usr/include/python3.10/cpython/methodobject.h \
+  /usr/include/python3.10/moduleobject.h \
+  /usr/include/python3.10/funcobject.h \
+  /usr/include/python3.10/classobject.h \
+  /usr/include/python3.10/fileobject.h \
+  /usr/include/python3.10/cpython/fileobject.h \
+  /usr/include/python3.10/pycapsule.h \
+  /usr/include/python3.10/code.h \
+  /usr/include/python3.10/cpython/code.h \
+  /usr/include/python3.10/pyframe.h \
+  /usr/include/python3.10/traceback.h \
+  /usr/include/python3.10/cpython/traceback.h \
+  /usr/include/python3.10/sliceobject.h \
+  /usr/include/python3.10/cellobject.h \
+  /usr/include/python3.10/iterobject.h \
+  /usr/include/python3.10/cpython/initconfig.h \
+  /usr/include/python3.10/genobject.h \
+  /usr/include/python3.10/pystate.h \
+  /usr/include/python3.10/cpython/pystate.h \
+  /usr/include/python3.10/abstract.h \
+  /usr/include/python3.10/cpython/abstract.h \
+  /usr/include/python3.10/descrobject.h \
+  /usr/include/python3.10/genericaliasobject.h \
+  /usr/include/python3.10/warnings.h \
+  /usr/include/python3.10/weakrefobject.h \
+  /usr/include/python3.10/structseq.h \
+  /usr/include/python3.10/namespaceobject.h \
+  /usr/include/python3.10/cpython/picklebufobject.h \
+  /usr/include/python3.10/cpython/pytime.h \
+  /usr/include/python3.10/codecs.h \
+  /usr/include/python3.10/pyerrors.h \
+  /usr/include/python3.10/cpython/pyerrors.h \
+  /usr/include/python3.10/pythread.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -2092,57 +1988,53 @@ CMakeFiles/interface_rb10_apple__rosidl_generator_py.dir/rosidl_generator_py/int
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/context.h \
-  /home/orientpine/miniconda3/include/python3.11/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h \
-  /home/orientpine/miniconda3/include/python3.11/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/compile.h \
-  /home/orientpine/miniconda3/include/python3.11/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h \
-  /home/orientpine/miniconda3/include/python3.11/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h \
-  /home/orientpine/miniconda3/include/python3.11/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/ceval.h \
-  /home/orientpine/miniconda3/include/python3.11/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/osmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/intrcheck.h \
-  /home/orientpine/miniconda3/include/python3.11/import.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/import.h \
-  /home/orientpine/miniconda3/include/python3.11/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/abstract.h \
-  /home/orientpine/miniconda3/include/python3.11/bltinmodule.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrtod.h \
-  /home/orientpine/miniconda3/include/python3.11/pystrcmp.h \
-  /home/orientpine/miniconda3/include/python3.11/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h \
-  /home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h \
-  /home/orientpine/miniconda3/include/python3.11/tracemalloc.h \
+  /usr/include/python3.10/context.h \
+  /usr/include/python3.10/modsupport.h \
+  /usr/include/python3.10/compile.h \
+  /usr/include/python3.10/cpython/compile.h \
+  /usr/include/python3.10/pythonrun.h \
+  /usr/include/python3.10/cpython/pythonrun.h \
+  /usr/include/python3.10/pylifecycle.h \
+  /usr/include/python3.10/cpython/pylifecycle.h \
+  /usr/include/python3.10/ceval.h \
+  /usr/include/python3.10/cpython/ceval.h \
+  /usr/include/python3.10/sysmodule.h \
+  /usr/include/python3.10/cpython/sysmodule.h \
+  /usr/include/python3.10/osmodule.h \
+  /usr/include/python3.10/intrcheck.h \
+  /usr/include/python3.10/import.h \
+  /usr/include/python3.10/cpython/import.h \
+  /usr/include/python3.10/bltinmodule.h \
+  /usr/include/python3.10/eval.h \
+  /usr/include/python3.10/cpython/pyctype.h \
+  /usr/include/python3.10/pystrtod.h \
+  /usr/include/python3.10/pystrcmp.h \
+  /usr/include/python3.10/fileutils.h \
+  /usr/include/python3.10/cpython/fileutils.h \
+  /usr/include/python3.10/cpython/pyfpe.h \
+  /usr/include/python3.10/tracemalloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
-  /usr/include/complex.h \
-  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
-  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
-  /home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+  /usr/include/python3.10/numpy/ndarrayobject.h \
+  /usr/include/python3.10/numpy/ndarraytypes.h \
+  /usr/include/python3.10/numpy/npy_common.h \
+  /usr/include/python3.10/numpy/numpyconfig.h \
+  /usr/include/python3.10/numpy/_numpyconfig.h \
+  /usr/include/python3.10/numpy/npy_endian.h \
+  /usr/include/python3.10/numpy/npy_cpu.h \
+  /usr/include/python3.10/numpy/utils.h \
+  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
+  /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__struct.h \
   rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functions.h \
   rosidl_generator_c/interface_rb10_apple/msg/rosidl_generator_c__visibility_control.h
 
 
+rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functions.h:
+
 rosidl_generator_py/interface_rb10_apple/srv/_robot_connect_control_s.c:
+
+rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.h:
 
 rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__struct.h:
 
@@ -2150,35 +2042,15 @@ rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functio
 
 rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__struct.h:
 
-rosidl_generator_py/interface_rb10_apple/msg/_robot_joint_position_s.c:
-
-rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__functions.h:
-
 rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__struct.h:
-
-rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.h:
 
 rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__struct.h:
 
+rosidl_generator_py/interface_rb10_apple/action/_robot_tcp_control_s.c:
+
 rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__functions.h:
 
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
-
-rosidl_generator_c/interface_rb10_apple/msg/rosidl_generator_c__visibility_control.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
-
-/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
-
-rosidl_generator_py/interface_rb10_apple/msg/_aruco_pose_s.c:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
-rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__struct.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+/usr/include/asm-generic/errno-base.h:
 
 /usr/include/linux/stddef.h:
 
@@ -2188,27 +2060,27 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__struc
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_endian.h:
-
-/usr/include/asm-generic/errno-base.h:
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
+/usr/include/python3.10/longobject.h:
+
+/usr/include/linux/stat.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
-/home/orientpine/miniconda3/include/python3.11/pyport.h:
+/usr/include/python3.10/cpython/bytesobject.h:
+
+/usr/include/python3.10/cpython/odictobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h:
-
-/usr/include/x86_64-linux-gnu/sys/time.h:
-
-/home/orientpine/miniconda3/include/python3.11/longobject.h:
-
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/python3.10/numpy/npy_cpu.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -2216,29 +2088,13 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/weakrefobject.h:
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/pythonrun.h:
+/usr/include/python3.10/modsupport.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__functions.h:
 
-/usr/include/linux/limits.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/bytearrayobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_2_compat.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/home/orientpine/miniconda3/include/python3.11/structseq.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+/usr/include/python3.10/cpython/pyctype.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
@@ -2246,61 +2102,167 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/genobject.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__functions.h:
+/usr/include/linux/limits.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/home/orientpine/miniconda3/include/python3.11/pyframe.h:
+/usr/include/python3.10/ceval.h:
 
 /usr/include/assert.h:
 
-/home/orientpine/miniconda3/include/python3.11/bytearrayobject.h:
+/usr/include/python3.10/structseq.h:
 
 /usr/include/linux/close_range.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/pylifecycle.h:
-
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/__multiarray_api.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/sysmodule.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/methodobject.h:
+/usr/include/python3.10/pyport.h:
+
+/usr/include/alloca.h:
+
+/usr/include/python3.10/cpython/pyerrors.h:
 
 /usr/include/strings.h:
 
+/usr/include/python3.10/cpython/unicodeobject.h:
+
+rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/python3.10/cpython/compile.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/python3.10/cpython/objimpl.h:
+
+/usr/include/python3.10/cpython/pythonrun.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/linux/errno.h:
+/usr/include/python3.10/boolobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/usr/include/python3.10/methodobject.h:
 
-/usr/include/x86_64-linux-gnu/sys/stat.h:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
-/usr/include/errno.h:
+/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/limits.h:
+
+/usr/include/python3.10/iterobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/python3.10/Python.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+rosidl_generator_py/interface_rb10_apple/msg/_robot_tcp_pose_s.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/python3.10/tupleobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/python3.10/weakrefobject.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/python3.10/numpy/_numpyconfig.h:
+
+/usr/include/python3.10/numpy/utils.h:
+
+/usr/include/python3.10/numpy/ndarraytypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/python3.10/cpython/abstract.h:
+
+/usr/include/python3.10/typeslots.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/python3.10/genobject.h:
+
+rosidl_generator_py/interface_rb10_apple/action/_robot_mode_control_s.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/context.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/python3.10/cpython/traceback.h:
+
+rosidl_generator_py/interface_rb10_apple/action/_robot_tracking_control_s.c:
+
+rosidl_generator_py/interface_rb10_apple/action/_robot_joint_control_s.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/python3.10/pymacconfig.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/python3.10/namespaceobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -2310,23 +2272,55 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__st
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/traceback.h:
+/usr/include/python3.10/codecs.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/python3.10/pystrtod.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/pystate.h:
+/usr/include/stdc-predef.h:
 
-/home/orientpine/miniconda3/include/python3.11/pyconfig.h:
+/usr/include/asm-generic/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h:
+/usr/include/asm-generic/int-ll64.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+rosidl_generator_c/interface_rb10_apple/msg/rosidl_generator_c__visibility_control.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/python3.10/longintrepr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/python3.10/cpython/pytime.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/python3.10/pyconfig.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/python3.10/sliceobject.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_mode_control__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
@@ -2334,165 +2328,9 @@ rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__st
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/home/orientpine/miniconda3/include/python3.11/methodobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathdef.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/home/orientpine/miniconda3/include/python3.11/listobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/tupleobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-rosidl_generator_py/interface_rb10_apple/action/_robot_tracking_control_s.c:
-
-rosidl_generator_py/interface_rb10_apple/action/_robot_joint_control_s.c:
-
-/usr/include/string.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/longintrepr.h:
-
-/home/orientpine/miniconda3/include/python3.11/Python.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/inttypes.h:
-
-/home/orientpine/miniconda3/include/python3.11/patchlevel.h:
-
-/usr/include/stdlib.h:
-
-/home/orientpine/miniconda3/include/python3.11/pyhash.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/longobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/home/orientpine/miniconda3/include/python3.11/pylifecycle.h:
-
-/home/orientpine/miniconda3/include/python3.11/pymacconfig.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/linux/stat.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/abstract.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-rosidl_generator_py/interface_rb10_apple/action/_robot_mode_control_s.c:
-
-/home/orientpine/miniconda3/include/python3.11/bytesobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/fileobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/features.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_cpu.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/pyframe.h:
-
-/usr/include/linux/types.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-rosidl_generator_py/interface_rb10_apple/msg/_robot_tcp_pose_s.c:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-rosidl_generator_py/interface_rb10_apple/action/_robot_tcp_control_s.c:
-
-/home/orientpine/miniconda3/include/python3.11/compile.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.h:
-
-/home/orientpine/miniconda3/include/python3.11/descrobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/home/orientpine/miniconda3/include/python3.11/intrcheck.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/home/orientpine/miniconda3/include/python3.11/modsupport.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/home/orientpine/miniconda3/include/python3.11/pymath.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/time.h:
 
@@ -2500,224 +2338,246 @@ rosidl_generator_c/interface_rb10_apple/msg/detail/robot_tcp_pose__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/home/orientpine/miniconda3/include/python3.11/pythread.h:
-
 /usr/include/stdio.h:
 
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+/usr/include/python3.10/bltinmodule.h:
 
-/home/orientpine/miniconda3/include/python3.11/unicodeobject.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/errno.h:
+
+rosidl_generator_py/interface_rb10_apple/msg/_robot_joint_position_s.c:
+
+/usr/include/python3.10/cpython/fileutils.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+
+/usr/include/python3.10/pymem.h:
+
+/usr/include/python3.10/cellobject.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
-/home/orientpine/miniconda3/include/python3.11/exports.h:
+/usr/include/python3.10/fileobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/usr/include/python3.10/exports.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/objimpl.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/home/orientpine/miniconda3/include/python3.11/pymacro.h:
+/usr/include/python3.10/pymacro.h:
 
-/home/orientpine/miniconda3/include/python3.11/pymem.h:
+/usr/include/python3.10/warnings.h:
+
+/usr/include/python3.10/pymath.h:
+
+/usr/include/python3.10/cpython/object.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/python3.10/pyhash.h:
+
+/usr/include/python3.10/object.h:
+
+/usr/include/python3.10/cpython/bytearrayobject.h:
+
+/usr/include/python3.10/cpython/pystate.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/python3.10/bytesobject.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/python3.10/unicodeobject.h:
+
+/usr/include/ctype.h:
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_tcp_control__functions.h:
+
+/usr/include/python3.10/listobject.h:
 
 /usr/include/wchar.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/pymem.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/home/orientpine/miniconda3/include/python3.11/pytypedefs.h:
+/usr/include/python3.10/complexobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/typeslots.h:
+/usr/include/python3.10/rangeobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/pybuffer.h:
+/usr/include/python3.10/cpython/pyfpe.h:
 
-rosidl_generator_c/interface_rb10_apple/action/detail/robot_tracking_control__functions.h:
+rosidl_generator_c/interface_rb10_apple/msg/detail/aruco_pose__functions.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/object.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/home/orientpine/miniconda3/include/python3.11/objimpl.h:
+/usr/include/python3.10/enumobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/pydebug.h:
+/usr/include/python3.10/cpython/listobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/bytesobject.h:
+/usr/include/python3.10/dictobject.h:
 
-/usr/include/ctype.h:
+/usr/include/python3.10/numpy/__multiarray_api.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/python3.10/cpython/pydebug.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/unicodeobject.h:
+/usr/include/python3.10/cpython/fileobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/boolobject.h:
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/floatobject.h:
+/usr/include/python3.10/pycapsule.h:
 
-/usr/include/complex.h:
+/usr/include/python3.10/code.h:
 
-/home/orientpine/miniconda3/include/python3.11/complexobject.h:
+/usr/include/python3.10/cpython/code.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_numpyconfig.h:
+/usr/include/python3.10/classobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/complexobject.h:
+/usr/include/python3.10/pyframe.h:
 
-/home/orientpine/miniconda3/include/python3.11/rangeobject.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/home/orientpine/miniconda3/include/python3.11/sysmodule.h:
+/usr/include/python3.10/cpython/picklebufobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/memoryobject.h:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/home/orientpine/miniconda3/include/python3.11/pystrtod.h:
+/usr/include/python3.10/traceback.h:
 
-/home/orientpine/miniconda3/include/python3.11/tupleobject.h:
+/usr/include/string.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/listobject.h:
+/usr/include/python3.10/cpython/initconfig.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/dictobject.h:
+/usr/include/python3.10/pystate.h:
 
-/usr/include/alloca.h:
+/usr/include/python3.10/cpython/pylifecycle.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/odictobject.h:
+/usr/include/python3.10/floatobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/enumobject.h:
+/usr/include/python3.10/pythonrun.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/setobject.h:
+/usr/include/python3.10/descrobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/moduleobject.h:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
-/home/orientpine/miniconda3/include/python3.11/genericaliasobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/classobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/fileobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/pycapsule.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/code.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/cellobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/iterobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/fileutils.h:
-
-/home/orientpine/miniconda3/include/python3.11/dictobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/initconfig.h:
-
-/home/orientpine/miniconda3/include/python3.11/pystate.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/descrobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/home/orientpine/miniconda3/include/python3.11/sliceobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/warnings.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/warnings.h:
-
-/home/orientpine/miniconda3/include/python3.11/weakrefobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/setobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/picklebufobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/pytime.h:
-
-/home/orientpine/miniconda3/include/python3.11/abstract.h:
-
-/home/orientpine/miniconda3/include/python3.11/codecs.h:
+/usr/include/python3.10/genericaliasobject.h:
 
 /usr/include/stdint.h:
 
 /usr/include/endian.h:
 
-/home/orientpine/miniconda3/include/python3.11/pyerrors.h:
+/usr/include/python3.10/cpython/ceval.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/pyerrors.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-/home/orientpine/miniconda3/include/python3.11/ceval.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/python3.10/pyerrors.h:
 
 /usr/include/pthread.h:
 
-/home/orientpine/miniconda3/include/python3.11/pythonrun.h:
-
-/home/orientpine/miniconda3/include/python3.11/cpython/funcobject.h:
-
-/home/orientpine/miniconda3/include/python3.11/floatobject.h:
-
 /usr/include/sched.h:
+
+/usr/include/python3.10/pythread.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/pythread.h:
+/usr/include/python3.10/cpython/tupleobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/modsupport.h:
+/usr/include/python3.10/context.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/compile.h:
+/usr/include/python3.10/compile.h:
 
-/home/orientpine/miniconda3/include/python3.11/traceback.h:
+/usr/include/python3.10/sysmodule.h:
 
-/home/orientpine/miniconda3/include/python3.11/osmodule.h:
+/usr/include/python3.10/cpython/sysmodule.h:
 
-/home/orientpine/miniconda3/include/python3.11/tracemalloc.h:
+/usr/include/python3.10/tracemalloc.h:
 
-/home/orientpine/miniconda3/include/python3.11/import.h:
+/usr/include/python3.10/osmodule.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/import.h:
+/usr/include/python3.10/intrcheck.h:
 
-/home/orientpine/miniconda3/include/python3.11/bltinmodule.h:
+/usr/include/python3.10/import.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/pyctype.h:
+/usr/include/python3.10/cpython/import.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
+/usr/include/python3.10/bytearrayobject.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/ceval.h:
+/usr/include/python3.10/eval.h:
 
-/home/orientpine/miniconda3/include/python3.11/pystrcmp.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/home/orientpine/miniconda3/include/python3.11/fileutils.h:
+/usr/include/python3.10/pystrcmp.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
-/home/orientpine/miniconda3/include/python3.11/cpython/pyfpe.h:
+/usr/include/python3.10/abstract.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h:
+/usr/include/python3.10/fileutils.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h:
+/usr/include/python3.10/moduleobject.h:
 
-rosidl_generator_c/interface_rb10_apple/srv/detail/robot_connect_control__functions.h:
+/usr/include/python3.10/numpy/npy_common.h:
 
-/home/orientpine/miniconda3/include/python3.11/object.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/npy_common.h:
+/usr/include/python3.10/numpy/numpyconfig.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/numpyconfig.h:
+/usr/include/python3.10/numpy/npy_endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/cmathcalls.h:
+/usr/include/python3.10/memoryobject.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/utils.h:
+/usr/include/python3.10/numpy/_neighborhood_iterator_imp.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h:
+/usr/include/python3.10/setobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+/usr/include/python3.10/cpython/pymem.h:
 
-/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include/numpy/dtype_api.h:
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__struct.h:
+
+/usr/include/python3.10/cpython/methodobject.h:
+
+/usr/include/python3.10/pylifecycle.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
+
+rosidl_generator_py/interface_rb10_apple/msg/_aruco_pose_s.c:
+
+/usr/include/python3.10/cpython/dictobject.h:
+
+/usr/include/python3.10/numpy/ndarrayobject.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+/usr/include/python3.10/funcobject.h:
+
+/usr/include/python3.10/objimpl.h:
+
+/usr/include/python3.10/patchlevel.h:
+
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+rosidl_generator_c/interface_rb10_apple/action/detail/robot_joint_control__functions.h:

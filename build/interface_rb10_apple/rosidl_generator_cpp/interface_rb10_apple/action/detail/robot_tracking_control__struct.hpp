@@ -152,30 +152,41 @@ struct RobotTrackingControl_Result_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->feedback = "";
+      this->success = false;
+      this->message = "";
     }
   }
 
   explicit RobotTrackingControl_Result_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : feedback(_alloc)
+  : message(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->feedback = "";
+      this->success = false;
+      this->message = "";
     }
   }
 
   // field types and members
-  using _feedback_type =
+  using _success_type =
+    bool;
+  _success_type success;
+  using _message_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
-  _feedback_type feedback;
+  _message_type message;
 
   // setters for named parameter idiom
-  Type & set__feedback(
+  Type & set__success(
+    const bool & _arg)
+  {
+    this->success = _arg;
+    return *this;
+  }
+  Type & set__message(
     const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
-    this->feedback = _arg;
+    this->message = _arg;
     return *this;
   }
 
@@ -221,7 +232,10 @@ struct RobotTrackingControl_Result_
   // comparison operators
   bool operator==(const RobotTrackingControl_Result_ & other) const
   {
-    if (this->feedback != other.feedback) {
+    if (this->success != other.success) {
+      return false;
+    }
+    if (this->message != other.message) {
       return false;
     }
     return true;
@@ -266,41 +280,30 @@ struct RobotTrackingControl_Feedback_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->success = false;
-      this->message = "";
+      this->feedback = "";
     }
   }
 
   explicit RobotTrackingControl_Feedback_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : message(_alloc)
+  : feedback(_alloc)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->success = false;
-      this->message = "";
+      this->feedback = "";
     }
   }
 
   // field types and members
-  using _success_type =
-    bool;
-  _success_type success;
-  using _message_type =
+  using _feedback_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
-  _message_type message;
+  _feedback_type feedback;
 
   // setters for named parameter idiom
-  Type & set__success(
-    const bool & _arg)
-  {
-    this->success = _arg;
-    return *this;
-  }
-  Type & set__message(
+  Type & set__feedback(
     const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
-    this->message = _arg;
+    this->feedback = _arg;
     return *this;
   }
 
@@ -346,10 +349,7 @@ struct RobotTrackingControl_Feedback_
   // comparison operators
   bool operator==(const RobotTrackingControl_Feedback_ & other) const
   {
-    if (this->success != other.success) {
-      return false;
-    }
-    if (this->message != other.message) {
+    if (this->feedback != other.feedback) {
       return false;
     }
     return true;

@@ -1,0 +1,2 @@
+Invoking command in '/home/orientpine/robot_ws/build/interface_rb10_apple': CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake /home/orientpine/robot_ws/src/interface_rb10_apple -DCMAKE_INSTALL_PREFIX=/home/orientpine/robot_ws/install/interface_rb10_apple
+Invoked command in '/home/orientpine/robot_ws/build/interface_rb10_apple' returned '1': CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake /home/orientpine/robot_ws/src/interface_rb10_apple -DCMAKE_INSTALL_PREFIX=/home/orientpine/robot_ws/install/interface_rb10_apple

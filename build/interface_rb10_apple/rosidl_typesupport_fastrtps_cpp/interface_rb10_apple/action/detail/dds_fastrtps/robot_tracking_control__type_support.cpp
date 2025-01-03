@@ -246,8 +246,10 @@ cdr_serialize(
   const interface_rb10_apple::action::RobotTrackingControl_Result & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: feedback
-  cdr << ros_message.feedback;
+  // Member: success
+  cdr << (ros_message.success ? true : false);
+  // Member: message
+  cdr << ros_message.message;
   return true;
 }
 
@@ -257,8 +259,15 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   interface_rb10_apple::action::RobotTrackingControl_Result & ros_message)
 {
-  // Member: feedback
-  cdr >> ros_message.feedback;
+  // Member: success
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.success = tmp ? true : false;
+  }
+
+  // Member: message
+  cdr >> ros_message.message;
 
   return true;
 }
@@ -276,10 +285,16 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: feedback
+  // Member: success
+  {
+    size_t item_size = sizeof(ros_message.success);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: message
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.feedback.size() + 1);
+    (ros_message.message.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -304,7 +319,15 @@ max_serialized_size_RobotTrackingControl_Result(
   is_plain = true;
 
 
-  // Member: feedback
+  // Member: success
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: message
   {
     size_t array_size = 1;
 
@@ -325,7 +348,7 @@ max_serialized_size_RobotTrackingControl_Result(
     using DataType = interface_rb10_apple::action::RobotTrackingControl_Result;
     is_plain =
       (
-      offsetof(DataType, feedback) +
+      offsetof(DataType, message) +
       last_member_size
       ) == ret_val;
   }
@@ -460,10 +483,8 @@ cdr_serialize(
   const interface_rb10_apple::action::RobotTrackingControl_Feedback & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: success
-  cdr << (ros_message.success ? true : false);
-  // Member: message
-  cdr << ros_message.message;
+  // Member: feedback
+  cdr << ros_message.feedback;
   return true;
 }
 
@@ -473,15 +494,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   interface_rb10_apple::action::RobotTrackingControl_Feedback & ros_message)
 {
-  // Member: success
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.success = tmp ? true : false;
-  }
-
-  // Member: message
-  cdr >> ros_message.message;
+  // Member: feedback
+  cdr >> ros_message.feedback;
 
   return true;
 }
@@ -499,16 +513,10 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: success
-  {
-    size_t item_size = sizeof(ros_message.success);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // Member: message
+  // Member: feedback
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.message.size() + 1);
+    (ros_message.feedback.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -533,15 +541,7 @@ max_serialized_size_RobotTrackingControl_Feedback(
   is_plain = true;
 
 
-  // Member: success
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
-
-  // Member: message
+  // Member: feedback
   {
     size_t array_size = 1;
 
@@ -562,7 +562,7 @@ max_serialized_size_RobotTrackingControl_Feedback(
     using DataType = interface_rb10_apple::action::RobotTrackingControl_Feedback;
     is_plain =
       (
-      offsetof(DataType, message) +
+      offsetof(DataType, feedback) +
       last_member_size
       ) == ret_val;
   }

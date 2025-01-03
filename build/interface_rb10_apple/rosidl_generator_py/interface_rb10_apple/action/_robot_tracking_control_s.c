@@ -165,8 +165,17 @@ bool interface_rb10_apple__action__robot_tracking_control__result__convert_from_
     assert(strncmp("interface_rb10_apple.action._robot_tracking_control.RobotTrackingControl_Result", full_classname_dest, 79) == 0);
   }
   interface_rb10_apple__action__RobotTrackingControl_Result * ros_message = _ros_message;
-  {  // feedback
-    PyObject * field = PyObject_GetAttrString(_pymsg, "feedback");
+  {  // success
+    PyObject * field = PyObject_GetAttrString(_pymsg, "success");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->success = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // message
+    PyObject * field = PyObject_GetAttrString(_pymsg, "message");
     if (!field) {
       return false;
     }
@@ -176,7 +185,7 @@ bool interface_rb10_apple__action__robot_tracking_control__result__convert_from_
       Py_DECREF(field);
       return false;
     }
-    rosidl_runtime_c__String__assign(&ros_message->feedback, PyBytes_AS_STRING(encoded_field));
+    rosidl_runtime_c__String__assign(&ros_message->message, PyBytes_AS_STRING(encoded_field));
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
@@ -202,17 +211,28 @@ PyObject * interface_rb10_apple__action__robot_tracking_control__result__convert
     }
   }
   interface_rb10_apple__action__RobotTrackingControl_Result * ros_message = (interface_rb10_apple__action__RobotTrackingControl_Result *)raw_ros_message;
-  {  // feedback
+  {  // success
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->success ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "success", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // message
     PyObject * field = NULL;
     field = PyUnicode_DecodeUTF8(
-      ros_message->feedback.data,
-      strlen(ros_message->feedback.data),
+      ros_message->message.data,
+      strlen(ros_message->message.data),
       "replace");
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "feedback", field);
+      int rc = PyObject_SetAttrString(_pymessage, "message", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
@@ -277,17 +297,8 @@ bool interface_rb10_apple__action__robot_tracking_control__feedback__convert_fro
     assert(strncmp("interface_rb10_apple.action._robot_tracking_control.RobotTrackingControl_Feedback", full_classname_dest, 81) == 0);
   }
   interface_rb10_apple__action__RobotTrackingControl_Feedback * ros_message = _ros_message;
-  {  // success
-    PyObject * field = PyObject_GetAttrString(_pymsg, "success");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->success = (Py_True == field);
-    Py_DECREF(field);
-  }
-  {  // message
-    PyObject * field = PyObject_GetAttrString(_pymsg, "message");
+  {  // feedback
+    PyObject * field = PyObject_GetAttrString(_pymsg, "feedback");
     if (!field) {
       return false;
     }
@@ -297,7 +308,7 @@ bool interface_rb10_apple__action__robot_tracking_control__feedback__convert_fro
       Py_DECREF(field);
       return false;
     }
-    rosidl_runtime_c__String__assign(&ros_message->message, PyBytes_AS_STRING(encoded_field));
+    rosidl_runtime_c__String__assign(&ros_message->feedback, PyBytes_AS_STRING(encoded_field));
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
@@ -323,28 +334,17 @@ PyObject * interface_rb10_apple__action__robot_tracking_control__feedback__conve
     }
   }
   interface_rb10_apple__action__RobotTrackingControl_Feedback * ros_message = (interface_rb10_apple__action__RobotTrackingControl_Feedback *)raw_ros_message;
-  {  // success
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->success ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "success", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // message
+  {  // feedback
     PyObject * field = NULL;
     field = PyUnicode_DecodeUTF8(
-      ros_message->message.data,
-      strlen(ros_message->message.data),
+      ros_message->feedback.data,
+      strlen(ros_message->feedback.data),
       "replace");
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "message", field);
+      int rc = PyObject_SetAttrString(_pymessage, "feedback", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

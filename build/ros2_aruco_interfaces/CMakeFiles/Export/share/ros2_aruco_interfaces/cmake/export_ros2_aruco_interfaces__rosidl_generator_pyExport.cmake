@@ -54,8 +54,7 @@ endif()
 add_library(ros2_aruco_interfaces::ros2_aruco_interfaces__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(ros2_aruco_interfaces::ros2_aruco_interfaces__rosidl_generator_py PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include"
-  INTERFACE_LINK_LIBRARIES "ros2_aruco_interfaces::ros2_aruco_interfaces__rosidl_generator_c;/home/orientpine/miniconda3/lib/libpython3.11.so;ros2_aruco_interfaces::ros2_aruco_interfaces__rosidl_typesupport_c;geometry_msgs::geometry_msgs__rosidl_generator_py;std_msgs::std_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py"
+  INTERFACE_LINK_LIBRARIES "ros2_aruco_interfaces::ros2_aruco_interfaces__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;ros2_aruco_interfaces::ros2_aruco_interfaces__rosidl_typesupport_c;geometry_msgs::geometry_msgs__rosidl_generator_py;std_msgs::std_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

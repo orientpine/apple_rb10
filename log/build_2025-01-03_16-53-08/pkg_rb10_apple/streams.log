@@ -1,0 +1,23 @@
+[1.450s] Invoking command in '/home/orientpine/robot_ws/build/pkg_rb10_apple': CMAKE_PREFIX_PATH=/home/orientpine/robot_ws/install/interface_rb10_apple:/home/orientpine/robot_ws/install/ros2_aruco_interfaces CONDA_PROMPT_MODIFIER=(rb) LD_LIBRARY_PATH=/home/orientpine/robot_ws/install/interface_rb10_apple/lib:/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/pkg_rb10_apple/build --no-deps symlink_data
+[2.039s] running develop
+[2.399s] running egg_info
+[2.399s] writing pkg_rb10_apple.egg-info/PKG-INFO
+[2.399s] writing dependency_links to pkg_rb10_apple.egg-info/dependency_links.txt
+[2.399s] writing entry points to pkg_rb10_apple.egg-info/entry_points.txt
+[2.400s] writing requirements to pkg_rb10_apple.egg-info/requires.txt
+[2.400s] writing top-level names to pkg_rb10_apple.egg-info/top_level.txt
+[2.403s] reading manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'
+[2.404s] writing manifest file 'pkg_rb10_apple.egg-info/SOURCES.txt'
+[2.407s] running build_ext
+[2.408s] Creating /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg-rb10-apple.egg-link (link to .)
+[2.409s] Installing robot_connect_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.409s] Installing robot_info_publisher script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.409s] Installing robot_joint_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.409s] Installing robot_mode_control_client script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.410s] Installing robot_mode_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.410s] Installing robot_tcp_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.410s] Installing robot_tracking_aruco_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+[2.410s] 
+[2.410s] Installed /home/orientpine/robot_ws/build/pkg_rb10_apple
+[2.411s] running symlink_data
+[2.461s] Invoked command in '/home/orientpine/robot_ws/build/pkg_rb10_apple' returned '0': CMAKE_PREFIX_PATH=/home/orientpine/robot_ws/install/interface_rb10_apple:/home/orientpine/robot_ws/install/ros2_aruco_interfaces CONDA_PROMPT_MODIFIER=(rb) LD_LIBRARY_PATH=/home/orientpine/robot_ws/install/interface_rb10_apple/lib:/home/orientpine/robot_ws/install/ros2_aruco_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/orientpine/robot_ws/build/pkg_rb10_apple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/pkg_rb10_apple/build --no-deps symlink_data

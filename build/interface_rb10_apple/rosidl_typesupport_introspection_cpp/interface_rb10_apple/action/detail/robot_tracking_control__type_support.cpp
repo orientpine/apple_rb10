@@ -156,16 +156,33 @@ void RobotTrackingControl_Result_fini_function(void * message_memory)
   typed_message->~RobotTrackingControl_Result();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember RobotTrackingControl_Result_message_member_array[1] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember RobotTrackingControl_Result_message_member_array[2] = {
   {
-    "feedback",  // name
+    "success",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(interface_rb10_apple::action::RobotTrackingControl_Result, success),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "message",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(interface_rb10_apple::action::RobotTrackingControl_Result, feedback),  // bytes offset in struct
+    offsetof(interface_rb10_apple::action::RobotTrackingControl_Result, message),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -179,7 +196,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember RobotTracking
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers RobotTrackingControl_Result_message_members = {
   "interface_rb10_apple::action",  // message namespace
   "RobotTrackingControl_Result",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(interface_rb10_apple::action::RobotTrackingControl_Result),
   RobotTrackingControl_Result_message_member_array,  // message members
   RobotTrackingControl_Result_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -275,33 +292,16 @@ void RobotTrackingControl_Feedback_fini_function(void * message_memory)
   typed_message->~RobotTrackingControl_Feedback();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember RobotTrackingControl_Feedback_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember RobotTrackingControl_Feedback_message_member_array[1] = {
   {
-    "success",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(interface_rb10_apple::action::RobotTrackingControl_Feedback, success),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "message",  // name
+    "feedback",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(interface_rb10_apple::action::RobotTrackingControl_Feedback, message),  // bytes offset in struct
+    offsetof(interface_rb10_apple::action::RobotTrackingControl_Feedback, feedback),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -315,7 +315,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember RobotTracking
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers RobotTrackingControl_Feedback_message_members = {
   "interface_rb10_apple::action",  // message namespace
   "RobotTrackingControl_Feedback",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(interface_rb10_apple::action::RobotTrackingControl_Feedback),
   RobotTrackingControl_Feedback_message_member_array,  // message members
   RobotTrackingControl_Feedback_init_function,  // function to initialize message memory (memory has to be allocated)

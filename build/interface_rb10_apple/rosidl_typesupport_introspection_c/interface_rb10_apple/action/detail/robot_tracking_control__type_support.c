@@ -105,7 +105,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 
 
 // Include directives for member types
-// Member `feedback`
+// Member `message`
 // already included above
 // #include "rosidl_runtime_c/string_functions.h"
 
@@ -128,16 +128,33 @@ void interface_rb10_apple__action__RobotTrackingControl_Result__rosidl_typesuppo
   interface_rb10_apple__action__RobotTrackingControl_Result__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember interface_rb10_apple__action__RobotTrackingControl_Result__rosidl_typesupport_introspection_c__RobotTrackingControl_Result_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember interface_rb10_apple__action__RobotTrackingControl_Result__rosidl_typesupport_introspection_c__RobotTrackingControl_Result_message_member_array[2] = {
   {
-    "feedback",  // name
+    "success",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(interface_rb10_apple__action__RobotTrackingControl_Result, success),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "message",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(interface_rb10_apple__action__RobotTrackingControl_Result, feedback),  // bytes offset in struct
+    offsetof(interface_rb10_apple__action__RobotTrackingControl_Result, message),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -151,7 +168,7 @@ static rosidl_typesupport_introspection_c__MessageMember interface_rb10_apple__a
 static const rosidl_typesupport_introspection_c__MessageMembers interface_rb10_apple__action__RobotTrackingControl_Result__rosidl_typesupport_introspection_c__RobotTrackingControl_Result_message_members = {
   "interface_rb10_apple__action",  // message namespace
   "RobotTrackingControl_Result",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(interface_rb10_apple__action__RobotTrackingControl_Result),
   interface_rb10_apple__action__RobotTrackingControl_Result__rosidl_typesupport_introspection_c__RobotTrackingControl_Result_message_member_array,  // message members
   interface_rb10_apple__action__RobotTrackingControl_Result__rosidl_typesupport_introspection_c__RobotTrackingControl_Result_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -198,7 +215,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 
 
 // Include directives for member types
-// Member `message`
+// Member `feedback`
 // already included above
 // #include "rosidl_runtime_c/string_functions.h"
 
@@ -221,33 +238,16 @@ void interface_rb10_apple__action__RobotTrackingControl_Feedback__rosidl_typesup
   interface_rb10_apple__action__RobotTrackingControl_Feedback__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember interface_rb10_apple__action__RobotTrackingControl_Feedback__rosidl_typesupport_introspection_c__RobotTrackingControl_Feedback_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember interface_rb10_apple__action__RobotTrackingControl_Feedback__rosidl_typesupport_introspection_c__RobotTrackingControl_Feedback_message_member_array[1] = {
   {
-    "success",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(interface_rb10_apple__action__RobotTrackingControl_Feedback, success),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "message",  // name
+    "feedback",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(interface_rb10_apple__action__RobotTrackingControl_Feedback, message),  // bytes offset in struct
+    offsetof(interface_rb10_apple__action__RobotTrackingControl_Feedback, feedback),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -261,7 +261,7 @@ static rosidl_typesupport_introspection_c__MessageMember interface_rb10_apple__a
 static const rosidl_typesupport_introspection_c__MessageMembers interface_rb10_apple__action__RobotTrackingControl_Feedback__rosidl_typesupport_introspection_c__RobotTrackingControl_Feedback_message_members = {
   "interface_rb10_apple__action",  // message namespace
   "RobotTrackingControl_Feedback",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(interface_rb10_apple__action__RobotTrackingControl_Feedback),
   interface_rb10_apple__action__RobotTrackingControl_Feedback__rosidl_typesupport_introspection_c__RobotTrackingControl_Feedback_message_member_array,  // message members
   interface_rb10_apple__action__RobotTrackingControl_Feedback__rosidl_typesupport_introspection_c__RobotTrackingControl_Feedback_init_function,  // function to initialize message memory (memory has to be allocated)

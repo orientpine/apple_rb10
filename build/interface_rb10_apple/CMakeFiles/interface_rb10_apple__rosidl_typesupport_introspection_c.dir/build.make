@@ -93,7 +93,7 @@ rosidl_typesupport_introspection_c/interface_rb10_apple/msg/detail/robot_joint_p
 rosidl_typesupport_introspection_c/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 rosidl_typesupport_introspection_c/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/home/orientpine/miniconda3/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_introspection_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/interface_rb10_apple/msg/detail/robot_joint_position__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/interface_rb10_apple/msg/detail/robot_tcp_pose__rosidl_typesupport_introspection_c.h

@@ -139,7 +139,7 @@ rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp: 
 rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orientpine/robot_ws/build/ros2_aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/home/orientpine/miniconda3/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/orientpine/robot_ws/build/ros2_aruco_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o: CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o: rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp

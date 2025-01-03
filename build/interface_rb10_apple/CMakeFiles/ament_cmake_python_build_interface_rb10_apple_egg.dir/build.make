@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_interface_rb10_apple_egg.dir/compile
 include CMakeFiles/ament_cmake_python_build_interface_rb10_apple_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_interface_rb10_apple_egg:
-	cd /home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_python/interface_rb10_apple && /home/orientpine/miniconda3/bin/python3 setup.py egg_info
+	cd /home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_python/interface_rb10_apple && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_interface_rb10_apple_egg: CMakeFiles/ament_cmake_python_build_interface_rb10_apple_egg
 ament_cmake_python_build_interface_rb10_apple_egg: CMakeFiles/ament_cmake_python_build_interface_rb10_apple_egg.dir/build.make

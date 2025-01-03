@@ -343,19 +343,19 @@ ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_
 # install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/interface_rb10_apple/environment")
 ament_cmake_symlink_install_files("/home/orientpine/robot_ws/src/interface_rb10_apple" FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/interface_rb10_apple/environment")
 
-# install(DIRECTORY "/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_python/interface_rb10_apple/interface_rb10_apple.egg-info/" "DESTINATION" "lib/python3.11/site-packages/interface_rb10_apple-0.0.0-py3.11.egg-info")
-ament_cmake_symlink_install_directory("/home/orientpine/robot_ws/src/interface_rb10_apple" DIRECTORY "/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_python/interface_rb10_apple/interface_rb10_apple.egg-info/" "DESTINATION" "lib/python3.11/site-packages/interface_rb10_apple-0.0.0-py3.11.egg-info")
+# install(DIRECTORY "/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_python/interface_rb10_apple/interface_rb10_apple.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/interface_rb10_apple-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/orientpine/robot_ws/src/interface_rb10_apple" DIRECTORY "/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_python/interface_rb10_apple/interface_rb10_apple.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/interface_rb10_apple-0.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_py/interface_rb10_apple/" "DESTINATION" "lib/python3.11/site-packages/interface_rb10_apple" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/orientpine/robot_ws/src/interface_rb10_apple" DIRECTORY "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_py/interface_rb10_apple/" "DESTINATION" "lib/python3.11/site-packages/interface_rb10_apple" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_py/interface_rb10_apple/" "DESTINATION" "local/lib/python3.10/dist-packages/interface_rb10_apple" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/orientpine/robot_ws/src/interface_rb10_apple" DIRECTORY "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_py/interface_rb10_apple/" "DESTINATION" "local/lib/python3.10/dist-packages/interface_rb10_apple" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install("TARGETS" "interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.11/site-packages/interface_rb10_apple")
+# install("TARGETS" "interface_rb10_apple__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/interface_rb10_apple")
 include("/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "interface_rb10_apple__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.11/site-packages/interface_rb10_apple")
+# install("TARGETS" "interface_rb10_apple__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/interface_rb10_apple")
 include("/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "interface_rb10_apple__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.11/site-packages/interface_rb10_apple")
+# install("TARGETS" "interface_rb10_apple__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/interface_rb10_apple")
 include("/home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_adapter/interface_rb10_apple/msg/RobotJointPosition.idl" "DESTINATION" "share/interface_rb10_apple/msg")

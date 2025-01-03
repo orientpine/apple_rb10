@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"interface_rb10_apple\" -Dinterface_rb10_apple__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c -I/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_py -I/home/orientpine/miniconda3/include/python3.11 -I/home/orientpine/miniconda3/lib/python3.11/site-packages/numpy/_core/include -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs
+C_INCLUDES = -I/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c -I/home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs
 
 C_FLAGS = -fPIC -Wall -Wextra
 

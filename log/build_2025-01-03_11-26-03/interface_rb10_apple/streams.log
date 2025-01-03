@@ -1,0 +1,50 @@
+[0.032s] Invoking command in '/home/orientpine/robot_ws/build/interface_rb10_apple': CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake /home/orientpine/robot_ws/src/interface_rb10_apple -DCMAKE_INSTALL_PREFIX=/home/orientpine/robot_ws/install/interface_rb10_apple
+[0.505s] -- The C compiler identification is GNU 11.4.0
+[0.505s] -- The CXX compiler identification is GNU 11.4.0
+[0.505s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.506s] -- Detecting C compile features
+[0.507s] -- Detecting C compile features - done
+[0.507s] -- Detecting CXX compiler ABI info
+[0.507s] -- Detecting CXX compiler ABI info - done
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.509s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.514s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.767s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.928s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.980s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.987s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.000s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.070s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.562s] Error parsing '/home/orientpine/robot_ws/src/interface_rb10_apple/package.xml':
+[1.654s] Traceback (most recent call last):
+[1.654s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.654s]     main()
+[1.654s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.654s]     raise e
+[1.654s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.655s]     package = parse_package_string(
+[1.655s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.662s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.662s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/orientpine/robot_ws/src/interface_rb10_apple/package.xml':
+[1.662s] Error(s):
+[1.663s] - The generic dependency on 'rosidl_default_generators' is redundant with: build_depend
+[1.685s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.685s]   execute_process(/usr/bin/python3
+[1.685s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.686s]   /home/orientpine/robot_ws/src/interface_rb10_apple/package.xml
+[1.686s]   /home/orientpine/robot_ws/build/interface_rb10_apple/ament_cmake_core/package.cmake)
+[1.686s]   returned error code 1
+[1.686s] Call Stack (most recent call first):
+[1.686s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.686s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[1.686s]   CMakeLists.txt:35 (rosidl_generate_interfaces)
+[1.686s] 
+[1.687s] [0m
+[1.687s] -- Configuring incomplete, errors occurred!
+[1.687s] See also "/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles/CMakeOutput.log".
+[1.696s] Invoked command in '/home/orientpine/robot_ws/build/interface_rb10_apple' returned '1': CONDA_PROMPT_MODIFIER=(rb) /usr/bin/cmake /home/orientpine/robot_ws/src/interface_rb10_apple -DCMAKE_INSTALL_PREFIX=/home/orientpine/robot_ws/install/interface_rb10_apple

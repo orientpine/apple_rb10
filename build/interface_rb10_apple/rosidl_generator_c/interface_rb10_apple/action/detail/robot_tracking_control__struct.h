@@ -43,15 +43,15 @@ typedef struct interface_rb10_apple__action__RobotTrackingControl_Goal__Sequence
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'feedback'
+// Member 'message'
 // already included above
 // #include "rosidl_runtime_c/string.h"
 
 /// Struct defined in action/RobotTrackingControl in the package interface_rb10_apple.
 typedef struct interface_rb10_apple__action__RobotTrackingControl_Result
 {
-  /// 예: "Visual servoing in progress."
-  rosidl_runtime_c__String feedback;
+  bool success;
+  rosidl_runtime_c__String message;
 } interface_rb10_apple__action__RobotTrackingControl_Result;
 
 // Struct for a sequence of interface_rb10_apple__action__RobotTrackingControl_Result.
@@ -68,17 +68,14 @@ typedef struct interface_rb10_apple__action__RobotTrackingControl_Result__Sequen
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'message'
+// Member 'feedback'
 // already included above
 // #include "rosidl_runtime_c/string.h"
 
 /// Struct defined in action/RobotTrackingControl in the package interface_rb10_apple.
 typedef struct interface_rb10_apple__action__RobotTrackingControl_Feedback
 {
-  /// 작업 성공 여부
-  bool success;
-  /// 성공 또는 실패 메시지
-  rosidl_runtime_c__String message;
+  rosidl_runtime_c__String feedback;
 } interface_rb10_apple__action__RobotTrackingControl_Feedback;
 
 // Struct for a sequence of interface_rb10_apple__action__RobotTrackingControl_Feedback.

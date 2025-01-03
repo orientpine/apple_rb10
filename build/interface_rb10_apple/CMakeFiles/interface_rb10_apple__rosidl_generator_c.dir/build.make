@@ -98,7 +98,7 @@ rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: /opt/ros/hum
 rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/orientpine/robot_ws/build/interface_rb10_apple/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/home/orientpine/miniconda3/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/orientpine/robot_ws/build/interface_rb10_apple/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.h: rosidl_generator_c/interface_rb10_apple/msg/robot_joint_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_rb10_apple/msg/detail/robot_joint_position__functions.h

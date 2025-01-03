@@ -1,1 +1,0 @@
-Invoking command in '/home/orientpine/robot_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orientpine/robot_ws/src/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orientpine/robot_ws/install/ros2_aruco_interfaces
