@@ -72,12 +72,12 @@ class ArucoTrackingServer(Node):
 
         # 오차 임계값
         self.threshold_position = 5  # mm 단위
-        self.threshold_orientation = 10  # deg 단위
+        self.threshold_orientation = 1  # deg 단위
 
         # 원하는 오프셋 (환경마다 달라질 수 있음)
         self.desired_offset = {
             "x": 0.0,
-            "y": 300.0,  # 축 바뀜
+            "y": 400.0,  # 축 바뀜
             "z": 0.0,
             "rx": 180.0,
             "ry": 0.0,
@@ -90,9 +90,8 @@ class ArucoTrackingServer(Node):
         self.action_goal_handle = None
         self.action_result = None
 
-        self.move_attempts_orientation = 0
-        self.move_attempts_position = 0
-        self.max_attempts = 15
+        self.move_attempts = 0
+        self.max_attempts = 2
 
         # 5) 디버깅용 타이머 (아루코 포즈 출력)
         self.timer = self.create_timer(1.0, self.print_aruco_pose)
@@ -121,11 +120,10 @@ class ArucoTrackingServer(Node):
         self.action_in_progress = True
 
         # move_attempts 리셋
-        self.move_attempts_orientation = 0
-        self.move_attempts_position = 0
+        self.move_attempts = 0
 
         # 상태 머신 시작 상태
-        self.transition_state(APP_STATE.WAITING_FOR_IDLE)
+        self.app_state = APP_STATE.WAITING_FOR_IDLE
         self.publish_feedback("Action started. Waiting for robot to become IDLE...")
 
         # **Non-blocking** → 상태 머신이 완료될 때까지 대기
@@ -158,42 +156,29 @@ class ArucoTrackingServer(Node):
         if self.app_state == APP_STATE.WAITING_FOR_IDLE:
             # 로봇이 IDLE 상태가 되면 → CHECK_THRESHOLD
             if self.current_robot_status == COBOT_STATUS.IDLE:
-                self.transition_state(APP_STATE.CHECK_THRESHOLD)
                 self.publish_feedback("Robot is IDLE. Checking threshold...")
+                self.app_state = APP_STATE.CHECK_THRESHOLD
 
         elif self.app_state == APP_STATE.CHECK_THRESHOLD:
             self.print_aruco_pose()
             # 오차 계산 → 임계값 확인
             pos_err, ori_err, dx, dy, dz, drx, dry, drz = self.calculate_errors()
 
-            # 먼저 orientation 오류를 확인
-            if ori_err >= self.threshold_orientation:
-                if self.move_attempts_orientation >= self.max_attempts:
-                    self.action_abort("Exceeded maximum orientation move attempts.")
-                    return
-                self.publish_feedback(
-                    "Orientation error exceeds threshold. Correcting orientation..."
-                )
-                self.move_robot_to_correction(drx, dry, drz, orientation=True)
-                self.move_attempts_orientation += 1
-                self.transition_state(APP_STATE.WAITING_FOR_RUNNING)
-                return
+            if self.is_within_threshold(pos_err, ori_err):
+                # 만족하면 성공
+                self.action_succeed("Aruco marker successfully tracked.")
+            else:
+                # 아직 만족 못하면 move_attempts 확인
+                if self.move_attempts >= self.max_attempts:
+                    self.action_abort("Exceeded maximum move attempts.")
+                else:
+                    # 로봇에 보정 명령 발행
+                    self.move_robot_to_correction(dx, dy, dz, drx, dry, drz)
+                    self.print_aruco_pose()
+                    self.move_attempts += 1
 
-            # Orientation이 만족되면 position 오류를 확인
-            if pos_err >= self.threshold_position:
-                if self.move_attempts_position >= self.max_attempts:
-                    self.action_abort("Exceeded maximum position move attempts.")
-                    return
-                self.publish_feedback(
-                    "Position error exceeds threshold. Correcting position..."
-                )
-                self.move_robot_to_correction(dx, dy, dz, orientation=False)
-                self.move_attempts_position += 1
-                self.transition_state(APP_STATE.WAITING_FOR_RUNNING)
-                return
-
-            # 둘 다 만족하면 성공
-            self.action_succeed("Aruco marker successfully tracked.")
+                    # 이제 로봇이 RUNNING으로 갈 것을 기대
+                    self.app_state = APP_STATE.WAITING_FOR_RUNNING
 
         elif self.app_state == APP_STATE.WAITING_FOR_RUNNING:
             # 로봇 상태가 RUNNING이 되면 → 모션 중
@@ -201,13 +186,13 @@ class ArucoTrackingServer(Node):
                 self.publish_feedback(
                     "Robot is RUNNING. Waiting for motion to complete..."
                 )
-                self.transition_state(APP_STATE.WAITING_FOR_MOTION_COMPLETE)
+                self.app_state = APP_STATE.WAITING_FOR_MOTION_COMPLETE
 
         elif self.app_state == APP_STATE.WAITING_FOR_MOTION_COMPLETE:
             # 모션 완료 → 다시 IDLE → CHECK_THRESHOLD로 돌아가 반복
             if self.current_robot_status == COBOT_STATUS.IDLE:
                 self.publish_feedback("Motion complete. Checking threshold again...")
-                self.transition_state(APP_STATE.CHECK_THRESHOLD)
+                self.app_state = APP_STATE.CHECK_THRESHOLD
 
         elif self.app_state == APP_STATE.DONE:
             # 이미 끝난 상태
@@ -227,7 +212,7 @@ class ArucoTrackingServer(Node):
             self.action_result.success = True
             self.action_result.message = message
             self.action_goal_handle.succeed()
-        self.transition_state(APP_STATE.DONE)
+        self.app_state = APP_STATE.DONE
         self.action_in_progress = False
         self.get_logger().info(f"[action_succeed] {message}")
         self.action_complete.set()
@@ -237,16 +222,10 @@ class ArucoTrackingServer(Node):
             self.action_result.success = False
             self.action_result.message = message
             self.action_goal_handle.abort()
-        self.transition_state(APP_STATE.DONE)
+        self.app_state = APP_STATE.DONE
         self.action_in_progress = False
         self.get_logger().warn(f"[action_abort] {message}")
         self.action_complete.set()
-
-    def transition_state(self, new_state):
-        self.get_logger().info(
-            f"State transition: {self.app_state.name} -> {new_state.name}"
-        )
-        self.app_state = new_state
 
     # ------------------------------------------------
     # 로봇 Pose & Error 계산 콜백
@@ -277,9 +256,6 @@ class ArucoTrackingServer(Node):
         rz_deg = math.degrees(yaw)
 
         rx_deg = self.unwrap_angle(rx_deg, self.last_rx)
-        rx_deg = (
-            rx_deg + 360 if rx_deg < 0 else rx_deg
-        )  # 음수 보정용, 이게 아니면 -180으로 뒤집어짐
         ry_deg = self.unwrap_angle(ry_deg, self.last_ry)
         rz_deg = self.unwrap_angle(rz_deg, self.last_rz)
 
@@ -305,12 +281,12 @@ class ArucoTrackingServer(Node):
         전체 오차(position_error, orientation_error) 계산
         """
         dx = self.current_aruco_pose["x"] - self.desired_offset["x"]
-        dy = self.current_aruco_pose["z"] - self.desired_offset["y"]  # 축 바뀜
+        dy = self.current_aruco_pose["z"] - self.desired_offset["y"]  # 축 예시
         dz = self.current_aruco_pose["y"] - self.desired_offset["z"]
 
         drx = self.current_aruco_pose["rx"] - self.desired_offset["rx"]
-        dry = self.current_aruco_pose["rz"] - self.desired_offset["ry"]  # 축 바뀜
-        drz = self.current_aruco_pose["ry"] - self.desired_offset["rz"]  # 축 바뀜
+        dry = self.current_aruco_pose["ry"] - self.desired_offset["ry"]
+        drz = self.current_aruco_pose["rz"] - self.desired_offset["rz"]
 
         pos_err = math.sqrt(dx**2 + dy**2 + dz**2)
         ori_err = math.sqrt(drx**2 + dry**2 + drz**2)
@@ -321,16 +297,7 @@ class ArucoTrackingServer(Node):
             f"pos_err={pos_err:.3f}, ori_err={ori_err:.3f}"
         )
 
-        return (
-            pos_err,
-            ori_err,
-            dx,
-            dy,
-            dz,
-            drx,
-            dry,
-            drz * (self.move_attempts_position + 1 / self.max_attempts + 1),
-        )
+        return pos_err, ori_err, dx, dy, dz, drx, dry, drz
 
     def is_within_threshold(self, position_error, orientation_error):
         return (
@@ -338,42 +305,30 @@ class ArucoTrackingServer(Node):
             and orientation_error < self.threshold_orientation
         )
 
-    def move_robot_to_correction(self, delta1, delta2, delta3, orientation=True):
+    def move_robot_to_correction(self, dx, dy, dz, drx, dry, drz):
         """
         오차를 보정하기 위한 movetcp 명령을 전송
-        orientation=True: drx, dry, drz 보정
-        orientation=False: dx, dy, dz 보정
         """
         spd = 0.3
         acc = 0.1
 
-        if orientation:
-            new_rx = self.current_tcp_pose.rx - delta1
-            new_ry = self.current_tcp_pose.ry - delta2
-            new_rz = self.current_tcp_pose.rz - delta3
+        new_x = self.current_tcp_pose.x - dx
+        new_y = self.current_tcp_pose.y - dy
+        new_z = self.current_tcp_pose.z - dz
 
-            script_tcp = (
-                f"movetcp {spd}, {acc}, "
-                f"{self.current_tcp_pose.x}, {self.current_tcp_pose.y}, {self.current_tcp_pose.z}, "
-                f"{new_rx}, {new_ry}, {new_rz}"
-            )
-            self.get_logger().info(
-                f"[move_robot_to_correction - Orientation] Sending script: {script_tcp}"
-            )
-        else:
-            new_x = self.current_tcp_pose.x - delta1
-            new_y = self.current_tcp_pose.y - delta2
-            new_z = self.current_tcp_pose.z - delta3
+        new_rx = self.current_tcp_pose.rx - drx
+        new_ry = self.current_tcp_pose.ry - dry
+        new_rz = self.current_tcp_pose.rz + drz  # 필요 시 부호 조정
 
-            script_tcp = (
-                f"movetcp {spd}, {acc}, "
-                f"{new_x}, {new_y}, {new_z}, "
-                f"{self.current_tcp_pose.rx}, {self.current_tcp_pose.ry}, {self.current_tcp_pose.rz}"
-            )
-            self.get_logger().info(
-                f"[move_robot_to_correction - Position] Sending script: {script_tcp}"
-            )
+        script_tcp = (
+            f"movetcp {spd}, {acc}, "
+            f"{new_x}, {new_y}, {new_z}, "
+            f"{new_rx}, {new_ry}, {new_rz}"
+        )
 
+        self.get_logger().info(
+            f"[move_robot_to_correction] Sending script: {script_tcp}"
+        )
         ManualScript(script_tcp)
 
     # ------------------------------------------------
