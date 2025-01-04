@@ -7,6 +7,7 @@ from .cobot import *  # 로봇 스크립트 함수(ManualScript 등)
 from enum import Enum
 import threading
 from rclpy.executors import MultiThreadedExecutor
+import logging
 
 
 # COBOT 상태를 나타내는 Enum
@@ -30,6 +31,8 @@ class RobotModeControlServer(Node):
     def __init__(self):
         super().__init__("robot_mode_control_server")
 
+        # Set log level to DEBUG
+        self.get_logger().set_level(logging.WARN)
         # 액션 서버 생성
         self.action_server = ActionServer(
             self, RobotModeControl, "robot_mode_control", self.execute_callback

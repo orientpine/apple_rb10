@@ -14,6 +14,7 @@ from tf_transformations import euler_from_quaternion
 from enum import Enum
 from rclpy.executors import MultiThreadedExecutor
 import threading
+import logging
 
 
 # 실제 로봇 상태 토픽을 매핑하기 위한 enum
@@ -37,6 +38,8 @@ class ArucoTrackingServer(Node):
     def __init__(self):
         super().__init__("aruco_tracking_server")
 
+        # Set log level to DEBUG
+        self.get_logger().set_level(logging.INFO)
         # 1) 액션 서버 생성 (Non-blocking 형태로 사용할 예정)
         self._action_server = ActionServer(
             self, RobotTrackingControl, "aruco_tracking", self.execute_callback
