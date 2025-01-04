@@ -77,7 +77,7 @@ class ArucoTrackingServer(Node):
         # 원하는 오프셋 (환경마다 달라질 수 있음)
         self.desired_offset = {
             "x": 0.0,
-            "y": 300.0,  # 축 바뀜
+            "y": 150.0,  # 축 바뀜
             "z": 0.0,
             "rx": 180.0,
             "ry": 0.0,
@@ -92,7 +92,7 @@ class ArucoTrackingServer(Node):
 
         self.move_attempts_orientation = 0
         self.move_attempts_position = 0
-        self.max_attempts = 15
+        self.max_attempts = 20
 
         # 5) 디버깅용 타이머 (아루코 포즈 출력)
         self.timer = self.create_timer(1.0, self.print_aruco_pose)
@@ -321,16 +321,7 @@ class ArucoTrackingServer(Node):
             f"pos_err={pos_err:.3f}, ori_err={ori_err:.3f}"
         )
 
-        return (
-            pos_err,
-            ori_err,
-            dx,
-            dy,
-            dz,
-            drx,
-            dry,
-            drz * (self.move_attempts_position + 1 / self.max_attempts + 1),
-        )
+        return (pos_err, ori_err, dx, dy, dz, drx, dry, drz)
 
     def is_within_threshold(self, position_error, orientation_error):
         return (
@@ -348,9 +339,18 @@ class ArucoTrackingServer(Node):
         acc = 0.1
 
         if orientation:
-            new_rx = self.current_tcp_pose.rx - delta1
-            new_ry = self.current_tcp_pose.ry - delta2
-            new_rz = self.current_tcp_pose.rz - delta3
+            attempts = self.move_attempts_orientation
+            scaling_factor = self.get_scaling_factor_orientation(attempts)
+            self.get_logger().info(f"Orientation scaling factor: {scaling_factor:.2f}")
+
+            # Apply scaling factor to rotational deltas
+            scaled_drx = delta1 * scaling_factor
+            scaled_dry = delta2 * scaling_factor
+            scaled_drz = delta3 * scaling_factor
+
+            new_rx = self.current_tcp_pose.rx - scaled_drx
+            new_ry = self.current_tcp_pose.ry - scaled_dry
+            new_rz = self.current_tcp_pose.rz - scaled_drz
 
             script_tcp = (
                 f"movetcp {spd}, {acc}, "
@@ -361,9 +361,25 @@ class ArucoTrackingServer(Node):
                 f"[move_robot_to_correction - Orientation] Sending script: {script_tcp}"
             )
         else:
-            new_x = self.current_tcp_pose.x - delta1
-            new_y = self.current_tcp_pose.y - delta2
-            new_z = self.current_tcp_pose.z - delta3
+            attempts = self.move_attempts_position
+
+            # 개별 축에 대한 스케일링 팩터 계산
+            scaling_factor_x = self.get_scaling_factor_position_x(attempts)
+            scaling_factor_y = self.get_scaling_factor_position_y(attempts)
+            scaling_factor_z = self.get_scaling_factor_position_z(attempts)
+
+            self.get_logger().info(
+                f"Position scaling factors - x: {scaling_factor_x:.2f}, y: {scaling_factor_y:.2f}, z: {scaling_factor_z:.2f}"
+            )
+
+            # Apply scaling factors to translational deltas
+            scaled_dx = delta1 * scaling_factor_x
+            scaled_dy = delta2 * scaling_factor_y
+            scaled_dz = delta3 * scaling_factor_z
+
+            new_x = self.current_tcp_pose.x - scaled_dx
+            new_y = self.current_tcp_pose.y - scaled_dy
+            new_z = self.current_tcp_pose.z - scaled_dz
 
             script_tcp = (
                 f"movetcp {spd}, {acc}, "
@@ -375,6 +391,62 @@ class ArucoTrackingServer(Node):
             )
 
         ManualScript(script_tcp)
+
+    def get_scaling_factor_orientation(self, move_attempts):
+        """
+        Calculates a scaling factor for orientation corrections based on the number of attempts.
+        The scaling factor increases with each attempt up to a maximum value.
+        """
+        min_scale = 0.1  # Minimum scaling factor
+        max_scale = 1.0  # Maximum scaling factor
+        scale_increment = 0.1  # Increment per attempt
+
+        scaling_factor = min_scale + (move_attempts * scale_increment)
+        scaling_factor = min(scaling_factor, max_scale)  # Cap at max_scale
+
+        return scaling_factor
+
+    def get_scaling_factor_position_x(self, move_attempts):
+        """
+        Calculates a scaling factor for the x-axis position correction.
+        Increases relatively quickly with the number of attempts.
+        """
+        min_scale = 0.5
+        max_scale = 1.0
+
+        scale_increment = 0.2
+        scaling_factor = min_scale + (move_attempts * scale_increment)
+        scaling_factor = min(scaling_factor, max_scale)
+
+        return scaling_factor
+
+    def get_scaling_factor_position_y(self, move_attempts):  # 축 바뀜
+        """
+        Calculates a scaling factor for the y-axis position correction.
+        Increases more slowly with the number of attempts.
+        """
+        min_scale = 0.1
+        max_scale = 1.0
+        scale_increment = 0.05
+
+        scaling_factor = min_scale + (move_attempts * scale_increment)
+        scaling_factor = min(scaling_factor, max_scale)
+
+        return scaling_factor
+
+    def get_scaling_factor_position_z(self, move_attempts):
+        """
+        Calculates a scaling factor for the z-axis position correction.
+        Increases relatively quickly with the number of attempts.
+        """
+        min_scale = 0.5
+        max_scale = 1.0
+        scale_increment = 0.2
+
+        scaling_factor = min_scale + (move_attempts * scale_increment)
+        scaling_factor = min(scaling_factor, max_scale)
+
+        return scaling_factor
 
     # ------------------------------------------------
     # 디버깅용
