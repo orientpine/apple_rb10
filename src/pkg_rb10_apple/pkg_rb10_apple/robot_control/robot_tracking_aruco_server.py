@@ -95,7 +95,7 @@ class ArucoTrackingServer(Node):
         self.max_attempts = 20
 
         # 5) 디버깅용 타이머 (아루코 포즈 출력)
-        self.timer = self.create_timer(1.0, self.print_aruco_pose)
+        self.timer = self.create_timer(5.0, self.print_aruco_pose)
 
         # 로봇 초기화 (예시)
         self.cobot_initialization()
