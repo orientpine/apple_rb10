@@ -42,14 +42,15 @@ class RobotModeControlServer(Node):
         self.cobot_status_subscriber = self.create_subscription(
             String, "cobot_status", self.cobot_status_callback, 10
         )
-
+        self.joint_speed = 100.0
+        self.joint_accel = 50.0
         # 로봇 모드별 스크립트 정의
         self.script_poses = {
-            0: "move_j(jnt[180.0, -70.0, 160.0, -90.0, 180.0, 0.0], 30.0, 20.0)",  # 이동자세 좌
-            1: "move_j(jnt[180.0, -70.0, 160.0, -90.0,  90.0, 0.0], 30.0, 20.0)",  # 이동자세 정면
-            2: "move_j(jnt[180.0, -70.0, 160.0, -90.0,   0.0, 0.0], 30.0, 20.0)",  # 이동자세 우
-            3: "move_j(jnt[47.0, 13.0, -143.0, -230.0, -47.0, 0.0], 30.0, 20.0)",  # 판지자세 좌
-            4: "move_j(jnt[89.98, 12.02, 121.01, -133.02, 90.09, 0.0],30.0,20.0)",  # 판지자세 우
+            0: f"move_j(jnt[180.0, -70.0, 160.0, -90.0, 180.0, 0.0], {self.joint_speed}, {self.joint_accel})",  # 이동자세 좌
+            1: f"move_j(jnt[180.0, -70.0, 160.0, -90.0,  90.0, 0.0], {self.joint_speed}, {self.joint_accel})",  # 이동자세 정면
+            2: f"move_j(jnt[180.0, -70.0, 160.0, -90.0,   0.0, 0.0], {self.joint_speed}, {self.joint_accel})",  # 이동자세 우
+            3: f"move_j(jnt[47.0, 13.0, -143.0, -230.0, -47.0, 0.0], {self.joint_speed}, {self.joint_accel})",  # 판지자세 좌
+            4: f"move_j(jnt[89.98, 12.02, 121.01, -133.02, 90.09, 0.0],{self.joint_speed}, {self.joint_accel})",  # 판지자세 우
         }
 
         # 상태 머신 관련 변수 초기화

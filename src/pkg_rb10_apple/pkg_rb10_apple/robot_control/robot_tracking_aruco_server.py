@@ -341,9 +341,14 @@ class ArucoTrackingServer(Node):
         spd = 0.3
         acc = 0.1
 
+        # scaling 계산기
+        scalingFactor_calculator = ScalingFactorCalculator()
+
         if orientation:
             attempts = self.move_attempts_orientation
-            scaling_factor = self.get_scaling_factor_orientation(attempts)
+            scaling_factor = scalingFactor_calculator.get_scaling_factor(
+                "orientation", attempts
+            )
             self.get_logger().info(f"Orientation scaling factor: {scaling_factor:.2f}")
 
             # Apply scaling factor to rotational deltas
@@ -367,9 +372,15 @@ class ArucoTrackingServer(Node):
             attempts = self.move_attempts_position
 
             # 개별 축에 대한 스케일링 팩터 계산
-            scaling_factor_x = self.get_scaling_factor_position_x(attempts)
-            scaling_factor_y = self.get_scaling_factor_position_y(attempts)
-            scaling_factor_z = self.get_scaling_factor_position_z(attempts)
+            scaling_factor_x = scalingFactor_calculator.get_scaling_factor(
+                "position_x", attempts
+            )
+            scaling_factor_y = scalingFactor_calculator.get_scaling_factor(
+                "position_y", attempts
+            )
+            scaling_factor_z = scalingFactor_calculator.get_scaling_factor(
+                "position_z", attempts
+            )
 
             self.get_logger().info(
                 f"Position scaling factors - x: {scaling_factor_x:.2f}, y: {scaling_factor_y:.2f}, z: {scaling_factor_z:.2f}"
@@ -395,62 +406,6 @@ class ArucoTrackingServer(Node):
 
         ManualScript(script_tcp)
 
-    def get_scaling_factor_orientation(self, move_attempts):
-        """
-        Calculates a scaling factor for orientation corrections based on the number of attempts.
-        The scaling factor increases with each attempt up to a maximum value.
-        """
-        min_scale = 0.1  # Minimum scaling factor
-        max_scale = 1.0  # Maximum scaling factor
-        scale_increment = 0.1  # Increment per attempt
-
-        scaling_factor = min_scale + (move_attempts * scale_increment)
-        scaling_factor = min(scaling_factor, max_scale)  # Cap at max_scale
-
-        return scaling_factor
-
-    def get_scaling_factor_position_x(self, move_attempts):
-        """
-        Calculates a scaling factor for the x-axis position correction.
-        Increases relatively quickly with the number of attempts.
-        """
-        min_scale = 0.5
-        max_scale = 1.0
-
-        scale_increment = 0.2
-        scaling_factor = min_scale + (move_attempts * scale_increment)
-        scaling_factor = min(scaling_factor, max_scale)
-
-        return scaling_factor
-
-    def get_scaling_factor_position_y(self, move_attempts):  # 축 바뀜
-        """
-        Calculates a scaling factor for the y-axis position correction.
-        Increases more slowly with the number of attempts.
-        """
-        min_scale = 0.1
-        max_scale = 1.0
-        scale_increment = 0.05
-
-        scaling_factor = min_scale + (move_attempts * scale_increment)
-        scaling_factor = min(scaling_factor, max_scale)
-
-        return scaling_factor
-
-    def get_scaling_factor_position_z(self, move_attempts):
-        """
-        Calculates a scaling factor for the z-axis position correction.
-        Increases relatively quickly with the number of attempts.
-        """
-        min_scale = 0.5
-        max_scale = 1.0
-        scale_increment = 0.2
-
-        scaling_factor = min_scale + (move_attempts * scale_increment)
-        scaling_factor = min(scaling_factor, max_scale)
-
-        return scaling_factor
-
     # ------------------------------------------------
     # 디버깅용
     # ------------------------------------------------
@@ -465,6 +420,42 @@ class ArucoTrackingServer(Node):
             f"[print_aruco_pose] x={x:.1f}, y={y:.1f}, z={z:.1f}, "
             f"rx={rx:.1f}, ry={ry:.1f}, rz={rz:.1f}"
         )
+
+
+class ScalingFactorCalculator:
+    def __init__(self):
+        # 각 카테고리에 대한 스케일링 파라미터를 정의
+        self.scaling_params = {
+            "orientation": {"min_scale": 0.1, "max_scale": 1.0, "scale_increment": 0.1},
+            "position_x": {"min_scale": 0.5, "max_scale": 1.0, "scale_increment": 0.2},
+            "position_y": {"min_scale": 0.1, "max_scale": 1.0, "scale_increment": 0.05},
+            "position_z": {"min_scale": 0.5, "max_scale": 1.0, "scale_increment": 0.2},
+        }
+
+    def get_scaling_factor(self, category, move_attempts):
+        """
+        주어진 카테고리에 대한 스케일링 팩터를 계산합니다.
+
+        Args:
+            category (str): 'orientation', 'position_x', 'position_y', 'position_z' 중 하나.
+            move_attempts (int): 시도 횟수.
+
+        Returns:
+            float: 계산된 스케일링 팩터.
+
+        Raises:
+            ValueError: 알 수 없는 카테고리가 입력된 경우.
+        """
+        if category not in self.scaling_params:
+            raise ValueError(f"Unknown category: {category}")
+
+        params = self.scaling_params[category]
+        scaling_factor = params["min_scale"] + (
+            move_attempts * params["scale_increment"]
+        )
+        scaling_factor = min(scaling_factor, params["max_scale"])  # max_scale으로 제한
+
+        return scaling_factor
 
 
 def main(args=None):
