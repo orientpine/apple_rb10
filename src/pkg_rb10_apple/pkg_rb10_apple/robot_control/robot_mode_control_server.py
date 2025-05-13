@@ -9,6 +9,11 @@ import threading
 from rclpy.executors import MultiThreadedExecutor
 import logging
 
+# >>>>>>> MODIFICATION START (추가된 모듈)
+import time  # ★ 추가: 타임아웃 측정을 위한 모듈
+
+# <<<<<<< MODIFICATION END
+
 
 # COBOT 상태를 나타내는 Enum
 class COBOT_STATUS(Enum):
@@ -62,6 +67,10 @@ class RobotModeControlServer(Node):
 
         # 액션 완료를 신호하기 위한 Event 객체
         self.action_complete = threading.Event()
+
+        # >>>>>>> MODIFICATION START (타임아웃 변수)
+        self.waiting_start_time: float | None = None  # ★ 추가: 상태 변화 타임아웃 측정
+        # <<<<<<< MODIFICATION END
 
         # COBOT 초기화
         self.cobot_initialization()
@@ -134,6 +143,9 @@ class RobotModeControlServer(Node):
                 # IDLE 상태가 되면 ManualScript 실행
                 self.get_logger().info("로봇이 IDLE 상태입니다. 스크립트 실행 중...")
                 ManualScript(self.selected_script)
+                # >>>>>>> MODIFICATION START (타이머 시작)
+                self.waiting_start_time = time.time()  # ★ 추가: 타이머 시작
+                # <<<<<<< MODIFICATION END
                 self.app_state = (
                     APP_STATE.WAITING_FOR_RUNNING
                 )  # 스크립트 실행 후 RUNNING 상태을 기다림
@@ -146,6 +158,28 @@ class RobotModeControlServer(Node):
                 )
                 self.app_state = APP_STATE.WAITING_FOR_IDLE_AFTER_RUNNING
                 self.publish_feedback("스크립트 실행 완료, 로봇이 RUNNING 상태임.")
+                # >>>>>>> MODIFICATION START (타이머 초기화)
+                self.waiting_start_time = (
+                    None  # ★ 추가: RUNNING 상태 전환 시 타이머 초기화
+                )
+                # <<<<<<< MODIFICATION END
+            else:
+                # >>>>>>> MODIFICATION START (타임아웃 처리)
+                if self.waiting_start_time and (
+                    time.time() - self.waiting_start_time >= 3.0
+                ):
+                    self.get_logger().info(
+                        "3초 동안 상태 변화가 없어 명령을 만족한 것으로 간주합니다."
+                    )
+                    self.action_result.success = True
+                    self.action_result.message = "스크립트 실행 완료(상태 변화 없음)"
+                    self.action_goal_handle.succeed()
+                    self.action_in_progress = False
+                    self.app_state = APP_STATE.DONE
+                    self.publish_feedback("액션 성공: 상태 변화 없으나 명령 만족.")
+                    self.waiting_start_time = None
+                    self.action_complete.set()
+                # <<<<<<< MODIFICATION END
 
         elif self.app_state == APP_STATE.WAITING_FOR_IDLE_AFTER_RUNNING:
             if self.current_robot_status == COBOT_STATUS.IDLE:
@@ -161,6 +195,9 @@ class RobotModeControlServer(Node):
                 self.publish_feedback(
                     "액션 성공: 스크립트 실행 완료 및 IDLE 상태 복귀."
                 )
+                # >>>>>>> MODIFICATION START (타이머 초기화)
+                self.waiting_start_time = None  # ★ 추가: 타이머 초기화
+                # <<<<<<< MODIFICATION END
                 self.action_complete.set()
 
         # 새로운 상태 전환 로직 추가
