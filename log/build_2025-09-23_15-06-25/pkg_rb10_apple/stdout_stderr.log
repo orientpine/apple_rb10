@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/PKG-INFO
+writing dependency_links to ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/dependency_links.txt
+writing entry points to ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/entry_points.txt
+writing requirements to ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/requires.txt
+writing top-level names to ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/top_level.txt
+reading manifest file '../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/SOURCES.txt'
+writing manifest file '../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pkg_rb10_apple/robot_control/robot_tcp_control_server.py -> /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control
+running install
+running install_lib
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/robot_tcp_control_server.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/robot_tcp_control_server.py to robot_tcp_control_server.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot_connect_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+Installing robot_info_publisher script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+Installing robot_joint_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+Installing robot_mode_control_client script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+Installing robot_mode_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+Installing robot_tcp_control_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+Installing robot_tracking_aruco_server script to /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/pkg_rb10_apple
+writing list of installed files to '/home/orientpine/robot_ws/build/pkg_rb10_apple/install.log'

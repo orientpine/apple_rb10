@@ -1,1 +1,0 @@
-/home/orientpine/robot_ws/src/pkg_rb10_apple/setup.py
