@@ -1,0 +1,38 @@
+running develop
+Removing /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg-rb10-apple.egg-link (link to .)
+running egg_info
+writing ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/PKG-INFO
+writing dependency_links to ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/dependency_links.txt
+writing entry points to ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/entry_points.txt
+writing requirements to ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/requires.txt
+writing top-level names to ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/top_level.txt
+reading manifest file '../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/SOURCES.txt'
+writing manifest file '../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pkg_rb10_apple/robot_control/robot_tcp_control_server.py -> /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control
+running install
+running install_lib
+creating /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/__init__.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple
+creating /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/robot_mode_control_server.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/__init__.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/robot_info_publisher.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/robot_tcp_control_server.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/robot_mode_control_client.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/cobot.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/robot_connect_control_server.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/robot_joint_control_server.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+copying /home/orientpine/robot_ws/build/pkg_rb10_apple/build/lib/pkg_rb10_apple/robot_control/robot_tracking_aruco_server.py -> /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/robot_mode_control_server.py to robot_mode_control_server.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/robot_info_publisher.py to robot_info_publisher.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/robot_tcp_control_server.py to robot_tcp_control_server.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/robot_mode_control_client.py to robot_mode_control_client.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/cobot.py to cobot.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/robot_connect_control_server.py to robot_connect_control_server.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/robot_joint_control_server.py to robot_joint_control_server.cpython-310.pyc
+byte-compiling /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/robot_tracking_aruco_server.py to robot_tracking_aruco_server.cpython-310.pyc
+running install_data

@@ -18,9 +18,9 @@
 /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/__pycache__/robot_connect_control_server.cpython-310.pyc
 /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/__pycache__/robot_joint_control_server.cpython-310.pyc
 /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple/robot_control/__pycache__/robot_tracking_aruco_server.cpython-310.pyc
-/home/orientpine/robot_ws/install/pkg_rb10_apple/share/ament_index/resource_index/packages/pkg_rb10_apple
-/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/package.xml
-/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg_rb10_apple/launch/rb10_roas.launch.py
+/home/orientpine/robot_ws/install/pkg_rb10_apple/share/ament_index/resource_index/packages/pkg-rb10-apple
+/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg-rb10-apple/package.xml
+/home/orientpine/robot_ws/install/pkg_rb10_apple/share/pkg-rb10-apple/launch/rb10_roas.launch.py
 /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple-0.0.0-py3.10.egg-info/zip-safe
 /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/orientpine/robot_ws/install/pkg_rb10_apple/lib/python3.10/site-packages/pkg_rb10_apple-0.0.0-py3.10.egg-info/dependency_links.txt

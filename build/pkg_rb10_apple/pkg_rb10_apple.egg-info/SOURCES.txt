@@ -19,6 +19,7 @@ pkg_rb10_apple/robot_control/robot_mode_control_client.py
 pkg_rb10_apple/robot_control/robot_mode_control_server.py
 pkg_rb10_apple/robot_control/robot_tcp_control_server.py
 pkg_rb10_apple/robot_control/robot_tracking_aruco_server.py
+resource/pkg-rb10-apple
 resource/pkg_rb10_apple
 test/test_copyright.py
 test/test_flake8.py

@@ -13,6 +13,8 @@ import logging
 
 # >>>>>>> MODIFICATION START (추가된 모듈)
 import time  # ★ 추가: 타임아웃 측정을 위한 모듈
+import numpy as np  # ★ 추가: TCP local cartesian 좌표 변환을 위한 모듈
+import math  # ★ 추가: 삼각함수 계산을 위한 모듈
 
 # <<<<<<< MODIFICATION END
 
@@ -75,6 +77,59 @@ class RobotTcpControlServer(Node):
         # COBOT 초기화
         self.cobot_initialization()
 
+    def tcp_local_to_base_cartesian(self, local_x, local_y, local_z, local_rx, local_ry, local_rz):
+        """
+        TCP local cartesian 좌표를 base cartesian 좌표로 변환하는 함수
+        
+        Args:
+            local_x, local_y, local_z: TCP local cartesian 기준 위치 변화량
+            local_rx, local_ry, local_rz: TCP local cartesian 기준 회전 변화량
+        
+        Returns:
+            tuple: (base_x, base_y, base_z, base_rx, base_ry, base_rz) - base cartesian 기준 변환된 값
+        """
+        # 현재 TCP의 회전 각도 (라디안으로 변환)
+        current_rx_rad = math.radians(self.current_pose.rx)
+        current_ry_rad = math.radians(self.current_pose.ry) 
+        current_rz_rad = math.radians(self.current_pose.rz)
+        
+        # 회전 행렬 계산 (ZYX Euler angles 순서)
+        # Z축 회전 (rz)
+        Rz = np.array([
+            [math.cos(current_rz_rad), -math.sin(current_rz_rad), 0],
+            [math.sin(current_rz_rad), math.cos(current_rz_rad), 0],
+            [0, 0, 1]
+        ])
+        
+        # Y축 회전 (ry)
+        Ry = np.array([
+            [math.cos(current_ry_rad), 0, math.sin(current_ry_rad)],
+            [0, 1, 0],
+            [-math.sin(current_ry_rad), 0, math.cos(current_ry_rad)]
+        ])
+        
+        # X축 회전 (rx)
+        Rx = np.array([
+            [1, 0, 0],
+            [0, math.cos(current_rx_rad), -math.sin(current_rx_rad)],
+            [0, math.sin(current_rx_rad), math.cos(current_rx_rad)]
+        ])
+        
+        # 전체 회전 행렬 (ZYX 순서)
+        R = Rz @ Ry @ Rx
+        
+        # TCP local 좌표를 base 좌표로 변환
+        local_position = np.array([local_x, local_y, local_z])
+        base_position = R @ local_position
+        
+        # 회전 변화량은 그대로 사용 (단순화)
+        # 실제로는 회전 행렬의 합성이 필요하지만, 작은 변화량에 대해서는 근사적으로 사용
+        base_rx = local_rx
+        base_ry = local_ry
+        base_rz = local_rz
+        
+        return base_position[0], base_position[1], base_position[2], base_rx, base_ry, base_rz
+
     def cobot_initialization(self):
         ip = "10.0.2.7"  # 로봇 IP
         ToCB(ip)
@@ -88,13 +143,27 @@ class RobotTcpControlServer(Node):
 
     def execute_callback(self, goal_handle):
         self.get_logger().info("액션 목표 수신: 실행 중...")
-        # 목표 위치 계산
-        new_x = self.current_pose.x + goal_handle.request.x
-        new_y = self.current_pose.y + goal_handle.request.y
-        new_z = self.current_pose.z + goal_handle.request.z
-        new_rx = self.current_pose.rx + goal_handle.request.rx
-        new_ry = self.current_pose.ry + goal_handle.request.ry
-        new_rz = self.current_pose.rz + goal_handle.request.rz
+        
+        # >>>>>>> MODIFICATION START (TCP local cartesian 좌표 변환)
+        # 사용자 입력을 TCP local cartesian에서 base cartesian으로 변환
+        base_dx, base_dy, base_dz, base_drx, base_dry, base_drz = self.tcp_local_to_base_cartesian(
+            goal_handle.request.x, goal_handle.request.y, goal_handle.request.z,
+            goal_handle.request.rx, goal_handle.request.ry, goal_handle.request.rz
+        )
+        
+        self.get_logger().info(
+            f"TCP local 입력: ({goal_handle.request.x:.3f}, {goal_handle.request.y:.3f}, {goal_handle.request.z:.3f}) -> "
+            f"Base cartesian 변환: ({base_dx:.3f}, {base_dy:.3f}, {base_dz:.3f})"
+        )
+        # <<<<<<< MODIFICATION END
+        
+        # 목표 위치 계산 (변환된 base cartesian 좌표 사용)
+        new_x = self.current_pose.x + base_dx
+        new_y = self.current_pose.y + base_dy
+        new_z = self.current_pose.z + base_dz
+        new_rx = self.current_pose.rx + base_drx
+        new_ry = self.current_pose.ry + base_dry
+        new_rz = self.current_pose.rz + base_drz
 
         # 목표 위치를 저장
         self.target_pose = RobotTcpPose(
