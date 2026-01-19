@@ -131,7 +131,8 @@ class RobotTcpControlServer(Node):
         return base_position[0], base_position[1], base_position[2], base_rx, base_ry, base_rz
 
     def cobot_initialization(self):
-        ip = "10.0.2.7"  # 로봇 IP
+        # ip = "10.0.2.7"  # 사무실 로봇 IP
+        ip = "10.0.99.21"  # 실제 차량 로봇 IP
         ToCB(ip)
         CobotInit()
         SendCOMMAND("pgmode real", CMD_TYPE.NONMOVE)  # 로봇을 real mode로 설정

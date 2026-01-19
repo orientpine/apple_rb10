@@ -76,14 +76,17 @@ class RobotModeControlServer(Node):
         self.cobot_initialization()
 
     def cobot_initialization(self):
-        ip = "10.0.2.7"  # 로봇 IP
+        # ip = "10.0.2.7"  # 사무실 로봇 IP
+        ip = "10.0.99.21"  # 실제 차량 로봇 IP
         ToCB(ip)
         CobotInit()
         SendCOMMAND("pgmode real", CMD_TYPE.NONMOVE)  # 로봇을 real mode로 설정
         self.get_logger().info("COBOT 초기화 완료 및 real mode로 전환됨.")
 
     def execute_callback(self, goal_handle):
-        self.get_logger().info("액션 목표 수신: 실행 중...")
+        self.get_logger().info(
+            "액션 목표 수신: 실 self.waiting_start_time: float | None = None  # ★ 추가: 상태 변화 타임아웃 측정행 중..."
+        )
         mode = goal_handle.request.mode
         script_pose = self.script_poses.get(mode, None)
 

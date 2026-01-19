@@ -74,7 +74,7 @@ class ArucoTrackingServer(Node):
         self.current_robot_status = COBOT_STATUS.UNKNOWN
 
         # 오차 임계값
-        self.threshold_position = 5  # mm 단위
+        self.threshold_position = 2  # mm 단위
         self.threshold_orientation = 10  # deg 단위
 
         # 원하는 오프셋 (환경마다 달라질 수 있음)
@@ -107,7 +107,8 @@ class ArucoTrackingServer(Node):
         self.action_complete = threading.Event()
 
     def cobot_initialization(self):
-        ip = "10.0.2.7"
+        # ip = "10.0.2.7"  # 사무실 로봇 IP
+        ip = "10.0.99.21"  # 실제 차량 로봇 IP
         ToCB(ip)
         CobotInit()
         SendCOMMAND("pgmode real", CMD_TYPE.NONMOVE)
@@ -338,8 +339,8 @@ class ArucoTrackingServer(Node):
         orientation=True: drx, dry, drz 보정
         orientation=False: dx, dy, dz 보정
         """
-        spd = 0.3
-        acc = 0.1
+        spd = 0.2
+        acc = 0.07
 
         # scaling 계산기
         scalingFactor_calculator = ScalingFactorCalculator()

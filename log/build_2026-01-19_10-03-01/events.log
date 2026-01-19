@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000117] (-) JobUnselected: {'identifier': 'interface_rb10_apple'}
+[0.000140] (-) JobUnselected: {'identifier': 'pkg_rb10_apple'}
+[0.000159] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000210] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000331] (-) EventReactorShutdown: {}

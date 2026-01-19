@@ -10,6 +10,13 @@ setup.py
 ../../build/pkg_rb10_apple/pkg_rb10_apple.egg-info/zip-safe
 launch/rb10_roas.launch.py
 pkg_rb10_apple/__init__.py
+pkg_rb10_apple.egg-info/PKG-INFO
+pkg_rb10_apple.egg-info/SOURCES.txt
+pkg_rb10_apple.egg-info/dependency_links.txt
+pkg_rb10_apple.egg-info/entry_points.txt
+pkg_rb10_apple.egg-info/requires.txt
+pkg_rb10_apple.egg-info/top_level.txt
+pkg_rb10_apple.egg-info/zip-safe
 pkg_rb10_apple/robot_control/__init__.py
 pkg_rb10_apple/robot_control/cobot.py
 pkg_rb10_apple/robot_control/robot_connect_control_server.py
@@ -19,8 +26,4 @@ pkg_rb10_apple/robot_control/robot_mode_control_client.py
 pkg_rb10_apple/robot_control/robot_mode_control_server.py
 pkg_rb10_apple/robot_control/robot_tcp_control_server.py
 pkg_rb10_apple/robot_control/robot_tracking_aruco_server.py
-resource/pkg-rb10-apple
 resource/pkg_rb10_apple
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

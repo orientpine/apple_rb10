@@ -1,0 +1,19 @@
+[1.750s] Invoking command in '/home/orientpine/robot_ws/build/ros2_aruco': CONDA_PROMPT_MODIFIER=(rb) PYTHONPATH=/home/orientpine/robot_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/ros2_aruco/build --no-deps symlink_data
+[2.737s] running develop
+[3.347s] running egg_info
+[3.347s] writing ros2_aruco.egg-info/PKG-INFO
+[3.349s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[3.349s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[3.349s] writing requirements to ros2_aruco.egg-info/requires.txt
+[3.349s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[3.353s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[3.354s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[3.360s] running build_ext
+[3.360s] Creating /home/orientpine/robot_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2-aruco.egg-link (link to .)
+[3.361s] Installing aruco_generate_marker script to /home/orientpine/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[3.362s] Installing aruco_node script to /home/orientpine/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[3.362s] Installing aruco_node_rs script to /home/orientpine/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[3.363s] 
+[3.363s] Installed /home/orientpine/robot_ws/build/ros2_aruco
+[3.363s] running symlink_data
+[3.441s] Invoked command in '/home/orientpine/robot_ws/build/ros2_aruco' returned '0': CONDA_PROMPT_MODIFIER=(rb) PYTHONPATH=/home/orientpine/robot_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orientpine/robot_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orientpine/robot_ws/build/ros2_aruco/build --no-deps symlink_data

@@ -65,7 +65,8 @@ class RobotJointControlServer(Node):
         self.cobot_initialization()
 
     def cobot_initialization(self):
-        ip = "10.0.2.7"  # 로봇 IP
+        # ip = "10.0.2.7"  # 사무실 로봇 IP
+        ip = "10.0.99.21"  # 실제 차량 로봇 IP
         ToCB(ip)
         CobotInit()
         SendCOMMAND("pgmode real", CMD_TYPE.NONMOVE)  # 로봇을 real mode로 설정

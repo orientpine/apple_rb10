@@ -25,7 +25,8 @@ class RobotService(Node):
 
 def cobot_initialization():
     # 로봇 켜기
-    ip = "10.0.2.7"  # 로봇 IP
+    # ip = "10.0.2.7"  # 사무실 로봇 IP
+    ip = "10.0.99.21"  # 실제 차량 로봇 IP
     ToCB(ip)
     CobotInit()
     SetProgramMode(PG_MODE.REAL)  # 로봇을 real mode로 만듦
