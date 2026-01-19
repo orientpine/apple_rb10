@@ -10,6 +10,7 @@ from interface_rb10_apple.action import RobotTrackingControl
 from .cobot import *  # 로봇 스크립트 함수(ManualScript 등)
 import math
 import time
+import numpy as np
 from tf_transformations import euler_from_quaternion
 from enum import Enum
 from rclpy.executors import MultiThreadedExecutor
@@ -112,6 +113,59 @@ class ArucoTrackingServer(Node):
         ToCB(ip)
         CobotInit()
         SendCOMMAND("pgmode real", CMD_TYPE.NONMOVE)
+
+    def tcp_local_to_base_cartesian(self, local_x, local_y, local_z, local_rx, local_ry, local_rz):
+        """
+        TCP local cartesian 좌표를 base cartesian 좌표로 변환하는 함수
+
+        Args:
+            local_x, local_y, local_z: TCP local cartesian 기준 위치 변화량
+            local_rx, local_ry, local_rz: TCP local cartesian 기준 회전 변화량
+
+        Returns:
+            tuple: (base_x, base_y, base_z, base_rx, base_ry, base_rz) - base cartesian 기준 변환된 값
+        """
+        # 현재 TCP의 회전 각도 (라디안으로 변환)
+        current_rx_rad = math.radians(self.current_tcp_pose.rx)
+        current_ry_rad = math.radians(self.current_tcp_pose.ry)
+        current_rz_rad = math.radians(self.current_tcp_pose.rz)
+
+        # 회전 행렬 계산 (ZYX Euler angles 순서)
+        # Z축 회전 (rz)
+        Rz = np.array([
+            [math.cos(current_rz_rad), -math.sin(current_rz_rad), 0],
+            [math.sin(current_rz_rad), math.cos(current_rz_rad), 0],
+            [0, 0, 1]
+        ])
+
+        # Y축 회전 (ry)
+        Ry = np.array([
+            [math.cos(current_ry_rad), 0, math.sin(current_ry_rad)],
+            [0, 1, 0],
+            [-math.sin(current_ry_rad), 0, math.cos(current_ry_rad)]
+        ])
+
+        # X축 회전 (rx)
+        Rx = np.array([
+            [1, 0, 0],
+            [0, math.cos(current_rx_rad), -math.sin(current_rx_rad)],
+            [0, math.sin(current_rx_rad), math.cos(current_rx_rad)]
+        ])
+
+        # 전체 회전 행렬 (ZYX 순서)
+        R = Rz @ Ry @ Rx
+
+        # TCP local 좌표를 base 좌표로 변환
+        local_position = np.array([local_x, local_y, local_z])
+        base_position = R @ local_position
+
+        # 회전 변화량은 그대로 사용 (단순화)
+        # 실제로는 회전 행렬의 합성이 필요하지만, 작은 변화량에 대해서는 근사적으로 사용
+        base_rx = local_rx
+        base_ry = local_ry
+        base_rz = local_rz
+
+        return base_position[0], base_position[1], base_position[2], base_rx, base_ry, base_rz
 
     # ------------------------------------------------
     # 액션 서버 콜백 (비동기)
@@ -392,9 +446,13 @@ class ArucoTrackingServer(Node):
             scaled_dy = delta2 * scaling_factor_y
             scaled_dz = delta3 * scaling_factor_z
 
-            new_x = self.current_tcp_pose.x - scaled_dx
-            new_y = self.current_tcp_pose.y - scaled_dy
-            new_z = self.current_tcp_pose.z - scaled_dz
+            # TCP local 좌표를 base 좌표로 변환
+            base_dx, base_dy, base_dz, _, _, _ = self.tcp_local_to_base_cartesian(
+                scaled_dx, scaled_dy, scaled_dz, 0, 0, 0
+            )
+            new_x = self.current_tcp_pose.x - base_dx
+            new_y = self.current_tcp_pose.y - base_dy
+            new_z = self.current_tcp_pose.z - base_dz
 
             script_tcp = (
                 f"movetcp {spd}, {acc}, "
